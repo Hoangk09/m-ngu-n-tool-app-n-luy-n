@@ -1,0 +1,40 @@
+=== Quiz Log - 2025-12-09 22:42:12 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Sự kiện lính diễu hành bước đều qua cầu treo Broughton và khiến cầu bị đổ gãy là một ví dụ điển hình về hiện tượng cộng hưởng cơ học. Khi các binh lính diễu hành theo nhịp bước đều, họ tạo ra một lực tuần hoàn tác dụng lên cầu. Nếu tần số của lực tuần hoàn này (nhịp bước chân) trùng với tần số riêng (tần số dao động tự nhiên) của cây cầu, thì biên độ dao động của cầu sẽ tăng lên rất mạnh, vượt quá giới hạn chịu đựng của kết cấu, dẫn đến việc cầu bị sập. Đây chính là hiện tượng cộng hưởng cơ. Vì vậy, quân đội Anh đã ban hành quy định cấm binh lính đi bước đều khi qua cầu để tránh lặp lại sự cố này.
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Một sóng cơ có chu kì T, truyền trên một sợi dây đàn hồi với tốc độ truyền sóng v và bước sóng
+λ
+. Hệ thức đúng là
+  Đáp án: B
+  Giải thích: Để giải quyết câu hỏi này, chúng ta cần nhớ lại mối quan hệ cơ bản giữa tốc độ truyền sóng (v), bước sóng (λ) và chu kì (T) hoặc tần số (f) của một sóng cơ học.
+
+Các công thức liên quan:
+1.  **Tốc độ truyền sóng (v):** Là quãng đường sóng truyền đi được trong một đơn vị thời gian.
+2.  **Bước sóng (λ):** Là quãng đường sóng truyền đi được trong một chu kì (T).
+3.  **Chu kì (T):** Là thời gian để sóng thực hiện một dao động toàn phần.
+4.  **Tần số (f):** Là số dao động mà sóng thực hiện được trong một đơn vị thời gian. Mối quan hệ giữa tần số và chu kì là `f = 1/T`.
+
+Từ định nghĩa, ta có công thức:
+`v = λ / T`
+
+Hoặc, nếu sử dụng tần số `f = 1/T`, ta có thể viết lại là:
+`v = λ * f`
+
+Bây giờ chúng ta sẽ xem xét các lựa chọn:
+*   **A. v = T/λ:** Công thức này không đúng với mối quan hệ vật lý.
+*   **B. v = λ/T:** Công thức này hoàn toàn chính xác theo định nghĩa của tốc độ truyền sóng. Lựa chọn này cũng ghi `v = λf`, điều này là đúng vì `f = 1/T`.
+*   **C. v = λT:** Công thức này không đúng. Nếu `T` là chu kì, thì `λT` không phải là tốc độ.
+*   **D. v = 2Tλ:** Công thức này không đúng.
+
+Vậy, công thức đúng là `v = λ/T` hoặc `v = λf`.
+
+The final answer is $\boxed{B}$
+
+--------------------------------------------------
+

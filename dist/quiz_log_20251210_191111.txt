@@ -1,0 +1,552 @@
+=== Quiz Log - 2025-12-10 19:11:11 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Một vật dao động điều hòa với tần số góc ω. Chu kì dao động của vật được tính bằng công thức
+  Đáp án: A
+  Giải thích: Câu hỏi yêu cầu tìm công thức tính chu kì dao động (T) của một vật dao động điều hòa khi biết tần số góc (ω).
+
+Trong dao động điều hòa, có các mối quan hệ cơ bản sau:
+1. Tần số góc (ω) liên hệ với tần số (f) bằng công thức: ω = 2πf
+2. Chu kì dao động (T) là nghịch đảo của tần số (f): T = 1/f
+
+Từ công thức (2), ta có thể biểu diễn f theo T: f = 1/T.
+Thay f vào công thức (1):
+ω = 2π * (1/T)
+ω = 2π/T
+
+Để tìm công thức cho T, ta biến đổi phương trình trên:
+T = 2π/ω
+
+Bây giờ, ta so sánh công thức này với các lựa chọn:
+A. T = 2π/ω - Đây là công thức chính xác.
+B. T = ω/2π - Sai.
+C. T = 2πω - Sai.
+D. T = 1/(2πω) - Sai.
+
+Vậy, công thức đúng là T = 2π/ω.
+
+--------------------------------------------------
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Theo định nghĩa, dao động điều hòa là
+  Đáp án: C
+  Giải thích: Theo định nghĩa trong chương trình Vật lí phổ thông ở Việt Nam, dao động điều hòa là dao động trong đó li độ của vật là một hàm sin (hoặc cosin) của thời gian.
+
+*   **A. chuyển động của một vật dưới tác dụng của một lực không đổi:** Đây là chuyển động có gia tốc không đổi, không phải dao động điều hòa.
+*   **B. chuyển động mà trạng thái chuyển động của vật được lặp lại như cũ sau những khoảng thời gian bằng nhau:** Đây là định nghĩa của dao động tuần hoàn, một khái niệm rộng hơn dao động điều hòa. Dao động điều hòa là một dạng đặc biệt của dao động tuần hoàn.
+*   **C. chuyển động có phương trình mô tả bởi hàm sin hoặc cos theo thời gian:** Đây là định nghĩa chính xác và trực tiếp nhất về mặt toán học của dao động điều hòa. Li độ, vận tốc và gia tốc của vật trong dao động điều hòa đều biến thiên điều hòa theo thời gian dưới dạng hàm sin hoặc cosin.
+*   **D. hình chiếu của chuyển động tròn đều lên một đường thẳng nằm trong mặt phẳng quỹ đạo:** Đây cũng là một cách để định nghĩa hoặc mô tả dao động điều hòa một cách hình học. Tuy nhiên, theo cách trình bày phổ biến trong sách giáo khoa, việc li độ biến thiên theo hàm sin/cos (phương án C) thường được coi là định nghĩa cơ bản nhất để đặc trưng cho loại chuyển động này. Phương án D là một mô hình hay cách tạo ra dao động điều hòa, và nó dẫn đến kết quả là phương án C.
+
+Vì vậy, phương án C là định nghĩa trực tiếp và bao quát nhất về đặc điểm toán học của dao động điều hòa.
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Trong dao động điều hoà của con lắc lò xo, cơ năng của con lắc
+  Đáp án: B
+  Giải thích: Trong dao động điều hoà của con lắc lò xo (trong điều kiện lí tưởng, bỏ qua ma sát), cơ năng của con lắc là một đại lượng được bảo toàn và bằng tổng động năng và thế năng của vật ở bất kỳ vị trí nào trong quá trình dao động.
+
+*   **Cơ năng (E)** được định nghĩa là tổng của động năng (K) và thế năng (U) của hệ: E = K + U.
+*   **Động năng (K)** là năng lượng liên quan đến chuyển động của vật.
+*   **Thế năng (U)** là năng lượng liên quan đến vị trí của vật (đối với con lắc lò xo là thế năng đàn hồi).
+
+Phân tích các phương án:
+*   **A. bằng động năng của vật nặng khi qua vị trí biên.** Tại vị trí biên, vật dừng lại (vận tốc bằng 0) để đổi chiều chuyển động, nên động năng K = 0. Cơ năng lúc này bằng thế năng cực đại (E = U_max). Do đó, A sai.
+*   **B. bằng tổng động năng và thế năng của vật khi qua một vị trí bất kì.** Đây chính xác là định nghĩa và đặc điểm của cơ năng trong dao động điều hoà của con lắc lò xo khi cơ năng được bảo toàn. Cơ năng luôn bằng tổng động năng và thế năng tại mọi thời điểm, mọi vị trí.
+*   **C. tỉ lệ nghịch với biên độ dao động.** Cơ năng của con lắc lò xo được tính bằng công thức E = (1/2)kA^2 hoặc E = (1/2)mω^2A^2, trong đó A là biên độ dao động. Như vậy, cơ năng tỉ lệ thuận với bình phương biên độ (A^2), không phải tỉ lệ nghịch với biên độ. Do đó, C sai.
+*   **D. bằng thế năng của vật nặng khi qua vị trí cân bằng.** Tại vị trí cân bằng, độ biến dạng của lò xo bằng 0 (nếu chọn mốc thế năng tại VTCB), nên thế năng U = 0. Động năng lúc này đạt giá trị cực đại (K_max). Do đó, cơ năng E = K_max. Phương án D nói bằng thế năng (là 0) là sai.
+
+Vậy, phương án B là đúng nhất.
+
+--------------------------------------------------
+
+Câu 4: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: B
+  Giải thích: Đoạn văn mô tả sự kiện một cây cầu treo bị sập khi một tiểu đoàn lính diễu hành bước đều qua cầu. Sau sự kiện này, quân đội Anh đã ban hành quy định mới yêu cầu binh lính không được bước đều khi qua cầu dài để phòng ngừa tái diễn. Hiện tượng này là một ví dụ điển hình của cộng hưởng cơ.
+
+Cộng hưởng cơ xảy ra khi một hệ dao động (trong trường hợp này là cây cầu) chịu tác dụng của một lực cưỡng bức tuần hoàn (bước chân đều của binh lính) có tần số gần bằng hoặc bằng tần số riêng của hệ. Khi đó, biên độ dao động của hệ sẽ tăng lên rất lớn, có thể dẫn đến sự phá hủy cấu trúc như việc cầu bị sập.
+
+*   **A. dao động tuần hoàn:** Là dao động lặp lại theo chu kỳ, nhưng không giải thích được nguyên nhân gây sập cầu do biên độ lớn.
+*   **B. cộng hưởng cơ:** Giải thích chính xác hiện tượng cầu sập do sự trùng hợp giữa tần số bước chân và tần số riêng của cầu, làm biên độ dao động tăng đột ngột.
+*   **C. dao động tắt dần:** Là dao động có biên độ giảm dần theo thời gian do ma sát, hoàn toàn trái ngược với hiện tượng mô tả.
+*   **D. dao động điều hòa:** Là một dạng dao động tuần hoàn đơn giản, không đủ để giải thích sự tăng biên độ đến mức phá hủy.
+
+Vì vậy, "cộng hưởng cơ" là khái niệm vật lý chính xác nhất để mô tả sự kiện này.
+
+--------------------------------------------------
+
+Câu 5: [Trắc nghiệm]
+  Câu hỏi: Một sóng truyền trên mặt nước có bước sóng
+λ
+= 2 m. Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha nhau là
+  Đáp án: A
+  Giải thích: Theo định nghĩa, hai điểm trên cùng một phương truyền sóng dao động cùng pha khi khoảng cách giữa chúng bằng một số nguyên lần bước sóng. Công thức là $d = k\lambda$, trong đó $k$ là một số nguyên dương ($k = 1, 2, 3, ...$) và $\lambda$ là bước sóng.
+
+Đề bài hỏi về "khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha". Điều này có nghĩa là chúng ta cần chọn giá trị $k$ nhỏ nhất, tức là $k=1$.
+
+Vậy khoảng cách cần tìm là $d = 1 \cdot \lambda = \lambda$.
+Theo đề bài, bước sóng $\lambda = 2$ m.
+Do đó, khoảng cách giữa hai điểm gần nhau nhất dao động cùng pha là $2$ m.
+
+So sánh với các đáp án:
+A. 2 m.
+B. 1,5 m.
+C. 1 m.
+D. 0,5 m.
+
+Đáp án A phù hợp với kết quả tính toán.
+
+--------------------------------------------------
+
+Câu 6: [Trắc nghiệm]
+  Câu hỏi: Một sóng cơ có chu kì T, truyền trên một sợi dây đàn hồi với tốc độ truyền sóng v và bước sóng
+λ
+. Hệ thức đúng là
+  Đáp án: B
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 7: [Trắc nghiệm]
+  Câu hỏi: Khi nói về sóng cơ, phát biểu nào sau đây sai?
+  Đáp án: B
+  Giải thích: Câu hỏi yêu cầu tìm phát biểu SAI về sóng cơ.
+
+*   **Phát biểu A:** "sóng cơ là dao động cơ lan truyền trong một môi trường." Đây là định nghĩa chính xác của sóng cơ. Sóng cơ là sự lan truyền của dao động trong một môi trường vật chất. Phát biểu này **đúng**.
+*   **Phát biểu B:** "sóng cơ là quá trình lan truyền các phần tử vật chất trong một môi trường." Phát biểu này **sai**. Trong quá trình truyền sóng cơ, các phần tử vật chất của môi trường chỉ dao động quanh vị trí cân bằng của chúng, chúng KHÔNG bị truyền đi theo sóng. Chỉ có năng lượng và trạng thái dao động được truyền đi.
+*   **Phát biểu C:** "quá trình truyền sóng cơ là quá trình truyền năng lượng." Đây là một đặc điểm cơ bản của mọi loại sóng. Sóng là quá trình truyền năng lượng mà không truyền vật chất. Phát biểu này **đúng**.
+*   **Phát biểu D:** "sóng cơ không truyền được trong chân không." Sóng cơ cần có môi trường vật chất để các phần tử dao động và truyền năng lượng cho nhau. Chân không không có vật chất nên sóng cơ không thể truyền qua được. Phát biểu này **đúng**.
+
+Vì vậy, phát biểu B là phát biểu sai.
+
+--------------------------------------------------
+
+Câu 8: [Trắc nghiệm]
+  Câu hỏi: Sóng dọc là sóng trong đó các phần tử của môi trường
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 9: [Trắc nghiệm]
+  Câu hỏi: Hình vẽ bên mô tả hai sóng địa chấn truyền trong môi trường khi có động đất. Sóng P là sóng sơ cấp, sóng S là sóng thứ cấp. Chọn câu đúng.
+  Đáp án: C
+  Giải thích: Dựa trên kiến thức về sóng địa chấn:
+1.  **Sóng P (sóng sơ cấp)**: Đây là sóng dọc, có nghĩa là các hạt vật chất dao động theo phương song song với phương truyền sóng. Sóng P có thể truyền qua cả chất rắn, chất lỏng và chất khí. Hình ảnh minh họa sóng P cho thấy sự co giãn và nén ép của vật chất theo hướng truyền sóng, đúng với đặc điểm của sóng dọc.
+2.  **Sóng S (sóng thứ cấp)**: Đây là sóng ngang, có nghĩa là các hạt vật chất dao động theo phương vuông góc với phương truyền sóng. Sóng S chỉ có thể truyền qua chất rắn, không truyền được qua chất lỏng và chất khí. Hình ảnh minh họa sóng S cho thấy sự dịch chuyển lên xuống hoặc sang ngang của vật chất so với hướng truyền sóng, đúng với đặc điểm của sóng ngang.
+
+Do đó, phát biểu đúng là "sóng P là sóng dọc, sóng S là sóng ngang".
+
+--------------------------------------------------
+
+Câu 10: [Trắc nghiệm]
+  Câu hỏi: Sóng điện từ
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 11: [Trắc nghiệm]
+  Câu hỏi: Ứng dụng của tia hồng ngoại là
+  Đáp án: C
+  Giải thích: Tia hồng ngoại là bức xạ điện từ có bước sóng dài hơn ánh sáng nhìn thấy và ngắn hơn sóng vi ba. Đặc trưng nổi bật nhất của tia hồng ngoại là tác dụng nhiệt. Khi các vật thể hấp thụ tia hồng ngoại, chúng sẽ nóng lên. Dựa vào đặc tính này, tia hồng ngoại có nhiều ứng dụng thực tiễn:
+*   **Sấy khô:** Tia hồng ngoại được sử dụng trong các lò sấy công nghiệp, máy sấy tóc, hoặc để sấy các sản phẩm nông nghiệp vì khả năng truyền nhiệt hiệu quả, làm bay hơi nước.
+*   **Sưởi ấm:** Các thiết bị sưởi ấm hồng ngoại được dùng trong gia đình, nhà kính, hoặc trong y tế (đèn hồng ngoại để chữa bệnh) để tạo ra hơi ấm.
+*   **Điều khiển từ xa:** Các điều khiển TV, điều hòa sử dụng tia hồng ngoại để truyền tín hiệu.
+*   **Camera nhiệt, tầm nhìn ban đêm:** Dùng để phát hiện bức xạ nhiệt từ vật thể, giúp quan sát trong bóng tối hoặc kiểm tra sự rò rỉ nhiệt.
+
+Phân tích các phương án:
+*   **A. kiểm tra khuyết tật của sản phẩm:** Mặc dù tia hồng ngoại (thông qua kỹ thuật chụp ảnh nhiệt) có thể được dùng để phát hiện một số khuyết tật liên quan đến nhiệt độ (ví dụ, lỗi trong mạch điện, rò rỉ nhiệt), nhưng nó không phải là ứng dụng phổ biến nhất cho việc "kiểm tra khuyết tật sản phẩm" nói chung như tia X hay sóng siêu âm.
+*   **B. chữa bệnh còi xương:** Bệnh còi xương là do thiếu vitamin D, được tổng hợp dưới tác dụng của tia cực tím (UV), không phải tia hồng ngoại.
+*   **C. dùng để sấy khô, sưởi ấm:** Đây là ứng dụng rất phổ biến và trực tiếp của tia hồng ngoại, dựa trên tác dụng nhiệt mạnh mẽ của nó.
+*   **D. dùng để diệt khuẩn:** Việc diệt khuẩn chủ yếu được thực hiện bằng tia cực tím (UV-C) hoặc các phương pháp dùng nhiệt độ cao (nhưng không phải bản thân tia hồng ngoại trực tiếp có khả năng diệt khuẩn mạnh như UV). Mặc dù nhiệt độ cao do hồng ngoại gây ra có thể tiêu diệt vi khuẩn, nhưng ứng dụng chính của tia hồng ngoại không phải là diệt khuẩn trực tiếp.
+
+Vì vậy, ứng dụng phổ biến và điển hình nhất của tia hồng ngoại trong các lựa chọn trên là để sấy khô và sưởi ấm.
+
+The final answer is $\boxed{C}$
+
+--------------------------------------------------
+
+Câu 12: [Trắc nghiệm]
+  Câu hỏi: Theo thứ tự bước sóng tăng dần thì sắp xếp nào dưới đây là đúng?
+  Đáp án: A
+  Giải thích: Để sắp xếp các loại sóng điện từ theo thứ tự bước sóng tăng dần, chúng ta cần nhớ về thang sóng điện từ. Thang sóng điện từ theo thứ tự bước sóng giảm dần (tần số tăng dần) là:
+1. Sóng vô tuyến (Radio waves)
+2. Sóng vi ba (Microwaves)
+3. Tia hồng ngoại (Infrared)
+4. Ánh sáng nhìn thấy (Visible light)
+5. Tia tử ngoại (Ultraviolet)
+6. Tia X (X-rays)
+7. Tia gamma (Gamma rays)
+
+Yêu cầu của câu hỏi là sắp xếp theo thứ tự bước sóng *tăng dần*. Do đó, chúng ta cần đi ngược lại thứ tự trên.
+Các loại sóng được đưa ra trong các lựa chọn là: tia X, tia tử ngoại, tia hồng ngoại, sóng vô tuyến.
+
+Theo thứ tự bước sóng tăng dần:
+- Tia X có bước sóng ngắn nhất.
+- Tia tử ngoại có bước sóng dài hơn tia X.
+- Tia hồng ngoại có bước sóng dài hơn tia tử ngoại.
+- Sóng vô tuyến có bước sóng dài nhất trong các loại này.
+
+Vậy, thứ tự đúng là: tia X, tia tử ngoại, tia hồng ngoại, sóng vô tuyến.
+
+Kiểm tra các phương án:
+A. tia X, tia tử ngoại, tia hồng ngoại, sóng vô tuyến. (Đúng với thứ tự bước sóng tăng dần)
+B. sóng vô tuyến, tia tử ngoại, tia hồng ngoại, tia X. (Thứ tự bước sóng giảm dần)
+C. tia hồng ngoại, tia tử ngoại, sóng vô tuyến, tia X. (Sai thứ tự)
+D. tia tử ngoại, tia hồng ngoại, sóng vô tuyến, tia X. (Sai thứ tự)
+
+Do đó, phương án A là chính xác.
+
+--------------------------------------------------
+
+Câu 13: [Trắc nghiệm]
+  Câu hỏi: Điều kiện để có hiện tượng giao thoa sóng là hai nguồn sóng
+  Đáp án: C
+  Giải thích: Để có hiện tượng giao thoa sóng ổn định và rõ nét, hai nguồn sóng phải là hai nguồn kết hợp (coherent sources). Các điều kiện của hai nguồn kết hợp là:
+1.  **Dao động cùng phương:** Hai sóng phải dao động theo cùng một phương để có thể chồng chất lên nhau một cách hiệu quả.
+2.  **Cùng tần số:** Nếu tần số khác nhau, độ lệch pha giữa hai sóng sẽ thay đổi liên tục theo thời gian, khiến cho hiện tượng giao thoa không ổn định và không quan sát được các vân giao thoa cố định.
+3.  **Có độ lệch pha không đổi theo thời gian:** Điều này đảm bảo rằng các điểm cực đại và cực tiểu giao thoa sẽ cố định tại các vị trí nhất định trong không gian. Nếu độ lệch pha thay đổi, các vân giao thoa sẽ bị nhòe hoặc biến mất.
+
+Phân tích các phương án:
+*   **A. gặp nhau chuyển động ngược chiều nhau:** Điều này không phải là điều kiện của giao thoa sóng.
+*   **B. dao động cùng biên độ, cùng tốc độ giao nhau:** Cùng biên độ giúp các vân giao thoa rõ nét hơn (cực tiểu bằng 0) nhưng không phải là điều kiện bắt buộc để có giao thoa. "Cùng tốc độ giao nhau" không phải là một thuật ngữ chuẩn xác trong điều kiện giao thoa.
+*   **C. dao động cùng phương, cùng tần số và có độ lệch pha không đổi:** Đây chính xác là định nghĩa và các điều kiện cần thiết của hai nguồn kết hợp để xảy ra hiện tượng giao thoa sóng ổn định.
+*   **D. dao động cùng bước sóng giao nhau:** Cùng bước sóng (λ) sẽ kéo theo cùng tần số (f) nếu tốc độ truyền sóng (v) trong môi trường là như nhau (v = λf). Tuy nhiên, điều kiện này chưa đủ vì còn thiếu yếu tố về cùng phương dao động và độ lệch pha không đổi.
+
+Vậy, phương án C là đáp án đầy đủ và chính xác nhất.
+
+--------------------------------------------------
+
+Câu 14: [Trắc nghiệm]
+  Câu hỏi: Ứng dụng của hiện tượng giao thoa ánh sáng để đo
+  Đáp án: D
+  Giải thích: Hiện tượng giao thoa ánh sáng là một trong những bằng chứng quan trọng nhất xác nhận bản chất sóng của ánh sáng. Ứng dụng phổ biến và cơ bản nhất của hiện tượng này là để đo các đại lượng liên quan đến sóng ánh sáng.
+
+Trong các thí nghiệm giao thoa như thí nghiệm Young về khe Y-âng, vân giao thoa được tạo ra và khoảng vân (khoảng cách giữa hai vân sáng hoặc hai vân tối liên tiếp) được xác định bằng công thức i = (λD)/a, trong đó:
+- λ là bước sóng của ánh sáng.
+- D là khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát.
+- a là khoảng cách giữa hai khe hẹp.
+
+Từ công thức này, nếu chúng ta biết D và a, và có thể đo được khoảng vân i, chúng ta hoàn toàn có thể xác định được bước sóng λ của ánh sáng. Đây là một trong những phương pháp chính xác và trực tiếp để đo bước sóng ánh sáng đơn sắc.
+
+Các lựa chọn khác:
+A. Chiết suất của môi trường: Hiện tượng giao thoa có thể được sử dụng để đo sự thay đổi chiết suất hoặc so sánh chiết suất của các môi trường (ví dụ, bằng cách đưa môi trường vào một nhánh của giao thoa kế và quan sát sự dịch chuyển vân). Tuy nhiên, để làm được điều này, thường cần biết bước sóng của ánh sáng sử dụng. Do đó, đây là một ứng dụng thứ cấp, dựa trên việc hiểu biết về bước sóng.
+B. Tốc độ của ánh sáng: Việc đo tốc độ của ánh sáng thường sử dụng các phương pháp khác như Fizeau, Michelson, không phải trực tiếp từ các mô hình giao thoa đơn giản.
+C. Tần số ánh sáng: Tần số ánh sáng (f) liên quan đến bước sóng (λ) và tốc độ ánh sáng (c) qua công thức c = λf. Nếu đo được bước sóng và biết tốc độ ánh sáng, có thể suy ra tần số. Nhưng giao thoa trực tiếp đo bước sóng chứ không phải tần số.
+
+Vì vậy, ứng dụng trực tiếp và phổ biến nhất của hiện tượng giao thoa ánh sáng là để đo bước sóng của ánh sáng.
+
+--------------------------------------------------
+
+Câu 15: [Trắc nghiệm]
+  Câu hỏi: Trong thí nghiệm Young về giao thoa ánh sáng, nếu ta tăng khoảng cách a giữa hai khe lên hai lần và giảm khoảng cách D từ hai khe đến màn quan sát còn một nửa thì khoảng vân sẽ thay đổi như thế nào?
+  Đáp án: C
+  Giải thích: Trong thí nghiệm giao thoa ánh sáng Young, khoảng vân (i) được xác định bằng công thức:
+i = (λD) / a
+
+Trong đó:
+- λ là bước sóng của ánh sáng (không đổi trong trường hợp này).
+- D là khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát.
+- a là khoảng cách giữa hai khe hẹp.
+
+Theo đề bài, các thông số thay đổi như sau:
+1. Khoảng cách a giữa hai khe tăng lên hai lần, tức là a' = 2a.
+2. Khoảng cách D từ hai khe đến màn quan sát giảm còn một nửa, tức là D' = D/2.
+
+Thay các giá trị mới vào công thức tính khoảng vân, ta có khoảng vân mới i':
+i' = (λD') / a'
+i' = (λ * (D/2)) / (2a)
+i' = (λD) / (2 * 2a)
+i' = (λD) / (4a)
+
+So sánh i' với i:
+i' = (1/4) * (λD/a)
+Vì i = (λD)/a, nên i' = (1/4) * i.
+
+Điều này có nghĩa là khoảng vân mới i' bằng một phần tư khoảng vân ban đầu i.
+Vậy, khoảng vân giảm đi 4 lần.
+
+--------------------------------------------------
+
+Câu 16: [Trắc nghiệm]
+  Câu hỏi: Trên một sợi dây đàn hồi đang có sóng dừng với bước sóng 10 cm. Bụng sóng và nút sóng liền kề cách nhau
+  Đáp án: B
+  Giải thích: Trong hiện tượng sóng dừng trên dây đàn hồi:
+- Bước sóng (λ) là khoảng cách giữa hai điểm dao động cùng pha gần nhất hoặc giữa hai bụng sóng liên tiếp, hoặc hai nút sóng liên tiếp.
+- Khoảng cách giữa một bụng sóng và một nút sóng liên kề (gần nhất) luôn bằng một phần tư bước sóng (λ/4).
+
+Theo đề bài, bước sóng (λ) là 10 cm.
+Vậy, khoảng cách giữa bụng sóng và nút sóng liên kề sẽ là:
+d = λ / 4 = 10 cm / 4 = 2.5 cm.
+
+So sánh với các phương án:
+A. 5.0 cm
+B. 2.5 cm
+C. 10.0 cm
+D. 1.25 cm
+
+Kết quả tính toán khớp với phương án B.
+
+--------------------------------------------------
+
+Câu 17: [Trắc nghiệm]
+  Câu hỏi: Hình bên là các dụng cụ để đo tốc độ truyền âm
+
+Hãy cho biết dụng cụ số (3) là
+  Đáp án: B
+  Giải thích: Dựa vào hình ảnh, dụng cụ số (3) là một thiết bị điện tử có các nút điều chỉnh và màn hình hiển thị, thường được sử dụng để tạo ra các tín hiệu điện với tần số và dạng sóng khác nhau. Trong thí nghiệm đo tốc độ truyền âm, thiết bị này được dùng để tạo ra sóng âm với tần số xác định, thường là sóng hình sin, sau đó được đưa đến một loa để phát ra âm thanh. Các lựa chọn khác không phù hợp:
+*   A. một loa nhỏ: Loa là thiết bị phát ra âm thanh từ tín hiệu điện, nhưng (3) là thiết bị tạo ra tín hiệu điện đó chứ không phải là loa.
+*   C. dao động kí điện tử: Dao động kí dùng để hiển thị dạng sóng của tín hiệu điện, không phải để tạo ra tín hiệu.
+*   D. biến thế nguồn: Biến thế nguồn dùng để thay đổi điện áp, không phải là thiết bị tạo tín hiệu.
+
+Do đó, dụng cụ số (3) chính xác là một máy phát tần số phát ra tín hiệu có dạng sin.
+
+--------------------------------------------------
+
+Câu 18: [Trắc nghiệm]
+  Câu hỏi: Sóng điện từ có tần số 107 Hz truyền trong chân không với tốc độ
+3
+.1
+0
+8
+m/s
+có bước sóng là
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 19: [Đúng/Sai]
+  Câu hỏi: Cho phương trình dao động điều hòa:
+  Đáp án: a=S, b=Đ, c=S, d=S
+  Giải thích: Given the equation of simple harmonic motion: $x = 4 \cos(4\pi t - \frac{\pi}{3}) \text{ cm}$.
+From the general form $x = A \cos(\omega t + \phi)$, we can identify:
+*   Amplitude $A = 4 \text{ cm}$
+*   Angular frequency $\omega = 4\pi \text{ rad/s}$
+*   Phase constant $\phi = -\frac{\pi}{3} \text{ rad}$
+
+Let's evaluate each statement:
+
+**a) Chiều dài quỹ đạo là 10 cm.** (The length of the trajectory is 10 cm.)
+*   The length of the trajectory (quỹ đạo) for simple harmonic motion is twice the amplitude ($L = 2A$).
+*   Given $A = 4 \text{ cm}$.
+*   Therefore, $L = 2 \times 4 \text{ cm} = 8 \text{ cm}$.
+*   The statement claims the length is 10 cm.
+*   **Conclusion:** Statement a) is **Sai** (False).
+
+**b) Chu kỳ của dao động bằng 0,5 s.** (The period of oscillation is 0.5 s.)
+*   The period ($T$) is related to the angular frequency ($\omega$) by the formula $T = \frac{2\pi}{\omega}$.
+*   Given $\omega = 4\pi \text{ rad/s}$.
+*   Therefore, $T = \frac{2\pi}{4\pi} = \frac{1}{2} = 0.5 \text{ s}$.
+*   The statement claims the period is 0.5 s.
+*   **Conclusion:** Statement b) is **Đúng** (True).
+
+**c) Tốc độ cực đại bằng 40π cm/s.** (The maximum speed is 40π cm/s.)
+*   The maximum speed ($v_{max}$) in simple harmonic motion is given by $v_{max} = A\omega$.
+*   Given $A = 4 \text{ cm}$ and $\omega = 4\pi \text{ rad/s}$.
+*   Therefore, $v_{max} = 4 \times 4\pi = 16\pi \text{ cm/s}$.
+*   The statement claims the maximum speed is 40π cm/s.
+*   **Conclusion:** Statement c) is **Sai** (False).
+
+**d) Khi pha dao động bằng $\frac{2\pi}{3}$(rad) thì gia tốc bằng 80π² cm/s².** (When the oscillation phase is $\frac{2\pi}{3}$(rad), the acceleration is 80π² cm/s².)
+*   The phase of the oscillation is $(\omega t + \phi)$. We are given $(\omega t + \phi) = \frac{2\pi}{3} \text{ rad}$.
+*   The acceleration ($a$) in simple harmonic motion is given by $a = -A\omega^2 \cos(\omega t + \phi)$ or $a = -\omega^2 x$.
+*   Substitute the given phase into the acceleration equation:
+    $a = -A\omega^2 \cos(\frac{2\pi}{3})$
+*   We know $A = 4 \text{ cm}$, $\omega = 4\pi \text{ rad/s}$, and $\cos(\frac{2\pi}{3}) = -\frac{1}{2}$.
+*   Therefore, $a = -4 \times (4\pi)^2 \times (-\frac{1}{2})$
+    $a = -4 \times (16\pi^2) \times (-\frac{1}{2})$
+    $a = 4 \times 16\pi^2 \times \frac{1}{2}$
+    $a = 2 \times 16\pi^2 = 32\pi^2 \text{ cm/s}^2$.
+*   The statement claims the acceleration is 80π² cm/s².
+*   **Conclusion:** Statement d) is **Sai** (False).
+
+--------------------------------------------------
+
+Câu 20: [Đúng/Sai]
+  Câu hỏi: Trong thí nghiệm Young có bước sóng ánh sáng là 0,6 µm. Biết khoảng cách giữa hai khe là
+1 mm, khoảng cách từ hai khe đến màn là 2 m.
+  Đáp án: a=Đ, b=S, c=S, d=S
+  Giải thích: [
+    "Trước hết, ta xác định các thông số từ đề bài:\n- Bước sóng ánh sáng: λ = 0,6 μm = 0,6 * 10^-6 m\n- Khoảng cách giữa hai khe: a = 1 mm = 1 * 10^-3 m\n- Khoảng cách từ hai khe đến màn: D = 2 m\n\nTiếp theo, ta tính khoảng vân i:\ni = (λ * D) / a = (0,6 * 10^-6 m * 2 m) / (1 * 10^-3 m) = 1,2 * 10^-3 m = 1,2 mm.\n\n**a) Khoảng vân bằng 1,2 mm.**\nNhư đã tính toán ở trên, khoảng vân i = 1,2 mm.\nVậy, phát biểu a) là **Đúng**.",
+    "**b) Vị trí vân sáng bậc ba là 3,6 cm.**\nVị trí của vân sáng bậc k được xác định bởi công thức x_s = k * i.\nVới vân sáng bậc ba (k = 3):\nx_s3 = 3 * i = 3 * 1,2 mm = 3,6 mm.\nPhát biểu cho rằng vị trí vân sáng bậc ba là 3,6 cm. Tuy nhiên, 3,6 cm = 36 mm.\nVì 3,6 mm ≠ 36 mm.\nVậy, phát biểu b) là **Sai**.",
+    "**c) Vị trí vân tối thứ 2 là 18 mm.**\nVị trí của vân tối thứ m được xác định bởi công thức x_t = (m - 0.5) * i.\nVới vân tối thứ 2 (m = 2):\nx_t2 = (2 - 0,5) * i = 1,5 * i = 1,5 * 1,2 mm = 1,8 mm.\nPhát biểu cho rằng vị trí vân tối thứ 2 là 18 mm.\nVì 1,8 mm ≠ 18 mm.\nVậy, phát biểu c) là **Sai**.",
+    "**d) Tại vị trí cách vân trung tâm 6 mm là vân sáng bậc 4.**\nĐể xác định loại vân tại vị trí x = 6 mm, ta xét tỉ số x/i:\nx/i = 6 mm / 1,2 mm = 5.\nVì tỉ số x/i là một số nguyên (5), vị trí này là một vân sáng. Bậc của vân sáng là k = 5 (vân sáng bậc 5).\nPhát biểu cho rằng đây là vân sáng bậc 4.\nVì vân sáng bậc 5 ≠ vân sáng bậc 4.\nVậy, phát biểu d) là **Sai**."
+]
+
+--------------------------------------------------
+
+Câu 21: [Đúng/Sai]
+  Câu hỏi: Một sóng hình sin được mô tả như hình vẽ
+  Đáp án: a=Đ, b=S, c=S, d=S
+  Giải thích: Dựa vào đồ thị dao động của sóng hình sin:
+- Trục tung u (cm) biểu diễn li độ dao động.
+- Trục hoành t (ms) biểu diễn thời gian.
+
+a) **Biên độ sóng là 10 cm.**
+   - Biên độ sóng (A) là độ lớn cực đại của li độ. Từ đồ thị, giá trị cực đại của u là 10 cm.
+   - Vậy, phát biểu a là **Đúng**.
+
+b) **Chu kỳ truyền sóng là 120 ms.**
+   - Chu kỳ sóng (T) là thời gian để sóng thực hiện một dao động toàn phần.
+   - Nhìn vào đồ thị, sóng bắt đầu từ u=0 tại t=0, đạt đỉnh tại t=20 ms, qua u=0 tại t=40 ms, đạt đáy tại t=60 ms, và trở về u=0 theo chiều dương tại t=80 ms. Hoặc khoảng thời gian giữa hai đỉnh liên tiếp (t=20 ms và t=100 ms) là 80 ms.
+   - Vậy, chu kỳ sóng T = 80 ms.
+   - Phát biểu b (120 ms) là **Sai**.
+
+c) **Tần số sóng là 60 Hz.**
+   - Tần số sóng (f) được tính bằng công thức f = 1/T.
+   - Với T = 80 ms = 0.08 s.
+   - f = 1 / 0.08 = 12.5 Hz.
+   - Phát biểu c (60 Hz) là **Sai**.
+
+d) **Tốc độ dao động cực đại của các phần tử môi trường là 2 m/s.**
+   - Tốc độ dao động cực đại của phần tử môi trường (v_max) được tính bằng công thức v_max = Aω, trong đó ω là tần số góc (ω = 2πf = 2π/T).
+   - Biên độ A = 10 cm = 0.1 m.
+   - Chu kỳ T = 80 ms = 0.08 s.
+   - Tần số góc ω = 2π / 0.08 = 25π rad/s.
+   - Tốc độ dao động cực đại v_max = 0.1 m * 25π rad/s = 2.5π m/s.
+   - Sử dụng giá trị xấp xỉ π ≈ 3.14, ta có v_max ≈ 2.5 * 3.14 = 7.85 m/s.
+   - Phát biểu d (2 m/s) là **Sai**.
+
+--------------------------------------------------
+
+Câu 22: [Đúng/Sai]
+  Câu hỏi: Trong thí nghiệm nghiên cứu sóng dừng trên dây, người ta bố trí thí nghiệm như hình vẽ. Biết chiều dài dây là 0,6 m. Khi nguồn phát dao động có tần số
+f
+=
+24
+H
+z
+thì trên dây xuất hiện sóng dừng với 4
+  Đáp án: a=S, b=Đ, c=S, d=S
+  Giải thích: a) **Sóng truyền trên dây là sóng dọc.** (The wave propagating on the string is a longitudinal wave.)
+*   **Giải thích:** Sóng truyền trên dây (như trong thí nghiệm sóng dừng) là sóng ngang. Trong sóng ngang, các phần tử của môi trường dao động vuông góc với phương truyền sóng. Trong trường hợp này, các điểm trên dây dao động lên xuống (vuông góc với sợi dây), trong khi sóng truyền dọc theo sợi dây. Sóng dọc là sóng mà các phần tử môi trường dao động song song với phương truyền sóng (ví dụ: sóng âm).
+*   **Kết luận:** Phát biểu này là **Sai**.
+
+b) **Bụng sóng là những điểm có biên độ dao động cực đại.** (Antinodes are points with maximum oscillation amplitude.)
+*   **Giải thích:** Theo định nghĩa, bụng sóng là những điểm trên sóng dừng có biên độ dao động lớn nhất. Ngược lại, nút sóng là những điểm có biên độ dao động bằng không.
+*   **Kết luận:** Phát biểu này là **Đúng**.
+
+c) **Số nút sóng trên dây là 6.** (The number of nodes on the string is 6.)
+*   **Giải thích:** Trong sóng dừng trên dây với hai đầu cố định (hoặc một đầu cố định và một đầu dao động được coi là nút), nếu có *k* bụng sóng, thì số nút sóng sẽ là *k + 1*.
+*   Theo đề bài, có 4 bụng sóng (k = 4).
+*   Vậy, số nút sóng sẽ là 4 + 1 = 5 nút.
+*   **Kết luận:** Phát biểu này là **Sai**.
+
+d) **Tốc độ truyền sóng trên dây là 10 m/s.** (The wave speed on the string is 10 m/s.)
+*   **Giải thích:**
+    *   Chiều dài dây L = 0.6 m.
+    *   Tần số f = 24 Hz.
+    *   Số bụng sóng là 4 (k = 4).
+    *   Đối với sóng dừng trên dây với hai đầu cố định, chiều dài dây được tính bằng công thức: L = k * (λ/2), trong đó λ là bước sóng.
+    *   Từ đó, ta có: 0.6 m = 4 * (λ/2) => 0.6 = 2λ => λ = 0.6 / 2 = 0.3 m.
+    *   Tốc độ truyền sóng v được tính bằng công thức: v = f * λ.
+    *   Thay số vào: v = 24 Hz * 0.3 m = 7.2 m/s.
+*   **Kết luận:** Phát biểu này là **Sai**.
+
+--------------------------------------------------
+
+Câu 23: [Trả lời ngắn]
+  Câu hỏi: Một con lắc lò xo có khối lượng 100g dao động cưỡng bức ổn định dưới ngoại lực biến thiên tuần hoàn theo thời gian với tần số f. Đồ thị biểu diễn sự phụ thuộc của biên độ dao động vào tần số góc của n
+  Đáp án: 25
+  Giải thích: The problem describes a spring-mass system undergoing forced oscillations. The provided graph shows the amplitude (A) of the oscillation as a function of the angular frequency (ω) of the external force.
+
+1.  **Identify the resonance frequency:**
+    The graph displays a resonance curve, where the amplitude of oscillation is maximum at a specific angular frequency. From the graph, the maximum amplitude occurs when the angular frequency of the external force is ω = 5π rad/s. At resonance, the driving angular frequency is equal to the natural angular frequency (ω₀) of the system.
+    Therefore, the natural angular frequency ω₀ = 5π rad/s.
+
+2.  **Convert mass to SI units:**
+    The mass of the object is given as m = 100 g.
+    In SI units, m = 100 / 1000 kg = 0.1 kg.
+
+3.  **Relate natural angular frequency to mass and spring constant:**
+    For a spring-mass system, the natural angular frequency is given by the formula:
+    ω₀ = √(k/m)
+    where k is the spring constant and m is the mass.
+
+4.  **Solve for the spring constant (k):**
+    To find k, we can square both sides of the equation:
+    ω₀² = k/m
+    Rearranging to solve for k:
+    k = m * ω₀²
+
+5.  **Substitute the values and calculate:**
+    We have m = 0.1 kg and ω₀ = 5π rad/s. We are also given that π² = 10.
+    k = 0.1 * (5π)²
+    k = 0.1 * (25π²)
+    k = 0.1 * 25 * 10 (since π² = 10)
+    k = 2.5 * 10
+    k = 25 N/m
+
+The spring constant of the spring is 25 N/m.
+
+--------------------------------------------------
+
+Câu 24: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Hình bên mô tả sóng dừng trên một sợi dây có chiều dài 0,9 m hai đầu cố định. Khi tần số là 180 Hz. Tốc độ của sóng là bao nh
+  Đáp án: 108
+  Giải thích: The problem describes a standing wave on a string fixed at both ends.
+Given information:
+1.  Length of the string, L = 0.9 m.
+2.  Frequency of the wave, f = 180 Hz.
+3.  The image shows the standing wave pattern.
+
+Step 1: Determine the wavelength (λ) from the image and string length.
+For a string fixed at both ends, the condition for standing waves is L = n * (λ/2), where 'n' is the number of antinodes (or loops).
+From the image (Hình 13.1), we can observe 3 complete loops (antinodes). Therefore, n = 3.
+So, 0.9 m = 3 * (λ/2).
+Rearranging to solve for λ:
+λ = (2 * 0.9) / 3
+λ = 1.8 / 3
+λ = 0.6 m
+
+Step 2: Calculate the wave speed (v).
+The relationship between wave speed (v), frequency (f), and wavelength (λ) is given by the formula:
+v = f * λ
+Substitute the known values:
+v = 180 Hz * 0.6 m
+v = 108 m/s
+
+Thus, the speed of the wave is 108 m/s.
+
+--------------------------------------------------
+
+Câu 25: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Một sóng hình sin truyền trên một sợi dây dài. Ở thời điểm t, hình dạng của một đoạn dây như hình vẽ. Các vị trí cân bằng của
+  Đáp án: 24
+  Giải thích: The image displays a graph of a sinusoidal wave, showing displacement `u` versus position `x`. The x-axis is labeled in centimeters (cm).
+
+The wavelength (λ) of a wave is the spatial period of the wave, the distance over which the wave's shape repeats.
+
+From the graph, we can identify the following points at the equilibrium position (where `u = 0`):
+1.  `x = 0 cm`
+2.  `x = 12 cm`
+3.  `x = 36 cm`
+
+The distance between two consecutive points at the equilibrium position where the wave crosses the x-axis in the same direction is one full wavelength.
+Alternatively, the distance between two consecutive nodes (points of zero displacement) is half a wavelength (λ/2).
+
+Let's use the given points:
+-   From `x = 0 cm` to `x = 12 cm`, the wave completes half a cycle (from an equilibrium point, goes to a crest, then back to equilibrium). This distance represents `λ/2`.
+    Therefore, `λ/2 = 12 cm`.
+    Multiplying by 2, we get `λ = 2 * 12 cm = 24 cm`.
+
+-   Let's verify this using the `x = 36 cm` mark.
+    From `x = 0 cm` to `x = 36 cm`, the wave covers three half-wavelengths (0 to 12 is λ/2, 12 to the next equilibrium point is another λ/2, and that next point to 36 is another λ/2).
+    So, `3λ/2 = 36 cm`.
+    Dividing by 3, we get `λ/2 = 36 / 3 cm = 12 cm`.
+    Multiplying by 2, we get `λ = 2 * 12 cm = 24 cm`.
+
+Both methods yield the same result. The wavelength of the wave is 24 cm.
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 30
+Đúng: 26 | Sai: 4
+Thời gian: 11.1 phút

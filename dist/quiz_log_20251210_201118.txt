@@ -1,0 +1,30 @@
+=== Quiz Log - 2025-12-10 20:11:18 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+Farmland is land which is farmed, or which is suitable for ______.
+  Đáp án: B
+  Giải thích: Câu hỏi định nghĩa "Farmland" (đất nông nghiệp) là loại đất được sử dụng để canh tác hoặc phù hợp cho việc _____.
+- A. trade (thương mại): Đất nông nghiệp không được định nghĩa là phù hợp cho thương mại.
+- B. farming (canh tác, nông nghiệp): Đây là định nghĩa chính xác. Đất nông nghiệp là đất dùng để canh tác hoặc phù hợp cho hoạt động nông nghiệp (farming).
+- C. education (giáo dục): Đất nông nghiệp không phù hợp cho giáo dục.
+- D. economy (kinh tế): Mặc dù nông nghiệp đóng góp vào kinh tế, nhưng "economy" là một khái niệm quá rộng và không trực tiếp mô tả mục đích sử dụng của đất nông nghiệp.
+
+Do đó, từ thích hợp nhất để điền vào chỗ trống là "farming".
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+The increasing levels of greenhouse gasses in the atmosphere have led to ______.
+  Đáp án: D
+  Giải thích: Câu hỏi "The increasing levels of greenhouse gases in the atmosphere have led to _____" có nghĩa là "Mức độ gia tăng của khí nhà kính trong khí quyển đã dẫn đến _____".
+*   A. fitness: sự khỏe mạnh, thể lực. Không liên quan đến khí nhà kính.
+*   B. weakness: sự yếu đuối. Không liên quan đến khí nhà kính.
+*   C. inflection: sự biến đổi hình thái từ (ngữ pháp), sự lên xuống giọng. Không liên quan đến khí nhà kính.
+*   D. global warming: sự nóng lên toàn cầu. Đây là hiện tượng nhiệt độ trung bình của Trái Đất tăng lên do sự tích tụ của các khí nhà kính (như CO2, CH4, N2O) trong khí quyển, làm giữ nhiệt nhiều hơn. Đây là hậu quả trực tiếp của việc gia tăng khí nhà kính.
+
+Do đó, đáp án đúng là "global warming".
+
+--------------------------------------------------
+

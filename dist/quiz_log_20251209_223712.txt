@@ -1,0 +1,81 @@
+=== Quiz Log - 2025-12-09 22:37:12 ===
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Một vật dao động điều hòa với tần số góc ω. Chu kì dao động của vật được tính bằng công thức
+  Đáp án: B
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Theo định nghĩa, dao động điều hòa là
+  Đáp án: A
+  Giải thích: Theo định nghĩa trong vật lí, dao động điều hòa là một dạng dao động đặc biệt, trong đó li độ (vị trí), vận tốc và gia tốc của vật biến thiên điều hòa theo thời gian và có thể được mô tả bằng hàm sin hoặc cosin.
+
+*   **Phương án A:** "chuyển động có phương trình mô tả bởi hàm sin hoặc cos theo thời gian." Đây là định nghĩa toán học chính xác và cơ bản nhất của dao động điều hòa. Bất kỳ chuyển động nào có li độ x(t) = Acos(ωt + φ) hoặc x(t) = Asin(ωt + φ) đều là dao động điều hòa.
+
+*   **Phương án B:** "hình chiếu của chuyển động tròn đều lên một đường thẳng nằm trong mặt phẳng quỹ đạo." Đây là một mô hình hoặc một cách để hình dung và chứng minh dao động điều hòa, nó là một tính chất quan trọng của dao động điều hòa chứ không phải là định nghĩa tổng quát nhất. Tuy nhiên, trong nhiều sách giáo khoa, nó cũng được dùng như một cách định nghĩa dao động điều hòa. Nhưng định nghĩa trực tiếp nhất vẫn là dựa vào phương trình toán học.
+
+*   **Phương án C:** "chuyển động mà trạng thái chuyển động của vật được lặp lại như cũ sau những khoảng thời gian bằng nhau." Đây là định nghĩa của *dao động tuần hoàn* nói chung. Dao động điều hòa là một loại dao động tuần hoàn, nhưng không phải mọi dao động tuần hoàn đều là dao động điều hòa (ví dụ, chuyển động tròn đều, hoặc dao động của con lắc đồng hồ khi biên độ lớn). Do đó, phương án này quá rộng.
+
+*   **Phương án D:** "chuyển động của một vật dưới tác dụng của một lực không đổi." Chuyển động dưới tác dụng của lực không đổi là chuyển động biến đổi đều (ví dụ: rơi tự do). Đây không phải là dao động điều hòa. Dao động điều hòa đòi hỏi lực phục hồi tỉ lệ thuận với li độ và luôn hướng về vị trí cân bằng (F = -kx).
+
+So sánh A và B, định nghĩa dựa trên phương trình toán học (A) là định nghĩa trực tiếp và cơ bản nhất về bản chất của dao động điều hòa. Phương án B là một cách để tạo ra hoặc hình dung dao động điều hòa. Trong ngữ cảnh của một câu hỏi định nghĩa, phương án A cung cấp định nghĩa toán học chuẩn mực.
+
+--------------------------------------------------
+
+Câu 7: [Trắc nghiệm]
+  Câu hỏi: Trong dao động điều hoà của con lắc lò xo, cơ năng của con lắc
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 26: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 27: [Trắc nghiệm]
+  Câu hỏi: Một sóng truyền trên mặt nước có bước sóng
+λ
+= 2 m. Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha nhau là
+  Đáp án: C
+  Giải thích: Theo định nghĩa của sóng, bước sóng (λ) là khoảng cách ngắn nhất giữa hai điểm trên cùng một phương truyền sóng mà dao động cùng pha với nhau.
+Trong câu hỏi này, đề bài cho bước sóng λ = 2 m.
+Và câu hỏi yêu cầu tìm "Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha".
+Điều này chính là định nghĩa của bước sóng.
+Vậy, khoảng cách cần tìm là λ = 2 m.
+
+--------------------------------------------------
+
+Câu 28: [Trắc nghiệm]
+  Câu hỏi: Một sóng cơ có chu kì T, truyền trên một sợi dây đàn hồi với tốc độ truyền sóng v và bước sóng
+λ
+. Hệ thức đúng là
+  Đáp án: B
+  Giải thích: Câu hỏi yêu cầu tìm mối liên hệ đúng giữa chu kì (T), tốc độ truyền sóng (v) và bước sóng (λ) của một sóng cơ.
+
+Trong vật lý sóng, các đại lượng này có mối quan hệ cơ bản như sau:
+Tốc độ truyền sóng (v) được định nghĩa là quãng đường mà sóng truyền đi được trong một đơn vị thời gian.
+Bước sóng (λ) là quãng đường mà sóng truyền đi được trong một chu kì (T).
+
+Từ định nghĩa này, ta có công thức:
+v = λ / T
+
+Ngoài ra, tần số (f) là nghịch đảo của chu kì (T), tức là f = 1/T.
+Khi đó, công thức có thể viết lại là:
+v = λ * f
+
+Kiểm tra các phương án:
+A. v = T/λ: Công thức này sai.
+B. v = λ/T: Công thức này đúng với định nghĩa của tốc độ truyền sóng.
+C. v = λT: Công thức này sai (đúng ra phải là v = λ/T hoặc v = λf).
+D. v = 2Tλ: Công thức này sai.
+
+Vậy, phương án B là đúng.
+
+--------------------------------------------------
+

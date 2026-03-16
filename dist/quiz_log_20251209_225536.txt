@@ -1,0 +1,24 @@
+=== Quiz Log - 2025-12-09 22:55:36 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Sóng điện từ
+  Đáp án: D
+  Giải thích: Câu hỏi yêu cầu xác định phát biểu đúng về sóng điện từ.
+Chúng ta hãy phân tích từng lựa chọn:
+
+A. "có thành phần điện trường và thành phần từ trường tại một điểm dao động cùng phương."
+   - Trong sóng điện từ, vectơ cường độ điện trường $\vec{E}$ và vectơ cảm ứng từ $\vec{B}$ luôn dao động vuông góc với nhau và vuông góc với phương truyền sóng. Do đó, chúng không dao động cùng phương. Phát biểu này sai.
+
+B. "không truyền được trong chân không."
+   - Sóng điện từ là sóng có thể truyền được trong chân không. Thực tế, ánh sáng (một dạng của sóng điện từ) truyền từ Mặt Trời đến Trái Đất qua không gian chân không. Phát biểu này sai.
+
+C. "là sóng dọc hoặc sóng ngang."
+   - Sóng điện từ luôn là sóng ngang. Điều này có nghĩa là các dao động của điện trường và từ trường luôn vuông góc với phương truyền sóng. Chúng không bao giờ là sóng dọc. Phát biểu này sai.
+
+D. "là điện từ trường lan truyền trong không gian."
+   - Sóng điện từ bản chất là sự lan truyền của điện từ trường (sự biến thiên của điện trường và từ trường) trong không gian dưới dạng sóng. Đây là định nghĩa chính xác của sóng điện từ. Phát biểu này đúng.
+
+Vậy, lựa chọn D là đúng.
+
+--------------------------------------------------
+

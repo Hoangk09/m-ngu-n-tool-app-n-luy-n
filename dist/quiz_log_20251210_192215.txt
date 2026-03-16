@@ -1,0 +1,14 @@
+=== Quiz Log - 2025-12-10 19:22:15 ===
+
+Câu 10: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Trong thí nghiệm giao thoa Young, nguồn S phát ánh sáng đơn sắc có bước sóng λ người ta đặt màn quan sát cách mặt phẳng hai k
+  Đáp án: RANDOM: 66
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 11
+Đúng: 10 | Sai: 1
+Thời gian: 5.8 phút

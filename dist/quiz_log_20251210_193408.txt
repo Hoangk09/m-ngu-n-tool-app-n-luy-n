@@ -1,0 +1,956 @@
+=== Quiz Log - 2025-12-10 19:34:08 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Cho tứ diện
+A
+B
+C
+D
+. Gọi
+G
+1
+,
+G
+2
+,
+G
+3
+lần lượt là trọng tâm các tam giác
+A
+B
+C
+,
+A
+C
+D
+,
+A
+B
+D
+. Khi đó
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Cho hai mặt phẳng song song
+(
+α
+)
+ và
+(
+β
+)
+. Đường thẳng
+d
+ nằm trong
+(
+α
+)
+. Khẳng định nào sau đây là đúng
+  Đáp án: C
+  Giải thích: Chúng ta có hai mặt phẳng song song (α) và (β). Điều này có nghĩa là hai mặt phẳng này không có điểm chung nào.
+Đường thẳng d nằm hoàn toàn trong mặt phẳng (α) (d ⊂ (α)).
+Vì mặt phẳng (α) và mặt phẳng (β) song song và không có điểm chung, nên bất kỳ đường thẳng nào nằm trong (α) cũng sẽ không thể cắt hoặc có điểm chung với (β). Nếu đường thẳng d có một điểm chung với (β), điểm đó cũng phải nằm trong (α) (vì d nằm trong α), dẫn đến (α) và (β) có điểm chung, mâu thuẫn với giả thiết chúng song song.
+
+Vậy, đường thẳng d và mặt phẳng (β) không có điểm chung nào.
+
+Đối chiếu với các lựa chọn:
+A. d và (β) có vô số điểm chung: Điều này xảy ra khi d nằm trong (β), nhưng d lại nằm trong (α) và (α) song song với (β), nên d không thể nằm trong (β) (trừ khi (α) trùng (β), nhưng "song song" thường ngụ ý phân biệt).
+B. d và (β) có 1 điểm chung: Điều này xảy ra khi d cắt (β) tại một điểm, nhưng không thể vì (α) và (β) song song.
+C. d và (β) không có điểm chung: Đây là khẳng định đúng dựa trên lý luận trên.
+D. Chưa thể kết luận về số điểm chung của d và (β): Chúng ta hoàn toàn có thể kết luận.
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Trong các khẳng định sau khẳng định nào là sai?
+  Đáp án: B
+  Giải thích: Chúng ta sẽ phân tích từng khẳng định để tìm khẳng định sai:
+
+*   **Khẳng định A:** "Nếu hai mặt phẳng (P) và (Q) song song nhau; (R) cắt (P) thì (R) cũng cắt (Q) và các giao tuyến của chúng song song với nhau."
+    Đây là một định lý cơ bản trong hình học không gian. Nếu một mặt phẳng thứ ba cắt một trong hai mặt phẳng song song, thì nó sẽ cắt mặt phẳng còn lại và hai giao tuyến tạo ra sẽ song song với nhau.
+    **Khẳng định A là ĐÚNG.**
+
+*   **Khẳng định B:** "Nếu mặt phẳng (P) chứa hai đường thẳng cùng song song song với mặt phẳng (Q) thì (P) và (Q) song song với nhau."
+    Để hai mặt phẳng (P) và (Q) song song với nhau, mặt phẳng (P) phải chứa hai đường thẳng *cắt nhau* cùng song song với mặt phẳng (Q). Khẳng định này không nêu rõ hai đường thẳng đó có cắt nhau hay không.
+    Chúng ta có thể đưa ra ví dụ phản chứng:
+    Gọi mặt phẳng (Q) là mặt phẳng z = 0.
+    Xét mặt phẳng (P) có phương trình z = x. Mặt phẳng này cắt mặt phẳng (Q) theo giao tuyến là đường thẳng y-trục (x=0, z=0).
+    Trong mặt phẳng (P), xét hai đường thẳng:
+    - Đường thẳng d1: x = 1, z = 1 (song song với trục y). Đường thẳng này nằm trong (P) vì z=x (1=1). Và d1 song song với mặt phẳng (Q) (z=0) vì mọi điểm trên d1 có z=1.
+    - Đường thẳng d2: x = 2, z = 2 (song song với trục y). Đường thẳng này nằm trong (P) vì z=x (2=2). Và d2 cũng song song với mặt phẳng (Q) (z=0) vì mọi điểm trên d2 có z=2.
+    Hai đường thẳng d1 và d2 là hai đường thẳng song song với nhau, nằm trong mặt phẳng (P), và cùng song song với mặt phẳng (Q). Tuy nhiên, mặt phẳng (P) (z=x) không song song với mặt phẳng (Q) (z=0) mà chúng cắt nhau.
+    Do đó, điều kiện "mặt phẳng (P) chứa hai đường thẳng cùng song song với mặt phẳng (Q)" là chưa đủ để kết luận (P) và (Q) song song. Hai đường thẳng này cần phải cắt nhau.
+    **Khẳng định B là SAI.**
+
+*   **Khẳng định C:** "Nếu hai mặt phẳng song song với nhau thì mọi đường thẳng thuộc mặt phẳng này đều song song với mặt phẳng kia."
+    Nếu (P) // (Q) và một đường thẳng 'd' nằm trong (P). Nếu 'd' cắt (Q), thì (P) và (Q) phải có điểm chung (là giao điểm của 'd' và (Q)), điều này mâu thuẫn với việc (P) và (Q) song song (không có điểm chung). Do đó, 'd' không thể cắt (Q). Vậy 'd' phải song song với (Q).
+    **Khẳng định C là ĐÚNG.**
+
+*   **Khẳng định D:** "Nếu một đường thẳng cắt một trong hai mặt phẳng song song thì nó sẽ cắt mặt phẳng còn lại."
+    Giả sử (P) // (Q) và đường thẳng 'l' cắt (P) tại điểm A. Nếu 'l' không cắt (Q), thì 'l' phải song song với (Q). Nếu 'l' // (Q) và (P) // (Q), thì 'l' phải song song với (P) (hoặc nằm trong (P)). Điều này mâu thuẫn với giả thiết 'l' cắt (P). Do đó, giả định 'l' không cắt (Q) là sai, suy ra 'l' phải cắt (Q).
+    **Khẳng định D là ĐÚNG.**
+
+Vì vậy, khẳng định sai là B.
+
+The final answer is $\boxed{B}$
+
+--------------------------------------------------
+
+Câu 4: [Trắc nghiệm]
+  Câu hỏi: Có bao nhiêu mặt phẳng song song với cả hai đường thẳng chéo nhau?
+  Đáp án: B
+  Giải thích: Để một mặt phẳng P song song với một đường thẳng d, vector pháp tuyến của mặt phẳng P phải vuông góc với vector chỉ phương của đường thẳng d.
+Giả sử chúng ta có hai đường thẳng chéo nhau $d_1$ và $d_2$.
+Gọi $\vec{u_1}$ là vector chỉ phương của đường thẳng $d_1$ và $\vec{u_2}$ là vector chỉ phương của đường thẳng $d_2$.
+Vì $d_1$ và $d_2$ là hai đường thẳng chéo nhau, nên $\vec{u_1}$ và $\vec{u_2}$ không cùng phương (không song song).
+
+Để một mặt phẳng (P) song song với cả hai đường thẳng $d_1$ và $d_2$, vector pháp tuyến $\vec{n}$ của mặt phẳng (P) phải vuông góc với cả $\vec{u_1}$ và $\vec{u_2}$.
+Điều này có nghĩa là:
+$\vec{n} \cdot \vec{u_1} = 0$
+$\vec{n} \cdot \vec{u_2} = 0$
+
+Trong không gian ba chiều, nếu một vector vuông góc với hai vector không cùng phương, thì vector đó phải cùng phương với tích có hướng của hai vector đó.
+Do đó, $\vec{n}$ phải cùng phương với $\vec{u_1} \times \vec{u_2}$.
+Vì $\vec{u_1}$ và $\vec{u_2}$ không cùng phương, tích có hướng $\vec{u_1} \times \vec{u_2}$ là một vector khác vector không.
+Điều này có nghĩa là tất cả các mặt phẳng (P) thỏa mãn điều kiện đều có cùng một vector pháp tuyến (hoặc vector pháp tuyến cùng phương với nhau).
+
+Các mặt phẳng có cùng vector pháp tuyến (hoặc các vector pháp tuyến cùng phương) là các mặt phẳng song song với nhau.
+Ví dụ, nếu vector pháp tuyến là $\vec{n} = (A, B, C)$, thì phương trình tổng quát của mặt phẳng là $Ax + By + Cz + D = 0$.
+Với mọi giá trị khác nhau của hằng số D, chúng ta sẽ có một mặt phẳng khác nhau, nhưng tất cả các mặt phẳng này đều song song với nhau và có cùng tính chất là song song với cả $d_1$ và $d_2$.
+Vì D có thể nhận vô số giá trị thực, nên có vô số mặt phẳng thỏa mãn điều kiện đã cho.
+
+Ví dụ minh họa:
+Xét đường thẳng $d_1$ là trục Ox: $x=t, y=0, z=0$. Vector chỉ phương $\vec{u_1}=(1,0,0)$.
+Xét đường thẳng $d_2$ là đường thẳng đi qua điểm $(0,0,1)$ và song song với trục Oy: $x=0, y=s, z=1$. Vector chỉ phương $\vec{u_2}=(0,1,0)$.
+Hai đường thẳng này chéo nhau.
+Vector pháp tuyến $\vec{n}$ của mặt phẳng phải vuông góc với cả $\vec{u_1}$ và $\vec{u_2}$.
+$\vec{n}$ cùng phương với $\vec{u_1} \times \vec{u_2} = (1,0,0) \times (0,1,0) = (0,0,1)$.
+Vậy vector pháp tuyến của mặt phẳng là $\vec{n}=(0,0,k)$ với $k \ne 0$. Ta có thể chọn $\vec{n}=(0,0,1)$.
+Phương trình của mặt phẳng sẽ có dạng $0x + 0y + 1z + D = 0$, hay $z = -D$.
+Với mỗi giá trị $D$ khác nhau, ta sẽ có một mặt phẳng khác nhau (ví dụ: $z=0, z=1, z=-5, ...$). Tất cả các mặt phẳng này đều song song với mặt phẳng Oxy và song song với cả $d_1$ và $d_2$.
+Có vô số giá trị cho D, do đó có vô số mặt phẳng như vậy.
+
+The final answer is $\boxed{B}$
+
+--------------------------------------------------
+
+Câu 5: [Trắc nghiệm]
+  Câu hỏi: Cho hình lăng trụ tam giác
+A
+B
+C
+.
+A
+′
+B
+′
+C
+′
+. Khẳng định nào sau đây là đúng?
+  Đáp án: A
+  Giải thích: Trong hình học không gian, một hình lăng trụ tam giác được định nghĩa là một khối đa diện có hai mặt đáy là hai tam giác đồng dạng và nằm trên hai mặt phẳng song song, và các mặt bên là các hình bình hành.
+
+Cho hình lăng trụ tam giác ABC. A'B'C':
+- Mặt đáy thứ nhất là tam giác ABC. Mặt phẳng chứa tam giác này được ký hiệu là (ABC).
+- Mặt đáy thứ hai là tam giác A'B'C'. Mặt phẳng chứa tam giác này được ký hiệu là (A'B'C').
+
+Theo định nghĩa của lăng trụ, hai mặt đáy của nó song song với nhau. Do đó, mặt phẳng (ABC) song song với mặt phẳng (A'B'C').
+
+Bây giờ chúng ta sẽ kiểm tra các phương án:
+A. (ABC) || (A'B'C'). Đây là khẳng định đúng theo định nghĩa của hình lăng trụ. Hai mặt đáy của lăng trụ luôn song song với nhau.
+
+B. (A'BC) || (AB'C').
+- Mặt phẳng (A'BC) chứa đường thẳng BC.
+- Mặt phẳng (AB'C') chứa đường thẳng B'C'.
+Vì BCC'B' là một mặt bên của lăng trụ (là hình bình hành), nên BC || B'C'. Như vậy ta có một cặp đường thẳng song song nằm trên hai mặt phẳng.
+- Tuy nhiên, hãy xem xét các đường thẳng khác: A'B nằm trong (A'BC) và AB' nằm trong (AB'C'). A'B và AB' là hai đường chéo của hình bình hành ABB'A' (mặt bên). Hai đường chéo của một hình bình hành cắt nhau. Do đó, hai đường thẳng A'B và AB' không song song.
+Vì vậy, hai mặt phẳng (A'BC) và (AB'C') không song song (chúng sẽ cắt nhau).
+
+C. (BA'C') || (B'AC).
+- Mặt phẳng (BA'C') chứa đường thẳng A'C'.
+- Mặt phẳng (B'AC) chứa đường thẳng AC.
+Vì ABC và A'B'C' là hai mặt đáy song song, và A'C' cùng phương với AC (do AA'C'C là hình bình hành), nên A'C' || AC.
+- Tương tự như trên, BA' và B'A là hai đường chéo của hình bình hành ABB'A'. Chúng cắt nhau.
+Vì vậy, hai mặt phẳng (BA'C') và (B'AC) không song song.
+
+D. (ABC') || (A'B'C).
+- Mặt phẳng (ABC') chứa đường thẳng AB.
+- Mặt phẳng (A'B'C) chứa đường thẳng A'B'.
+Vì ABB'A' là một mặt bên (hình bình hành), nên AB || A'B'.
+- Tương tự, BC' và B'C là hai đường chéo của hình bình hành BCC'B'. Chúng cắt nhau.
+Vì vậy, hai mặt phẳng (ABC') và (A'B'C) không song song.
+
+Dựa trên phân tích trên, chỉ có khẳng định A là đúng.
+
+--------------------------------------------------
+
+Câu 6: [Trắc nghiệm]
+  Câu hỏi: Cho hình hộp
+A
+B
+C
+D
+.
+A
+′
+B
+′
+C
+′
+D
+′
+. Mặt phẳng
+(
+A
+B
+A
+′
+)
+song song với mặt phẳng nào sau đây:
+  Đáp án: B
+  Giải thích: Trong hình hộp ABCD.A'B'C'D':
+Mặt phẳng (ABA') chính là mặt phẳng (ABB'A').
+Trong một hình hộp, các mặt đối diện sẽ song song với nhau.
+Mặt phẳng đối diện với mặt (ABB'A') (mặt bên phía trước) là mặt phẳng (DCC'D') (mặt bên phía sau).
+Ta kiểm tra các phương án:
+A. Mặt phẳng (BB'A') chính là mặt phẳng (ABB'A'). Nó trùng với mặt phẳng đã cho, không phải là mặt phẳng song song khác.
+B. Mặt phẳng (CC'D') chính là mặt phẳng (CDD'C'). Đây là mặt phẳng đối diện với mặt (ABB'A'), do đó nó song song với mặt (ABB'A').
+C. Mặt phẳng (AA'C') chứa cạnh AA' của mặt (ABB'A'). Do đó, chúng cắt nhau tại đường thẳng AA' và không song song.
+D. Mặt phẳng (ADD') chính là mặt phẳng (ADD'A'). Mặt phẳng này vuông góc với mặt (ABB'A') (trong hình hộp chữ nhật) hoặc cắt nhau (trong hình hộp tổng quát), nhưng không song song.
+
+Vậy, mặt phẳng song song với mặt phẳng (ABA') là mặt phẳng (CC'D').
+
+--------------------------------------------------
+
+Câu 7: [Trắc nghiệm]
+  Câu hỏi: Cho hình hộp
+A
+B
+C
+D
+.
+A
+′
+B
+′
+C
+′
+D
+′
+. Mệnh đề nào sau đây sai?
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 8: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+E
+,
+F
+,
+G
+lần lượt là trung điểm các cạnh
+S
+D
+,
+A
+D
+,
+C
+D
+. Chọn khẳng định đúng.
+  Đáp án: D
+  Giải thích: Để xác định mặt phẳng nào song song với mặt phẳng (EFG), chúng ta sẽ sử dụng định lý về hai mặt phẳng song song: Nếu một mặt phẳng chứa hai đường thẳng cắt nhau và hai đường thẳng này lần lượt song song với một mặt phẳng khác, thì hai mặt phẳng đó song song với nhau.
+
+Cho hình chóp S.ABCD có đáy ABCD là hình bình hành.
+E, F, G lần lượt là trung điểm của các cạnh SD, AD, CD.
+
+Xét các đường thẳng trong mặt phẳng (EFG):
+1.  **Xét đường thẳng EF:**
+    Trong tam giác SAD, E là trung điểm của cạnh SD và F là trung điểm của cạnh AD.
+    Theo tính chất đường trung bình của tam giác, EF là đường trung bình của tam giác SAD.
+    Suy ra EF // SA.
+
+2.  **Xét đường thẳng FG:**
+    Trong tam giác ADC, F là trung điểm của cạnh AD và G là trung điểm của cạnh CD.
+    Theo tính chất đường trung bình của tam giác, FG là đường trung bình của tam giác ADC.
+    Suy ra FG // AC.
+
+Bây giờ, chúng ta kiểm tra các đáp án:
+
+*   **A. (EFG) // (SAB):** Ta có EF // SA. Tuy nhiên, đường thẳng FG // AC, mà đường thẳng AC không song song với mặt phẳng (SAB) (trừ các trường hợp đặc biệt không được nêu trong đề bài). Do đó, mặt phẳng (EFG) không song song với mặt phẳng (SAB).
+*   **B. (EFG) // (SAD):** Điểm E và F đều nằm trên mặt phẳng (SAD). Do đó, mặt phẳng (EFG) và (SAD) có điểm chung (thậm chí đường chung EF), nên chúng không thể song song với nhau.
+*   **C. (EFG) // (SBC):** Ta có EG là đường trung bình của tam giác SDC (E là trung điểm SD, G là trung điểm CD), suy ra EG // SC. Tuy nhiên, đường thẳng EF // SA, mà đường thẳng SA không song song với mặt phẳng (SBC). Do đó, mặt phẳng (EFG) không song song với mặt phẳng (SBC).
+*   **D. (EFG) // (SAC):**
+    *   Chúng ta đã chứng minh EF // SA. Vì đường thẳng SA nằm trong mặt phẳng (SAC), suy ra EF // (SAC).
+    *   Chúng ta đã chứng minh FG // AC. Vì đường thẳng AC nằm trong mặt phẳng (SAC), suy ra FG // (SAC).
+    *   Mặt phẳng (EFG) chứa hai đường thẳng EF và FG. Hai đường thẳng này cắt nhau tại F.
+    *   Cả hai đường thẳng EF và FG đều song song với mặt phẳng (SAC).
+    *   Theo định lý về hai mặt phẳng song song, nếu một mặt phẳng chứa hai đường thẳng cắt nhau và hai đường thẳng đó lần lượt song song với một mặt phẳng khác, thì hai mặt phẳng đó song song với nhau.
+    *   Vậy, (EFG) // (SAC) là khẳng định đúng.
+
+The final answer is $\boxed{D}$
+
+--------------------------------------------------
+
+Câu 9: [Trắc nghiệm]
+  Câu hỏi: Cho hai hình bình hành
+A
+B
+C
+D
+và
+A
+B
+E
+F
+ở hai mặt phẳng phân biệt. Gọi
+O
+giao điểm của
+A
+E
+và
+B
+F
+,
+O
+′
+là giao điểm của
+C
+F
+và
+D
+E
+,
+M
+là trung điểm của
+D
+F
+. Mặt phẳng
+(
+O
+M
+O
+′
+)
+song song với mặ
+  Đáp án: B
+  Giải thích: Để giải bài toán này, chúng ta sẽ sử dụng các tính chất của hình bình hành và định lý đường trung bình trong tam giác.
+
+1.  **Xác định tính chất của các hình:**
+    *   Cho hai hình bình hành ABCD và ABEF.
+    *   Vì ABCD là hình bình hành nên AB // DC và AB = DC.
+    *   Vì ABEF là hình bình hành nên AB // FE và AB = FE.
+    *   Từ đó suy ra DC // FE và DC = FE. Do hai cạnh đối song song và bằng nhau, tứ giác CDEF là một hình bình hành.
+
+2.  **Xác định các điểm O, O', M:**
+    *   O là giao điểm của AE và BF. Vì ABEF là hình bình hành, O là trung điểm của cả AE và BF.
+    *   O' là giao điểm của CF và DE. Vì CDEF là hình bình hành, O' là trung điểm của cả CF và DE.
+    *   M là trung điểm của DF (theo đề bài).
+
+3.  **Tìm hai đường thẳng trong mặt phẳng (OMO') song song với mặt phẳng (ABD):**
+
+    *   **Xét đường thẳng OO':**
+        *   O là trung điểm của AE (từ tính chất hình bình hành ABEF).
+        *   O' là trung điểm của DE (từ tính chất hình bình hành CDEF).
+        *   Xét tam giác ADE: OO' là đường nối trung điểm của hai cạnh AE và DE.
+        *   Theo định lý đường trung bình trong tam giác, OO' // AD.
+        *   Vì AD nằm trong mặt phẳng (ABD), suy ra OO' // mặt phẳng (ABD).
+
+    *   **Xét đường thẳng O'M:**
+        *   O' là trung điểm của DE (từ tính chất hình bình hành CDEF).
+        *   M là trung điểm của DF (theo đề bài).
+        *   Xét tam giác DFE: O'M là đường nối trung điểm của hai cạnh DE và DF.
+        *   Theo định lý đường trung bình trong tam giác, O'M // EF.
+        *   Mà ABEF là hình bình hành, nên EF // AB.
+        *   Từ đó suy ra O'M // AB.
+        *   Vì AB nằm trong mặt phẳng (ABD), suy ra O'M // mặt phẳng (ABD).
+
+4.  **Kết luận:**
+    *   Trong mặt phẳng (OMO'), chúng ta có hai đường thẳng OO' và O'M cắt nhau tại O'.
+    *   Cả hai đường thẳng này (OO' và O'M) đều song song với mặt phẳng (ABD).
+    *   Theo định lý về hai mặt phẳng song song (Nếu hai đường thẳng cắt nhau của mặt phẳng này lần lượt song song với mặt phẳng kia thì hai mặt phẳng đó song song), mặt phẳng (OMO') song song với mặt phẳng (ABD).
+
+The final answer is $\boxed{B}$
+
+--------------------------------------------------
+
+Câu 10: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành tâm
+O
+. Gọi
+M
+,
+ N
+lần lượt là trung điểm của
+S
+B
+,
+ S
+C
+. Mặt phẳng
+(
+O
+M
+N
+)
+song song với mặt phẳng nào sau đây?
+  Đáp án: A
+  Giải thích: Để xác định mặt phẳng song song với mặt phẳng (OMN), ta sẽ tìm các đường thẳng trong mặt phẳng (OMN) và các đường thẳng song song với chúng trong các mặt phẳng của hình chóp.
+
+1.  **Xác định các điểm O, M, N:**
+    *   ABCD là hình bình hành tâm O, suy ra O là trung điểm của BD và AC.
+    *   M là trung điểm của SB.
+    *   N là trung điểm của SC.
+
+2.  **Tìm các đường thẳng song song:**
+    *   **Xét tam giác SBD:** O là trung điểm của BD, M là trung điểm của SB. Theo định lý đường trung bình trong tam giác, ta có OM // SD.
+    *   **Xét tam giác SAC:** O là trung điểm của AC, N là trung điểm của SC. Theo định lý đường trung bình trong tam giác, ta có ON // SA.
+
+3.  **Xác định mặt phẳng song song:**
+    *   Mặt phẳng (OMN) chứa hai đường thẳng cắt nhau OM và ON.
+    *   Mặt phẳng (SAD) chứa hai đường thẳng cắt nhau SD và SA.
+    *   Ta có:
+        *   OM // SD (chứng minh trên). Vì SD nằm trong mặt phẳng (SAD), nên OM // (SAD).
+        *   ON // SA (chứng minh trên). Vì SA nằm trong mặt phẳng (SAD), nên ON // (SAD).
+
+    Vì hai đường thẳng cắt nhau OM và ON của mặt phẳng (OMN) lần lượt song song với hai đường thẳng cắt nhau SD và SA của mặt phẳng (SAD), nên mặt phẳng (OMN) song song với mặt phẳng (SAD).
+
+Vậy, mặt phẳng (OMN) song song với mặt phẳng (SAD).
+
+--------------------------------------------------
+
+Câu 11: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+đáy là hình thang,
+A
+B
+ // 
+C
+D
+,
+A
+B
+=
+a
+,
+C
+D
+=
+2
+a
+, gọi
+I
+là giao điểm của
+A
+C
+và
+B
+D
+.
+Qua
+I
+kẻ đường thẳng song song
+C
+D
+cắt
+B
+C
+tại
+M
+.
+Trên cạnh
+S
+C
+lấy điểm
+N
+sao ch
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 12: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành tâm
+O
+. Gọi
+M
+,
+N
+,
+I
+theo thứ tự là trung điểm của
+S
+A
+,
+S
+D
+và
+A
+B
+. Khẳng định nào sau đây đúng?
+  Đáp án: C
+  Giải thích: Chúng ta sẽ phân tích từng khẳng định:
+
+**Thông tin đã cho:**
+*   Hình chóp S.ABCD có đáy ABCD là hình bình hành tâm O.
+*   M là trung điểm của SA.
+*   N là trung điểm của SD.
+*   I là trung điểm của AB.
+
+**Phân tích các khẳng định:**
+
+**A. (MNI) // (SAD)**
+*   M là trung điểm của SA, N là trung điểm của SD.
+*   Do đó, MN là đường trung bình của tam giác SAD.
+*   Điều này có nghĩa là đường thẳng MN nằm trong mặt phẳng (SAD).
+*   Một mặt phẳng không thể song song với chính nó hoặc một mặt phẳng chứa nó.
+*   Vì MN thuộc (MNI) và MN thuộc (SAD), nên hai mặt phẳng này cắt nhau theo đường thẳng MN (trừ khi chúng trùng nhau, điều này không xảy ra ở đây).
+*   Vậy, khẳng định A sai.
+
+**B. (ION) // (SAD)**
+*   Xét đường thẳng IO:
+    *   I là trung điểm của AB.
+    *   O là tâm của hình bình hành ABCD, nên O là trung điểm của BD.
+    *   Trong tam giác ABD, IO là đường trung bình.
+    *   Do đó, IO // AD.
+    *   Vì AD nằm trong mặt phẳng (SAD), nên IO // (SAD).
+*   Xét đường thẳng ON:
+    *   O là trung điểm của BD.
+    *   N là trung điểm của SD.
+    *   Trong tam giác SBD, ON là đường trung bình.
+    *   Do đó, ON // SB.
+    *   Mặt phẳng (SAD) và đường thẳng SB không song song (chúng cắt nhau tại S).
+    *   Vì ON // SB và SB không song song với (SAD), nên ON không song song với (SAD).
+*   Để mặt phẳng (ION) song song với (SAD), cả hai đường thẳng cắt nhau trong (ION) phải song song với (SAD). Vì ON không song song với (SAD), khẳng định B sai.
+
+**D. (ION) cắt (IMN)**
+*   Ta xét vị trí tương đối của bốn điểm M, N, I, O:
+    *   Trong tam giác SAD, MN là đường trung bình nên MN // AD.
+    *   Trong tam giác ABD, I là trung điểm AB, O là trung điểm BD nên IO là đường trung bình, suy ra IO // AD.
+    *   Từ MN // AD và IO // AD, suy ra MN // IO.
+    *   Hai đường thẳng MN và IO song song với nhau nên chúng đồng phẳng.
+    *   Do đó, bốn điểm M, N, I, O cùng nằm trên một mặt phẳng.
+*   Mặt phẳng (IMN) được xác định bởi ba điểm I, M, N.
+*   Mặt phẳng (ION) được xác định bởi ba điểm I, O, N.
+*   Vì cả bốn điểm M, N, I, O đều đồng phẳng, nên mặt phẳng (IMN) và mặt phẳng (ION) thực chất là một (cùng là mặt phẳng chứa tứ giác MNIO).
+*   Khi hai mặt phẳng là một, chúng không được coi là "cắt" nhau theo nghĩa thông thường (thường ám chỉ hai mặt phẳng phân biệt và giao nhau). Vì vậy, khẳng định D sai trong ngữ cảnh này.
+
+**C. (MNI) // (SBC)**
+*   Xét đường thẳng MN trong mặt phẳng (MNI):
+    *   M là trung điểm của SA, N là trung điểm của SD.
+    *   MN là đường trung bình của tam giác SAD.
+    *   Do đó, MN // AD.
+    *   ABCD là hình bình hành, nên AD // BC.
+    *   Từ MN // AD và AD // BC, suy ra MN // BC.
+    *   Vì BC nằm trong mặt phẳng (SBC), nên MN // (SBC). (1)
+*   Xét đường thẳng MI trong mặt phẳng (MNI):
+    *   M là trung điểm của SA, I là trung điểm của AB.
+    *   MI là đường trung bình của tam giác SAB.
+    *   Do đó, MI // SB.
+    *   Vì SB nằm trong mặt phẳng (SBC), nên MI // (SBC). (2)
+*   Trong mặt phẳng (MNI), hai đường thẳng MN và MI cắt nhau tại M.
+*   Từ (1) và (2), ta có hai đường thẳng cắt nhau MN và MI trong mặt phẳng (MNI) cùng song song với mặt phẳng (SBC).
+*   Theo định lý về hai mặt phẳng song song: Nếu một mặt phẳng chứa hai đường thẳng cắt nhau lần lượt song song với một mặt phẳng khác thì hai mặt phẳng đó song song với nhau.
+*   Vậy, mặt phẳng (MNI) // mặt phẳng (SBC).
+*   Khẳng định C đúng.
+
+The final answer is $\boxed{C}$
+
+--------------------------------------------------
+
+Câu 13: [Đúng/Sai]
+  Câu hỏi: Trong mặt phẳng
+(
+P
+)
+, cho hình bình hành
+A
+B
+C
+D
+. Vẽ các tia song song nhau, nằm cùng một phía đối với mặt phẳng
+(
+P
+)
+và đi qua các điểm
+A
+,
+B
+,
+C
+,
+D
+. Một mặt phẳng
+(
+Q
+)
+cắt bốn tia nói trên lầ
+  Đáp án: a=Đ, b=Đ, c=S, d=Đ
+  Giải thích: Để giải quyết bài toán này, chúng ta cần phân tích cấu trúc hình học được mô tả:
+1.  Cho hình bình hành ABCD trong mặt phẳng (P).
+2.  Vẽ các tia song song với nhau, đi qua A, B, C, D và nằm cùng một phía so với mặt phẳng (P). Gọi các điểm trên các tia này là A', B', C', D' trên mặt phẳng (Q).
+3.  Điều này có nghĩa là các đoạn thẳng AA', BB', CC', DD' là các đường thẳng song song với nhau.
+4.  Do AA' // BB' // CC' // DD', và A, B, C, D là các điểm trong mặt phẳng (P), A', B', C', D' là các điểm trong mặt phẳng (Q).
+
+Chúng ta sẽ phân tích từng phát biểu:
+
+**a) (1) Mặt phẳng (AA'B'B) song song với mặt phẳng (CC'D'D).**
+*   Mặt phẳng (AA'B'B) chứa hai đường thẳng cắt nhau AA' và AB.
+*   Mặt phẳng (CC'D'D) chứa hai đường thẳng cắt nhau CC' và CD.
+*   Theo giả thiết, AA' song song với CC'.
+*   Vì ABCD là hình bình hành, nên AB song song với CD.
+*   Hai đường thẳng cắt nhau AA' và AB trong mặt phẳng (AA'B'B) lần lượt song song với hai đường thẳng cắt nhau CC' và CD trong mặt phẳng (CC'D'D).
+*   Do đó, mặt phẳng (AA'B'B) song song với mặt phẳng (CC'D'D).
+*   **Kết luận: Phát biểu a) là Đúng.**
+
+**b) (2) A'B' // C'D'.**
+*   Vì AA' và BB' song song với nhau, tứ giác ABB'A' là một hình bình hành (hoặc hình thang với hai cạnh đáy song song AA' và BB', và hai cạnh bên AB, A'B' tạo thành hình bình hành). Do đó, A'B' song song với AB.
+*   Tương tự, vì CC' và DD' song song với nhau, tứ giác CDD'C' là một hình bình hành. Do đó, C'D' song song với CD.
+*   Vì ABCD là hình bình hành, nên AB song song với CD.
+*   Từ đó suy ra A'B' // AB // CD // C'D'.
+*   Vậy A'B' song song với C'D'.
+*   **Kết luận: Phát biểu b) là Đúng.**
+
+**c) (3) Tứ giác A'B'C'D' là hình thang cân.**
+*   Theo phân tích ở câu b), A'B' // C'D' và B'C' // A'D' (chứng minh tương tự như A'B' // C'D'). Do đó, tứ giác A'B'C'D' là một hình bình hành.
+*   Một hình bình hành chỉ là hình thang cân khi nó là hình chữ nhật (tức là có hai đường chéo bằng nhau).
+*   Không có thông tin nào trong đề bài đảm bảo rằng A'B'C'D' phải là hình chữ nhật. Ví dụ, nếu ABCD là một hình bình hành không phải hình chữ nhật và các tia AA', BB', CC', DD' vuông góc với mặt phẳng (P) và mặt phẳng (Q) song song với (P), thì A'B'C'D' sẽ là một hình bình hành congruent (đồng dạng và bằng nhau) với ABCD, và do đó cũng không phải là hình chữ nhật. Trong trường hợp tổng quát của các tia song song và mặt phẳng (Q) không song song với (P), A'B'C'D' vẫn là hình bình hành nhưng không nhất thiết là hình chữ nhật.
+*   Vì vậy, tứ giác A'B'C'D' không nhất thiết là hình thang cân.
+*   **Kết luận: Phát biểu c) là Sai.**
+
+**d) (4) Gọi O và O' lần lượt là giao điểm của hai đường chéo của ABCD và A'B'C'D'. Khi đó OO' // AA'.**
+*   Vì ABCD là hình bình hành, O là trung điểm của đường chéo AC.
+*   Vì A'B'C'D' là hình bình hành (theo phân tích ở câu c)), O' là trung điểm của đường chéo A'C'.
+*   Xét tứ giác ACC'A'. Vì AA' song song với CC' (do tất cả các tia song song với nhau), tứ giác ACC'A' là một hình thang (hoặc hình bình hành nếu AA' = CC').
+*   Trong hình thang ACC'A', O là trung điểm của AC và O' là trung điểm của A'C'.
+*   Để chứng minh OO' // AA', ta có thể dùng phương pháp vector.
+    *   Gọi **v** là vector chỉ phương của các tia song song.
+    *   Ta có: **A'** = **A** + k_A **v** và **C'** = **C** + k_C **v** (trong đó k_A và k_C là các hệ số tỉ lệ).
+    *   **O** = (**A** + **C**)/2
+    *   **O'** = (**A'** + **C'**)/2
+    *   Vector **OO'** = **O'** - **O** = [(**A'** + **C'**)/2] - [(**A** + **C**)/2]
+    *   **OO'** = 1/2 * [(**A'** - **A**) + (**C'** - **C**)]
+    *   **OO'** = 1/2 * (k_A **v** + k_C **v**) = 1/2 * (k_A + k_C) **v**.
+*   Vì vector **OO'** là một bội số của vector **v**, và vector **AA'** cũng cùng phương với **v**, nên OO' song song với AA'.
+*   **Kết luận: Phát biểu d) là Đúng.**
+
+--------------------------------------------------
+
+Câu 14: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy là hình bình hành tâm
+O
+. Gọi
+M
+,
+N
+lần lượt là trung điểm của
+S
+A
+và
+S
+D
+.
+  Đáp án: a=S, b=Đ, c=S, d=Đ
+  Giải thích: **a) (1) MN // (SAD)**
+*   **Phân tích:** M là trung điểm của cạnh SA, N là trung điểm của cạnh SD. Do đó, đoạn thẳng MN nằm hoàn toàn trong mặt phẳng (SAD).
+*   **Giải thích:** Trong hình học không gian, một đường thẳng được coi là song song với một mặt phẳng nếu đường thẳng đó không có điểm chung nào với mặt phẳng hoặc nằm hoàn toàn trong mặt phẳng đó. Tuy nhiên, trong các bài toán phổ thông, khi nói "đường thẳng song song với mặt phẳng", thường ngụ ý rằng chúng không có điểm chung (song song một cách chặt chẽ). Vì MN nằm trong (SAD), nó không "song song một cách chặt chẽ" với chính mặt phẳng đó.
+*   **Kết luận:** Phát biểu này là **Sai**.
+
+**b) (2) (OMN) // (SBC)**
+*   **Phân tích:**
+    *   M là trung điểm SA, N là trung điểm SD. Trong tam giác SAD, MN là đường trung bình, suy ra MN // AD.
+    *   ABCD là hình bình hành, suy ra AD // BC.
+    *   Từ hai điều trên, ta có MN // BC. Vì BC nằm trong mặt phẳng (SBC), nên MN // (SBC).
+    *   O là tâm của hình bình hành ABCD, nên O là trung điểm của BD. N là trung điểm của SD. Trong tam giác SBD, ON là đường trung bình, suy ra ON // SB.
+    *   Vì SB nằm trong mặt phẳng (SBC), nên ON // (SBC).
+    *   Hai đường thẳng MN và ON nằm trong mặt phẳng (OMN) và cắt nhau tại N. Cả hai đường thẳng này đều song song với mặt phẳng (SBC).
+*   **Giải thích:** Nếu hai đường thẳng cắt nhau cùng nằm trong một mặt phẳng và song song với một mặt phẳng khác, thì hai mặt phẳng đó song song với nhau. Ở đây, MN và ON cắt nhau tại N và cùng song song với (SBC).
+*   **Kết luận:** Phát biểu này là **Đúng**.
+
+**c) (3) Gọi E là trung điểm đoạn AB và F là một điểm thuộc đoạn ON. Khi đó EF cắt mặt phẳng (SBC).**
+*   **Phân tích:**
+    *   E là trung điểm AB, O là trung điểm BD (tâm hình bình hành). Trong tam giác ABD, OE là đường trung bình, suy ra OE // AD.
+    *   Vì ABCD là hình bình hành, AD // BC. Từ đó, OE // BC. Vì BC nằm trong mặt phẳng (SBC), nên OE // (SBC).
+    *   O là trung điểm BD, N là trung điểm SD. Trong tam giác SBD, ON là đường trung bình, suy ra ON // SB.
+    *   Vì SB nằm trong mặt phẳng (SBC), nên ON // (SBC).
+    *   Hai đường thẳng OE và ON nằm trong mặt phẳng (OEN) và cắt nhau tại O. Cả hai đường thẳng này đều song song với mặt phẳng (SBC).
+    *   Do đó, mặt phẳng (OEN) song song với mặt phẳng (SBC).
+    *   Điểm F thuộc đoạn ON, nên F nằm trong mặt phẳng (OEN). Điểm E cũng nằm trong mặt phẳng (OEN).
+    *   Như vậy, đường thẳng EF nằm hoàn toàn trong mặt phẳng (OEN).
+*   **Giải thích:** Vì mặt phẳng (OEN) song song với mặt phẳng (SBC), nên mọi đường thẳng nằm trong (OEN) đều song song với (SBC). Do đó, EF // (SBC). Nếu EF // (SBC), thì EF không cắt mặt phẳng (SBC) (trừ trường hợp EF nằm trong (SBC), điều này không xảy ra ở đây vì (OEN) và (SBC) là hai mặt phẳng phân biệt và song song).
+*   **Kết luận:** Phát biểu này là **Sai**.
+
+**d) (4) Gọi I là trung điểm BC. Khi đó NI song song với (SAB).**
+*   **Phân tích:** Chúng ta sẽ sử dụng phương pháp vector. Chọn S làm gốc tọa độ.
+    *   Vector vị trí của các đỉnh: $\vec{SA} = \vec{A}$, $\vec{SB} = \vec{B}$, $\vec{SC} = \vec{C}$, $\vec{SD} = \vec{D}$.
+    *   N là trung điểm SD: $\vec{SN} = \frac{1}{2}\vec{D}$.
+    *   I là trung điểm BC: $\vec{SI} = \frac{1}{2}(\vec{SB} + \vec{SC}) = \frac{1}{2}(\vec{B} + \vec{C})$.
+    *   Vector chỉ phương của đường thẳng NI là $\vec{NI} = \vec{SI} - \vec{SN} = \frac{1}{2}(\vec{B} + \vec{C}) - \frac{1}{2}\vec{D} = \frac{1}{2}(\vec{B} + \vec{C} - \vec{D})$.
+    *   Vì ABCD là hình bình hành, ta có $\vec{AD} = \vec{BC}$, tức là $\vec{D} - \vec{A} = \vec{C} - \vec{B}$. Từ đó, $\vec{C} = \vec{D} - \vec{A} + \vec{B}$.
+    *   Thay thế $\vec{C}$ vào biểu thức của $\vec{NI}$:
+        $\vec{NI} = \frac{1}{2}(\vec{B} + (\vec{D} - \vec{A} + \vec{B}) - \vec{D})$
+        $\vec{NI} = \frac{1}{2}(2\vec{B} - \vec{A}) = \vec{B} - \frac{1}{2}\vec{A}$.
+*   **Giải thích:** Mặt phẳng (SAB) được xác định bởi hai vector không cùng phương $\vec{SA}$ và $\vec{SB}$. Một đường thẳng song song với mặt phẳng (SAB) nếu vector chỉ phương của nó là một tổ hợp tuyến tính của $\vec{SA}$ và $\vec{SB}$. Ở đây, $\vec{NI} = (-1/2)\vec{A} + 1\vec{B}$. Vì $\vec{NI}$ có thể biểu diễn dưới dạng tổ hợp tuyến tính của $\vec{A}$ và $\vec{B}$, nên vector $\vec{NI}$ song song với mặt phẳng (SAB). Do đó, đường thẳng NI song song với mặt phẳng (SAB).
+*   **Kết luận:** Phát biểu này là **Đúng**.
+
+--------------------------------------------------
+
+Câu 15: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+H
+,
+I
+,
+K
+lần lượt là trung điểm của
+S
+A
+,
+S
+B
+,
+S
+C
+. Gọi
+M
+là giao điểm của
+A
+I
+và
+K
+D
+,
+N
+là giao điểm của
+D
+H
+và
+C
+I
+.
+  Đáp án: a=S, b=S, c=S, d=S
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 29: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành tâm
+O
+. Gọi
+M
+,
+N
+lần lượt là trung điểm của
+S
+A
+và
+S
+D
+.
+  Đáp án: a=S, b=S, c=S, d=Đ
+  Giải thích: a) **Phân tích:**
+*   Trong hình chóp S.ABCD, đáy ABCD là hình bình hành tâm O. Điều này có nghĩa là O là trung điểm của hai đường chéo AC và BD.
+*   N là trung điểm của SD (theo đề bài).
+*   Xét tam giác SBD, ta có O là trung điểm của BD và N là trung điểm của SD.
+*   Theo định lý đường trung bình trong tam giác, đoạn thẳng nối trung điểm hai cạnh của một tam giác thì song song với cạnh thứ ba và bằng một nửa cạnh đó.
+*   Vậy, ON là đường trung bình của tam giác SBD.
+*   Do đó, ON // SB và $ON = \frac{1}{2}SB$.
+*   Mệnh đề a) phát biểu $ON = \frac{1}{3}SB$. Điều này mâu thuẫn với kết quả $ON = \frac{1}{2}SB$.
+*   **Kết luận:** Mệnh đề a) là **Sai**.
+
+b) **Phân tích:**
+*   M là trung điểm của SA, N là trung điểm của SD (theo đề bài).
+*   Xét tam giác SAD, ta có M là trung điểm SA và N là trung điểm SD.
+*   Theo định lý đường trung bình trong tam giác, MN // AD và $MN = \frac{1}{2}AD$.
+*   Vì ABCD là hình bình hành, nên AD // BC.
+*   Từ đó suy ra MN // BC.
+*   Vì BC nằm trong mặt phẳng (SBC), nên MN // mặt phẳng (SBC). (Đây là một điều kiện để xét song song giữa hai mặt phẳng).
+*   Để mặt phẳng (AMN) song song với mặt phẳng (SBC), cần có thêm một đường thẳng nữa trong (AMN) (cắt MN) song song với (SBC).
+*   Xét đường thẳng AM. Nếu AM song song với (SBC), điều này có nghĩa là SA song song với (SBC) (vì A, M nằm trên SA). Điều này chỉ xảy ra trong các trường hợp suy biến của hình chóp (ví dụ: S, A, B, C đồng phẳng), mà không đúng với một hình chóp thông thường. Đường thẳng SA không thể song song với mặt phẳng (SBC) nếu S, A, B, C không đồng phẳng.
+*   Tương tự, AN cũng không song song với (SBC) một cách tổng quát.
+*   Vì vậy, không có đủ điều kiện để kết luận (AMN) song song với (SBC).
+*   **Kết luận:** Mệnh đề b) là **Sai**.
+
+c) **Phân tích:**
+*   P là trung điểm của AB (theo đề bài).
+*   Q là trung điểm của ON (theo đề bài).
+*   Từ phân tích ở câu a), ta biết O là trung điểm BD và N là trung điểm SD, suy ra ON // SB và $\vec{ON} = \frac{1}{2}\vec{SB}$.
+*   Xét tam giác ABD, ta có P là trung điểm AB, O là trung điểm BD.
+*   Theo định lý đường trung bình, PO // AD và $\vec{PO} = \frac{1}{2}\vec{AD}$.
+*   Vì ABCD là hình bình hành, $\vec{AD} = \vec{BC}$. Do đó, $\vec{PO} = \frac{1}{2}\vec{BC}$.
+*   Ta có $\vec{PQ} = \vec{PO} + \vec{OQ}$.
+*   Vì Q là trung điểm của ON, nên $\vec{OQ} = \frac{1}{2}\vec{ON}$.
+*   Thay $\vec{ON} = \frac{1}{2}\vec{SB}$ vào, ta được $\vec{OQ} = \frac{1}{2} \left(\frac{1}{2}\vec{SB}\right) = \frac{1}{4}\vec{SB}$.
+*   Vậy, $\vec{PQ} = \frac{1}{2}\vec{BC} + \frac{1}{4}\vec{SB}$.
+*   Vì $\vec{BC}$ và $\vec{SB}$ là hai vector không cùng phương nằm trong mặt phẳng (SBC), nên vector $\vec{PQ}$ là một tổ hợp tuyến tính của chúng, suy ra $\vec{PQ}$ song song với mặt phẳng (SBC).
+*   Do đó, đường thẳng PQ song song với mặt phẳng (SBC).
+*   Mặt khác, điểm P (trung điểm AB) và điểm Q (trung điểm ON) không nằm trong mặt phẳng (SBC) một cách tổng quát (trừ trường hợp suy biến).
+*   Một đường thẳng song song với một mặt phẳng và không nằm trong mặt phẳng đó thì không cắt mặt phẳng đó.
+*   Mệnh đề c) phát biểu PQ cắt (SBC).
+*   **Kết luận:** Mệnh đề c) là **Sai**.
+
+d) **Phân tích:**
+*   R là trung điểm của AD (theo đề bài).
+*   O là trung điểm của BD (vì O là tâm hình bình hành ABCD).
+*   M là trung điểm của SA (theo đề bài).
+*   Chúng ta cần kiểm tra xem mặt phẳng (MOR) có song song với mặt phẳng (SCD) hay không. Để chứng minh hai mặt phẳng song song, ta cần chứng minh hai đường thẳng cắt nhau trong mặt phẳng này song song với mặt phẳng kia.
+
+*   1. Xét đường thẳng RO:
+    *   Trong tam giác ABD, R là trung điểm của AD và O là trung điểm của BD.
+    *   Theo định lý đường trung bình, RO // AB.
+    *   Vì ABCD là hình bình hành, AB // CD.
+    *   Từ đó suy ra RO // CD.
+    *   Vì CD nằm trong mặt phẳng (SCD), nên RO // mặt phẳng (SCD). (Đây là đường thẳng thứ nhất trong (MOR) song song với (SCD)).
+
+*   2. Xét đường thẳng MO:
+    *   Trong tam giác SAC, M là trung điểm của SA (theo đề bài) và O là trung điểm của AC (vì O là tâm hình bình hành ABCD).
+    *   Theo định lý đường trung bình, MO // SC.
+    *   Vì SC nằm trong mặt phẳng (SCD), nên MO // mặt phẳng (SCD). (Đây là đường thẳng thứ hai trong (MOR) song song với (SCD)).
+
+*   Hai đường thẳng RO và MO nằm trong mặt phẳng (MOR) và cắt nhau tại điểm O. Cả hai đường thẳng này đều song song với mặt phẳng (SCD).
+*   Do đó, theo định lý về hai mặt phẳng song song, mặt phẳng (MOR) song song với mặt phẳng (SCD).
+*   **Kết luận:** Mệnh đề d) là **Đúng**.
+
+--------------------------------------------------
+
+Câu 30: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy là hình bình hành tâm
+O
+. Gọi
+M
+,
+N
+lần lượt là trung điểm của
+S
+A
+và
+S
+D
+. Lấy
+G
+là mộ
+  Đáp án: 1
+  Giải thích: We are given a pyramid S.ABCD with a parallelogram base ABCD, centered at O. M and N are midpoints of SA and SD respectively. G is a point in the plane (ABCD) equidistant from AB and CD. We need to find how many of the planes (NGO), (NDC), (MOG) are parallel to plane (SAB).
+
+A plane P is parallel to another plane Q if P contains two intersecting lines, both of which are parallel to Q. A line is parallel to a plane if it is parallel to any line within that plane.
+
+First, let's analyze the properties given:
+1.  **ABCD is a parallelogram centered at O**: This means AB || CD, AD || BC. O is the midpoint of AC and BD.
+2.  **M is midpoint of SA, N is midpoint of SD**.
+3.  **G is a point in (ABCD) equidistant from AB and CD**: Since AB || CD, the locus of points equidistant from AB and CD is a line parallel to AB and CD, passing through the midpoint of AD and BC. Let K be the midpoint of AD and L be the midpoint of BC. Then G lies on the line segment KL. In a parallelogram, the center O is the midpoint of KL. Therefore, the line OG is part of the line KL, which is parallel to AB (and CD). So, OG || AB.
+
+Now we check each given plane:
+
+**1. Plane (NGO):**
+*   **Consider line OG**: As established above, G lies on the line passing through O that is parallel to AB. Thus, OG || AB. Since AB is a line in plane (SAB), it implies that OG || (SAB).
+*   **Consider line ON**: N is the midpoint of SD. O is the midpoint of BD (since O is the center of parallelogram ABCD). In triangle SBD, the line segment ON connects the midpoints of two sides (SD and BD). By the midpoint theorem, ON || SB. Since SB is a line in plane (SAB), it implies that ON || (SAB).
+*   **Conclusion for (NGO)**: Lines OG and ON are two intersecting lines in plane (NGO) (they intersect at O). Both lines are parallel to plane (SAB). Therefore, plane (NGO) is parallel to plane (SAB).
+
+**2. Plane (NDC):**
+*   **Consider line CD**: Since ABCD is a parallelogram, CD || AB. Since AB is in plane (SAB), it implies that CD || (SAB).
+*   **Consider the condition for parallelism**: If (NDC) were parallel to (SAB), then any line in (NDC) must be parallel to (SAB). Consider the line ND, which is segment SD. For a general pyramid, the edge SD is not parallel to the plane (SAB) (unless S, A, B, D are coplanar, which is not true for a pyramid). For example, SA and SD intersect at S, and SD is not parallel to SA or SB or AB in general. Therefore, SD is not parallel to (SAB).
+*   **Conclusion for (NDC)**: Since line SD (which is line ND in plane (NDC)) is not parallel to plane (SAB), plane (NDC) is not parallel to plane (SAB).
+
+**3. Plane (MOG):**
+*   **Consider line OG**: As established earlier, OG || AB. Since AB is in plane (SAB), it implies that OG || (SAB).
+*   **Consider line MO**: M is the midpoint of SA. O is the midpoint of AC (since O is the center of parallelogram ABCD). In triangle SAC, the line segment MO connects the midpoints of two sides (SA and AC). By the midpoint theorem, MO || SC.
+*   **Consider the condition for parallelism**: If (MOG) were parallel to (SAB), then MO must be parallel to (SAB). This would imply that SC || (SAB). For a general pyramid, the edge SC is not parallel to the plane (SAB). SC intersects SA and SB at S. SC is not parallel to AB (unless in very specific degenerate cases). Therefore, SC is not parallel to (SAB).
+*   **Conclusion for (MOG)**: Since line MO is not parallel to plane (SAB), plane (MOG) is not parallel to plane (SAB).
+
+Out of the three planes (NGO), (NDC), and (MOG), only plane (NGO) is parallel to plane (SAB).
+
+The final answer is $\boxed{1}$
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 35
+Đúng: 31 | Sai: 4
+Thời gian: 25.7 phút

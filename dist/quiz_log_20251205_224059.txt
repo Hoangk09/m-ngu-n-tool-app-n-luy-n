@@ -1,0 +1,88 @@
+=== Quiz Log - 2025-12-05 22:40:59 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: 
+  Đáp án: D
+  Giải thích: ANSWER: Không thể trả lời
+EXPLANATION: Hình ảnh được cung cấp là giao diện của một bài kiểm tra trực tuyến, nhưng nội dung của câu hỏi (bao gồm cả đề bài và các lựa chọn A, B, C, D) hoàn toàn trống rỗng. Do đó, không có thông tin để xác định câu trả lời đúng.
+
+--------------------------------------------------
+
+Câu 4: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy là hình bình hành. Gọi
+M
+,
+N
+lần lượt là trung điểm của
+A
+B
+và
+C
+D
+, điểm
+P
+thuộc cạnh
+S
+A
+. Giao tuyến của hai mặt phẳng
+(
+S
+A
+D
+)
+và
+(
+P
+M
+N
+)
+là
+  Đáp án: B
+  Giải thích: Để tìm giao tuyến của hai mặt phẳng (SAD) và (PMN), ta thực hiện các bước sau:
+
+1.  **Tìm một điểm chung:**
+    Điểm P thuộc cạnh SA. Do đó, P thuộc mặt phẳng (SAD).
+    Điểm P cũng thuộc mặt phẳng (PMN) theo định nghĩa.
+    Vậy P là một điểm chung của hai mặt phẳng (SAD) và (PMN).
+
+2.  **Tìm phương song song:**
+    *   Xét đáy ABCD là hình bình hành.
+    *   M là trung điểm của AB, N là trung điểm của CD.
+    *   Vì ABCD là hình bình hành nên AB song song với CD và AB = CD.
+    *   Từ đó, AM = MB = AB/2 và DN = NC = CD/2.
+    *   Suy ra AM = DN và AM song song với DN (do AB song song với CD).
+    *   Tứ giác AMND có một cặp cạnh đối AM và DN song song và bằng nhau, nên AMND là hình bình hành.
+    *   Trong hình bình hành AMND, cạnh AD song song với cạnh MN (AD // MN).
+
+3.  **Áp dụng định lý về giao tuyến của hai mặt phẳng song song:**
+    *   Mặt phẳng (SAD) chứa đường thẳng AD.
+    *   Mặt phẳng (PMN) chứa đường thẳng MN.
+    *   Chúng ta vừa chứng minh được AD // MN.
+    *   Theo định lý, nếu hai mặt phẳng cắt nhau và cùng chứa hai đường thẳng song song thì giao tuyến của chúng sẽ song song với hai đường thẳng đó.
+    *   Vậy giao tuyến của (SAD) và (PMN) sẽ song song với AD (và MN).
+
+4.  **Kết luận:**
+    Giao tuyến của hai mặt phẳng (SAD) và (PMN) là đường thẳng đi qua điểm chung P và song song với AD.
+
+So sánh với các phương án:
+A. đường thẳng qua P và song song với AB. (Sai, vì AD không song song với AB)
+B. đường thẳng qua P và song song với AD. (Đúng theo phân tích trên)
+C. đường thẳng qua P và song song với MC. (Sai)
+D. PD. (Sai, vì D không thuộc mặt phẳng (PMN) nói chung)
+
+Vậy đáp án đúng là B.
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 4
+Đúng: 4 | Sai: 0
+Thời gian: 2.1 phút

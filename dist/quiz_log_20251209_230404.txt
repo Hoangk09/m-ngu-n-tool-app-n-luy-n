@@ -1,0 +1,486 @@
+=== Quiz Log - 2025-12-09 23:04:04 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Trên một sợi dây đàn hồi đang có sóng dừng với bước sóng 10 cm. Bụng sóng và nút sóng liền kề cách nhau
+  Đáp án: C
+  Giải thích: Trong sóng dừng, khoảng cách giữa một bụng sóng (antinode) và một nút sóng (node) liền kề nhau luôn bằng một phần tư bước sóng (λ/4).
+Theo đề bài, bước sóng của sóng dừng là λ = 10 cm.
+Vậy, khoảng cách giữa bụng sóng và nút sóng liền kề là:
+d = λ / 4 = 10 cm / 4 = 2,5 cm.
+
+So sánh với các phương án lựa chọn:
+A. 1,25 cm
+B. 10,0 cm
+C. 2,5 cm
+D. 5,0 cm
+
+Kết quả tính toán trùng với phương án C.
+
+--------------------------------------------------
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Hình bên là các dụng cụ để đo tốc độ truyền âm
+
+Hãy cho biết dụng cụ số (3) là
+  Đáp án: A
+  Giải thích: Hình ảnh cho thấy một bộ dụng cụ thí nghiệm dùng để đo tốc độ truyền âm. Chúng ta cần xác định dụng cụ được đánh số (3).
+
+Dụng cụ (3) là một thiết bị điện tử hình hộp chữ nhật có nhiều nút điều khiển, núm vặn và một màn hình hiển thị nhỏ ở mặt trước. Đây là đặc điểm điển hình của một máy phát tần số (hay máy phát hàm/signal generator). Trong thí nghiệm đo tốc độ truyền âm, máy phát tần số được sử dụng để tạo ra tín hiệu điện với tần số xác định, sau đó tín hiệu này được đưa tới loa (thường là dụng cụ số (4) trong hình) để phát ra sóng âm có tần số mong muốn.
+
+Bây giờ hãy xem xét các lựa chọn:
+A. máy phát tần số phát ra tín hiệu có dạng sin: Đây là mô tả chính xác về chức năng và hình dạng của dụng cụ (3). Máy phát tần số được dùng để tạo ra các loại tín hiệu điện (thường là sóng sin, sóng vuông, sóng tam giác) ở các tần số khác nhau.
+B. dao động kí điện tử: Dao động kí điện tử (oscilloscope) là thiết bị dùng để hiển thị và phân tích dạng sóng của tín hiệu điện, chứ không phải để tạo ra tín hiệu. Dụng cụ (3) không giống một dao động kí điện tử điển hình.
+C. biến thế nguồn: Biến thế nguồn (power transformer) dùng để biến đổi điện áp, thường có hình dáng đơn giản hơn và không có nhiều nút điều khiển hay màn hình hiển thị như dụng cụ (3).
+D. một loa nhỏ: Loa (speaker) dùng để chuyển đổi tín hiệu điện thành sóng âm. Dụng cụ (4) trong hình có vẻ là loa, chứ không phải dụng cụ (3).
+
+Dựa trên hình ảnh và vai trò của các thiết bị trong thí nghiệm vật lý, dụng cụ (3) chính là máy phát tần số.
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Sóng điện từ có tần số 107 Hz truyền trong chân không với tốc độ
+3
+.1
+0
+8
+m/s
+có bước sóng là
+  Đáp án: A
+  Giải thích: Để tính bước sóng của sóng điện từ, chúng ta sử dụng công thức liên hệ giữa tốc độ truyền sóng (c), tần số (f) và bước sóng (λ):
+c = λ * f
+
+Từ công thức này, ta có thể tìm bước sóng λ bằng cách chia tốc độ truyền sóng cho tần số:
+λ = c / f
+
+Trong bài toán này, chúng ta được cho:
+Tần số (f) = 10^7 Hz
+Tốc độ truyền sóng trong chân không (c) = 3 * 10^8 m/s (đây là tốc độ ánh sáng trong chân không)
+
+Thay các giá trị vào công thức:
+λ = (3 * 10^8 m/s) / (10^7 Hz)
+λ = 3 * 10^(8 - 7) m
+λ = 3 * 10^1 m
+λ = 30 m
+
+So sánh kết quả này với các phương án đã cho:
+A. 30 m.
+B. 60 m.
+C. 3 m.
+D. 6 m.
+
+Kết quả tính toán trùng khớp với phương án A.
+
+--------------------------------------------------
+
+Câu 4: [Đúng/Sai]
+  Câu hỏi: Cho phương trình dao động điều hòa:
+  Đáp án: a=S, b=Đ, c=S, d=S
+  Giải thích: Phương trình dao động điều hòa đã cho là $x = 4 \cos(4\pi t - \frac{\pi}{3})$ cm.
+Từ phương trình này, ta có thể xác định các đại lượng:
+- Biên độ (Amplitude): $A = 4$ cm
+- Tần số góc (Angular frequency): $\omega = 4\pi$ rad/s
+- Pha ban đầu (Initial phase): $\phi = -\frac{\pi}{3}$ rad
+
+Bây giờ ta sẽ đánh giá từng phát biểu:
+
+**a) Chiều dài quỹ đạo là 10 cm.**
+Chiều dài quỹ đạo của dao động điều hòa là $L = 2A$.
+Thay $A = 4$ cm vào, ta có $L = 2 \times 4 = 8$ cm.
+Phát biểu nói chiều dài quỹ đạo là 10 cm, điều này là sai.
+
+**b) Chu kỳ của dao động bằng 0,5 s.**
+Chu kỳ $T$ được tính bằng công thức $T = \frac{2\pi}{\omega}$.
+Thay $\omega = 4\pi$ rad/s vào, ta có $T = \frac{2\pi}{4\pi} = \frac{1}{2} = 0,5$ s.
+Phát biểu nói chu kỳ là 0,5 s, điều này là đúng.
+
+**c) Tốc độ cực đại bằng 40π cm/s.**
+Tốc độ cực đại $v_{max}$ được tính bằng công thức $v_{max} = A\omega$.
+Thay $A = 4$ cm và $\omega = 4\pi$ rad/s vào, ta có $v_{max} = 4 \times 4\pi = 16\pi$ cm/s.
+Phát biểu nói tốc độ cực đại là 40π cm/s, điều này là sai.
+
+**d) Khi pha dao động bằng $\frac{2\pi}{3}$(rad) thì gia tốc bằng $80\pi^2$ cm/s².**
+Gia tốc $a$ trong dao động điều hòa được tính bằng công thức $a = -\omega^2 x = -\omega^2 A \cos(\omega t + \phi)$.
+Pha dao động là $\Phi = \omega t + \phi$.
+Khi pha dao động $\Phi = \frac{2\pi}{3}$ rad, gia tốc là:
+$a = -\omega^2 A \cos(\frac{2\pi}{3})$
+$a = -(4\pi)^2 \times 4 \times \cos(\frac{2\pi}{3})$
+Ta biết $\cos(\frac{2\pi}{3}) = -\frac{1}{2}$.
+$a = -(16\pi^2) \times 4 \times (-\frac{1}{2})$
+$a = -64\pi^2 \times (-\frac{1}{2})$
+$a = 32\pi^2$ cm/s².
+Phát biểu nói gia tốc bằng $80\pi^2$ cm/s², điều này là sai.
+
+--------------------------------------------------
+
+Câu 5: [Đúng/Sai]
+  Câu hỏi: Trong thí nghiệm Young có bước sóng ánh sáng là 0,6 µm. Biết khoảng cách giữa hai khe là
+1 mm, khoảng cách từ hai khe đến màn là 2 m.
+  Đáp án: a=Đ, b=S, c=S, d=S
+  Giải thích: Chúng ta có các thông số sau từ đề bài:
+*   Bước sóng ánh sáng: λ = 0.6 µm = 0.6 × 10⁻⁶ m
+*   Khoảng cách giữa hai khe: a = 1 mm = 1 × 10⁻³ m
+*   Khoảng cách từ hai khe đến màn: D = 2 m
+
+Đầu tiên, chúng ta tính khoảng vân (i) theo công thức: i = (λD) / a
+i = (0.6 × 10⁻⁶ m × 2 m) / (1 × 10⁻³ m)
+i = (1.2 × 10⁻⁶) / (1 × 10⁻³) m
+i = 1.2 × 10⁻³ m = 1.2 mm
+
+Bây giờ chúng ta sẽ đánh giá từng phát biểu:
+
+a) Khoảng vân bằng 1,2 mm.
+*   Theo tính toán của chúng ta, khoảng vân i = 1.2 mm.
+*   Phát biểu này là **Đúng**.
+
+b) Vị trí vân sáng bậc ba là 3,6 cm.
+*   Vị trí vân sáng bậc k được tính bằng công thức: x_s = k * i
+*   Đối với vân sáng bậc ba (k=3): x_s3 = 3 * i = 3 * 1.2 mm = 3.6 mm.
+*   Phát biểu nói rằng vị trí là 3.6 cm, mà 3.6 cm = 36 mm. Giá trị này khác với 3.6 mm.
+*   Phát biểu này là **Sai**.
+
+c) Vị trí vân tối thứ 2 là 18 mm.
+*   Vị trí vân tối thứ m được tính bằng công thức: x_t = (m - 0.5) * i
+*   Đối với vân tối thứ 2 (m=2): x_t2 = (2 - 0.5) * i = 1.5 * i = 1.5 * 1.2 mm = 1.8 mm.
+*   Phát biểu nói rằng vị trí là 18 mm. Giá trị này khác với 1.8 mm.
+*   Phát biểu này là **Sai**.
+
+d) Tại vị trí cách vân trung tâm 6 mm là vân sáng bậc 4.
+*   Để xác định đây là loại vân gì và bậc bao nhiêu, ta dùng công thức x = k * i (cho vân sáng) hoặc x = (m - 0.5) * i (cho vân tối).
+*   Với x = 6 mm và i = 1.2 mm, ta tính tỉ số x/i: 6 mm / 1.2 mm = 5.
+*   Vì kết quả là một số nguyên (5), đây là vị trí của một vân sáng. Vân sáng này có bậc k = 5.
+*   Phát biểu nói rằng đây là vân sáng bậc 4.
+*   Phát biểu này là **Sai**.
+
+--------------------------------------------------
+
+Câu 6: [Đúng/Sai]
+  Câu hỏi: Một sóng hình sin được mô tả như hình vẽ
+  Đáp án: a=Đ, b=S, c=S, d=S
+  Giải thích: Dựa vào đồ thị sóng hình sin đã cho, chúng ta có thể phân tích từng đại lượng:
+
+**a) Biên độ sóng là 10 cm.**
+*   Biên độ sóng (A) là độ dịch chuyển cực đại của các phần tử môi trường so với vị trí cân bằng.
+*   Trên đồ thị, giá trị cực đại của u là 10 cm và giá trị cực tiểu là -10 cm.
+*   Do đó, biên độ sóng là A = 10 cm.
+*   **Kết luận:** Phát biểu này là **Đúng**.
+
+**b) Chu kỳ truyền sóng là 120 ms.**
+*   Chu kỳ sóng (T) là khoảng thời gian để sóng thực hiện một dao động toàn phần.
+*   Từ đồ thị, ta thấy một chu kỳ sóng bắt đầu từ t=0 (u=0, đang tăng), đạt cực đại ở t=20 ms, trở về 0 ở t=40 ms, đạt cực tiểu ở t=60 ms, và trở về 0 (đang tăng) ở t=80 ms.
+*   Vậy, chu kỳ sóng là T = 80 ms.
+*   **Kết luận:** Phát biểu này là **Sai** (vì 80 ms khác 120 ms).
+
+**c) Tần số sóng là 60 Hz.**
+*   Tần số sóng (f) được tính bằng công thức f = 1/T.
+*   Chúng ta đã xác định chu kỳ T = 80 ms = 0.08 s.
+*   Vậy, f = 1 / 0.08 = 100 / 8 = 12.5 Hz.
+*   **Kết luận:** Phát biểu này là **Sai** (vì 12.5 Hz khác 60 Hz).
+
+**d) Tốc độ dao động cực đại của các phần tử môi trường là 2 m/s.**
+*   Tốc độ dao động cực đại của các phần tử môi trường được tính bằng công thức v_max = Aω, trong đó ω = 2πf = 2π/T.
+*   Biên độ A = 10 cm = 0.1 m.
+*   Chu kỳ T = 80 ms = 0.08 s.
+*   Vận tốc góc ω = 2π / 0.08 = 25π rad/s.
+*   Tốc độ dao động cực đại v_max = Aω = 0.1 m * 25π rad/s = 2.5π m/s.
+*   Giá trị xấp xỉ của 2.5π là khoảng 2.5 * 3.14159 ≈ 7.85 m/s.
+*   **Kết luận:** Phát biểu này là **Sai** (vì 2.5π m/s khác 2 m/s).
+
+--------------------------------------------------
+
+Câu 7: [Đúng/Sai]
+  Câu hỏi: Trong thí nghiệm nghiên cứu sóng dừng trên dây, người ta bố trí thí nghiệm như hình vẽ. Biết chiều dài dây là 0,6 m. Khi nguồn phát dao động có tần số
+f
+=
+24
+H
+z
+thì trên dây xuất hiện sóng dừng với 4
+  Đáp án: a=S, b=Đ, c=S, d=S
+  Giải thích: a) **Sóng truyền trên dây là sóng dọc.** (Sóng truyền trên dây là sóng dọc.)
+Giải thích: Sóng truyền trên dây (ví dụ như sóng dừng trong thí nghiệm này) là sóng ngang. Trong sóng ngang, các phần tử của môi trường dao động vuông góc với phương truyền sóng. Sóng dọc là sóng mà các phần tử môi trường dao động cùng phương với phương truyền sóng (ví dụ: sóng âm trong không khí). Do đó, phát biểu này là Sai.
+
+b) **Bụng sóng là những điểm có biên độ dao động cực đại.** (Bụng sóng là những điểm có biên độ dao động cực đại.)
+Giải thích: Theo định nghĩa, bụng sóng (antinode) trong sóng dừng là những điểm mà tại đó các phần tử môi trường dao động với biên độ lớn nhất. Nút sóng (node) là những điểm có biên độ dao động bằng 0. Do đó, phát biểu này là Đúng.
+
+c) **Số nút sóng trên dây là 6.** (Số nút sóng trên dây là 6.)
+Giải thích: Trong thí nghiệm sóng dừng trên dây với hai đầu cố định, nếu có k bụng sóng thì số nút sóng sẽ là k + 1. Đề bài cho biết có 4 bụng sóng (k = 4). Vậy số nút sóng trên dây là 4 + 1 = 5 nút. Do đó, phát biểu này là Sai.
+
+d) **Tốc độ truyền sóng trên dây là 10 m/s.** (Tốc độ truyền sóng trên dây là 10 m/s.)
+Giải thích:
+*   Chiều dài dây là L = 0.6 m.
+*   Số bụng sóng là k = 4.
+*   Đối với sóng dừng trên dây hai đầu cố định, mối liên hệ giữa chiều dài dây L và bước sóng λ khi có k bụng sóng là: L = k * (λ/2).
+*   Thay số: 0.6 = 4 * (λ/2) => 0.6 = 2λ => λ = 0.6 / 2 = 0.3 m.
+*   Tần số của nguồn phát dao động là f = 24 Hz.
+*   Tốc độ truyền sóng trên dây được tính bằng công thức v = λ * f.
+*   Thay số: v = 0.3 m * 24 Hz = 7.2 m/s.
+Phát biểu này cho rằng tốc độ truyền sóng là 10 m/s, điều này là Sai.
+
+--------------------------------------------------
+
+Câu 8: [Trả lời ngắn]
+  Câu hỏi: Một con lắc lò xo có khối lượng 100g dao động cưỡng bức ổn định dưới ngoại lực biến thiên tuần hoàn theo thời gian với tần số f. Đồ thị biểu diễn sự phụ thuộc của biên độ dao động vào tần số góc của n
+  Đáp án: 25
+  Giải thích: The problem describes a forced oscillation of a spring-mass system. The provided graph shows the amplitude (A) of the oscillation as a function of the angular frequency (ω) of the external force.
+
+1.  **Identify the mass (m):**
+    The mass of the object is given as 100g.
+    Convert grams to kilograms: m = 100 g = 0.1 kg.
+
+2.  **Identify the resonant angular frequency (ω₀) from the graph:**
+    The graph shows the amplitude reaching its maximum value when the external force's angular frequency matches the natural angular frequency of the system. This phenomenon is called resonance.
+    From the graph, the peak amplitude occurs at ω = 5π rad/s.
+    Therefore, the resonant angular frequency is ω₀ = 5π rad/s.
+
+3.  **Recall the formula for the natural angular frequency (ω₀) of a spring-mass system:**
+    The natural angular frequency for a spring-mass system is given by:
+    ω₀ = √(k/m)
+    where k is the spring constant and m is the mass.
+
+4.  **Solve for the spring constant (k):**
+    Square both sides of the equation:
+    ω₀² = k/m
+    Rearrange to find k:
+    k = m * ω₀²
+
+5.  **Substitute the known values into the equation:**
+    m = 0.1 kg
+    ω₀ = 5π rad/s
+    k = 0.1 * (5π)²
+    k = 0.1 * (25π²)
+
+6.  **Use the given value for π²:**
+    The problem states to use π² = 10.
+    k = 0.1 * 25 * 10
+    k = 0.1 * 250
+    k = 25 N/m
+
+The spring constant is 25 N/m.
+
+--------------------------------------------------
+
+Câu 9: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Hình bên mô tả sóng dừng trên một sợi dây có chiều dài 0,9 m hai đầu cố định. Khi tần số là 180 Hz. Tốc độ của sóng là bao nh
+  Đáp án: 108
+  Giải thích: 1.  **Identify the given information:**
+    *   Length of the string, L = 0.9 m
+    *   Frequency of the wave, f = 180 Hz
+    *   From the image, observe the standing wave pattern. The string has both ends fixed. There are 3 full segments (loops) or antinodes. This means the wave is in its 3rd harmonic, so n = 3.
+
+2.  **Relate the length of the string to the wavelength for a standing wave with fixed ends:**
+    For a string fixed at both ends, the length L is related to the wavelength λ by the formula:
+    L = n * (λ/2)
+    where n is the number of antinodes.
+
+3.  **Calculate the wavelength (λ):**
+    Substitute the known values into the formula:
+    0.9 m = 3 * (λ/2)
+    0.9 = 1.5 * λ
+    λ = 0.9 / 1.5
+    λ = 0.6 m
+
+4.  **Calculate the speed of the wave (v):**
+    The speed of a wave is given by the formula:
+    v = f * λ
+    Substitute the frequency (f) and the calculated wavelength (λ):
+    v = 180 Hz * 0.6 m
+    v = 108 m/s
+
+Therefore, the speed of the wave is 108 m/s.
+
+--------------------------------------------------
+
+Câu 10: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Một sóng hình sin truyền trên một sợi dây dài. Ở thời điểm t, hình dạng của một đoạn dây như hình vẽ. Các vị trí cân bằng của
+  Đáp án: 24
+  Giải thích: The image displays a sinusoidal wave propagating along a string, with its displacement `u(mm)` plotted against position `x(cm)`. The problem asks for the wavelength of this wave in cm.
+
+1.  **Identify Nodes (Equilibrium Positions):** The problem states that the equilibrium positions of the elements on the string are on the Ox axis. The graph explicitly marks three points where the wave crosses the x-axis (i.e., where the displacement `u` is zero):
+    *   x = 0 cm
+    *   x = 12 cm
+    *   x = 36 cm
+
+    These points are nodes of the wave.
+
+2.  **Determine Wavelength from Consecutive Nodes:** A wavelength (λ) is the spatial period of the wave. The distance between two consecutive nodes depends on their phase relationship:
+    *   The distance between a node where the wave crosses the axis going upwards (positive slope) and the next node where it crosses going downwards (negative slope) is half a wavelength (λ/2).
+    *   The distance between a node where the wave crosses the axis going downwards (negative slope) and the next node where it crosses going upwards (positive slope) is also half a wavelength (λ/2).
+    *   The distance between two consecutive nodes with the same phase (e.g., both going upwards) is a full wavelength (λ).
+
+3.  **Analyze the Segment from x=0 to x=12 cm:**
+    *   At x=0 cm, the wave starts at an equilibrium position. Visually, it proceeds upwards initially, implying a positive slope.
+    *   At x=12 cm, the wave reaches the next equilibrium position. Visually, after reaching a crest, it crosses the x-axis downwards, implying a negative slope.
+    *   Therefore, the segment from x=0 cm (upward crossing node) to x=12 cm (downward crossing node) represents exactly half a wavelength.
+    *   So, λ/2 = 12 cm.
+    *   This gives a wavelength of λ = 2 * 12 cm = 24 cm.
+
+4.  **Verify Consistency with x=36 cm (Optional but Recommended):**
+    Let's check if λ = 24 cm is consistent with the third marked node at x=36 cm.
+    If λ = 24 cm, then the nodes (equilibrium positions) occur at integer multiples of λ/2.
+    λ/2 = 24 cm / 2 = 12 cm.
+    *   x = 0 cm = 0 * (λ/2)
+    *   x = 12 cm = 1 * (λ/2)
+    *   x = 24 cm = 2 * (λ/2)
+    *   x = 36 cm = 3 * (λ/2)
+
+    All three labeled nodes (0, 12, 36 cm) are consistent with a wavelength of 24 cm, being the 0th, 1st, and 3rd multiples of λ/2, respectively.
+
+    *Self-correction/Inconsistency Note:* While the numerical positions of the nodes are consistent with λ = 24 cm, the visual representation of the slope at x=36 cm appears to be positive (upward crossing). However, if x=36 cm is the third λ/2 node (i.e., `3π` in phase for a sine wave starting at `0`), its slope should be negative. In cases of such inconsistencies in diagrams, the numerical labels of critical points (like node positions) are generally considered more accurate and reliable than the precise drawing of slopes in a schematic diagram. Therefore, we prioritize the consistency of node positions.
+
+The wavelength is 24 cm.
+
+The final answer is $\boxed{24}$
+
+--------------------------------------------------
+
+Câu 11: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Một bạn học sinh đang câu cá trên hồ nước. Khi có sóng đi qua, bạn quan sát thấy phao câu cá nhô lên cao 6 lần trong 4 s. Biế
+  Đáp án: 0,4
+  Giải thích: 1.  **Understand the observation:** The fishing float rises 6 times in 4 seconds. When a float rises, it indicates a wave crest passing. The time interval between the first rise and the second rise is one period (T). Therefore, if it rises 6 times, it has completed 5 full oscillations or periods.
+    *   Number of periods = (Number of rises) - 1 = 6 - 1 = 5 periods.
+    *   Total time (t) = 4 seconds.
+
+2.  **Calculate the period (T):** The period is the time taken for one complete oscillation.
+    *   T = Total time / Number of periods
+    *   T = 4 s / 5
+    *   T = 0.8 s
+
+3.  **Identify the given wave speed (v):**
+    *   v = 0.5 m/s
+
+4.  **Calculate the wavelength (λ):** The distance between two consecutive wave crests is the wavelength (λ). The relationship between wave speed (v), wavelength (λ), and period (T) is:
+    *   v = λ / T
+    *   Rearranging for λ: λ = v * T
+    *   λ = 0.5 m/s * 0.8 s
+    *   λ = 0.4 m
+
+The distance between two consecutive wave crests is 0.4 meters.
+
+--------------------------------------------------
+
+Câu 12: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Trong thí nghiệm giao thoa Young, nguồn S phát ánh sáng đơn sắc có bước sóng λ người ta đặt màn quan sát cách mặt phẳng hai k
+  Đáp án: RANDOM: 53
+
+--------------------------------------------------
+
+Câu 13: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Trên mặt nước có hai nguồn kết hợp A, B dao động cùng pha và cách nhau 8 cm, bước sóng do sóng từ các nguồn phát ra là 0,5 cm
+  Đáp án: 7,99
+  Giải thích: To solve this problem, we need to find a point M on a circle with diameter AB such that:
+1.  M oscillates with maximum amplitude (constructive interference).
+2.  M is farthest from B.
+
+Given information:
+*   Distance between sources A and B: AB = 8 cm.
+*   Wavelength: λ = 0.5 cm.
+*   Sources A and B vibrate in phase.
+
+**Step 1: Condition for constructive interference**
+For two coherent sources vibrating in phase, constructive interference occurs at a point M if the path difference from the two sources to M is an integer multiple of the wavelength.
+Let AM be the distance from A to M, and BM be the distance from B to M.
+The path difference is |BM - AM|. So, BM - AM = kλ, where k is an integer.
+
+**Step 2: Geometric condition for M on the circle with diameter AB**
+If M is a point on the circle with diameter AB, then the triangle AMB is a right-angled triangle with the right angle at M (Thales's theorem).
+Therefore, AM² + BM² = AB².
+
+**Step 3: Combine the conditions to find BM**
+Let's substitute AM from the interference condition into the geometric condition.
+From BM - AM = kλ, we have AM = BM - kλ.
+Substitute this into AM² + BM² = AB²:
+(BM - kλ)² + BM² = AB²
+BM² - 2kλBM + (kλ)² + BM² = AB²
+2BM² - 2kλBM + (kλ)² - AB² = 0
+
+This is a quadratic equation for BM. Using the quadratic formula, BM = [-b ± √(b² - 4ac)] / 2a:
+BM = [2kλ ± √((-2kλ)² - 4 * 2 * ((kλ)² - AB²))] / (2 * 2)
+BM = [2kλ ± √(4(kλ)² - 8(kλ)² + 8AB²)] / 4
+BM = [2kλ ± √(8AB² - 4(kλ)²)] / 4
+BM = [kλ ± √(2AB² - (kλ)²)] / 2
+
+**Step 4: Determine the valid range for k**
+For BM to be a real number, the term under the square root must be non-negative:
+2AB² - (kλ)² ≥ 0
+(kλ)² ≤ 2AB²
+|kλ| ≤ AB√2
+Given AB = 8 cm and λ = 0.5 cm:
+|k * 0.5| ≤ 8√2
+|0.5k| ≤ 11.3137...
+|k| ≤ 22.627...
+Since k must be an integer, k can range from -22 to 22.
+
+Also, AM and BM must be positive distances.
+BM > 0: We choose the '+' sign in the quadratic formula to maximize BM.
+BM = [kλ + √(2AB² - (kλ)²)] / 2.
+If kλ < 0, for BM > 0, we need kλ + √(2AB² - (kλ)²) > 0, which implies √(2AB² - (kλ)²) > -kλ. Squaring both sides (since both are positive): 2AB² - (kλ)² > (kλ)², which simplifies to (kλ)² < AB². So, |kλ| < AB. If kλ < 0, then -AB < kλ < 0. So, -8 < 0.5k < 0, which means -16 < k < 0. Thus, k can be from -15 to -1. If kλ >= 0, BM is always positive.
+
+AM > 0: AM = BM - kλ = [kλ + √(2AB² - (kλ)²)] / 2 - kλ = [-kλ + √(2AB² - (kλ)²)] / 2.
+For AM > 0, we need -kλ + √(2AB² - (kλ)²) > 0, which implies √(2AB² - (kλ)²) > kλ.
+If kλ > 0, squaring both sides: 2AB² - (kλ)² > (kλ)², which simplifies to (kλ)² < AB². So, |kλ| < AB. If kλ > 0, then 0 < kλ < AB. So, 0 < 0.5k < 8, which means 0 < k < 16. Thus, k can be from 1 to 15. If kλ <= 0, AM is always positive.
+
+Combining the constraints:
+*   -22 ≤ k ≤ 22 (for real BM)
+*   k ≥ -15 (for BM > 0 when kλ < 0)
+*   k ≤ 15 (for AM > 0 when kλ > 0)
+
+Therefore, the valid integer range for k, such that both AM and BM are positive (M is not A or B), is -15 ≤ k ≤ 15.
+
+**Step 5: Maximize BM**
+We want to find the point M that is farthest from B. This means we need to maximize BM.
+The expression for BM is: BM = [kλ + √(2AB² - (kλ)²)] / 2.
+Let's analyze the derivative of BM with respect to k.
+d(BM)/dk = [λ + (1/2) * (1/√(2AB² - (kλ)²)) * (-2kλ * λ)] / 2
+d(BM)/dk = [λ - kλ² / √(2AB² - (kλ)²)] / 2
+Set d(BM)/dk = 0 to find critical points:
+λ = kλ² / √(2AB² - (kλ)²)
+1 = kλ / √(2AB² - (kλ)²)
+√(2AB² - (kλ)²) = kλ
+Squaring both sides (assuming kλ > 0):
+2AB² - (kλ)² = (kλ)²
+2AB² = 2(kλ)²
+AB² = (kλ)²
+kλ = AB (since we assumed kλ > 0)
+k = AB/λ = 8/0.5 = 16.
+
+This critical point k=16 corresponds to the absolute maximum of BM. However, for k=16, kλ=AB, which implies AM=0. This means M=A. If M=A, then BM=AB=8 cm. This is the largest possible distance from B on the circle, and A is indeed a point of constructive interference (as AB/λ = 16, an integer).
+
+However, if the problem implicitly asks for a point M distinct from the sources (AM > 0 and BM > 0), then k=16 is excluded. In this case, we need to find the maximum BM within the range -15 ≤ k ≤ 15.
+Let's check the derivative again. For k < 16, kλ < AB.
+Then kλ < √(2AB² - (kλ)²), which means 1 > kλ / √(2AB² - (kλ)²).
+So, d(BM)/dk > 0 for k < 16.
+This means BM is an increasing function of k in the interval [-15, 15].
+Therefore, the maximum value of BM in this interval occurs at the largest allowed integer k, which is k=15.
+
+**Step 6: Calculate BM for k=15**
+k = 15
+kλ = 15 * 0.5 = 7.5 cm
+AB = 8 cm
+AB² = 64 cm²
+
+BM = [7.5 + √(2 * 64 - (7.5)²)] / 2
+BM = [7.5 + √(128 - 56.25)] / 2
+BM = [7.5 + √(71.75)] / 2
+BM = [7.5 + 8.470537107] / 2
+BM = 15.970537107 / 2
+BM = 7.9852685535 cm
+
+**Step 7: Round to two decimal places**
+Rounding 7.9852685535 cm to two decimal places gives 7.99 cm.
+
+The typical interpretation of "a point M" in such problems, especially when a non-integer decimal answer is expected (indicated by "làm tròn hai chữ số sau dấu phẩy"), is that M is not one of the source points themselves. If M=A were allowed, the answer would be exactly 8.00 cm.
+
+The final answer is $\boxed{7.99}$
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 13
+Đúng: 12 | Sai: 1
+Thời gian: 6.9 phút

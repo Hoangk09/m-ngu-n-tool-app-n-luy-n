@@ -1,0 +1,293 @@
+=== Quiz Log - 2025-12-09 22:43:49 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Một vật dao động điều hòa với tần số góc ω. Chu kì dao động của vật được tính bằng công thức
+  Đáp án: C
+  Giải thích: Trong dao động điều hòa, chu kì T, tần số f và tần số góc ω có mối liên hệ với nhau.
+Các công thức cơ bản liên quan là:
+1. Tần số f là nghịch đảo của chu kì T: `f = 1/T`
+2. Tần số góc ω liên hệ với tần số f qua công thức: `ω = 2πf`
+
+Để tìm công thức liên hệ giữa chu kì T và tần số góc ω, ta thay biểu thức của f từ công thức (1) vào công thức (2):
+`ω = 2π * (1/T)`
+`ω = 2π/T`
+
+Từ đây, ta có thể suy ra công thức tính chu kì T theo tần số góc ω:
+`T = 2π/ω`
+
+So sánh với các đáp án đã cho:
+A. `T = 1/(2πω)` (Sai)
+B. `T = 2πω` (Sai)
+C. `T = 2π/ω` (Đúng)
+D. `T = ω/(2π)` (Sai)
+
+Vậy, đáp án đúng là C.
+
+--------------------------------------------------
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Theo định nghĩa, dao động điều hòa là
+  Đáp án: A
+  Giải thích: Theo định nghĩa trong vật lý, dao động điều hòa là chuyển động mà li độ của vật được mô tả bằng một hàm sin hoặc cosin theo thời gian.
+*   **Phương án A:** "chuyển động có phương trình mô tả bởi hàm sin hoặc cos theo thời gian." Đây chính xác là định nghĩa chuẩn của dao động điều hòa. Ví dụ, phương trình li độ của vật dao động điều hòa có dạng x = Acos(ωt + φ) hoặc x = Asin(ωt + φ).
+*   **Phương án B:** "hình chiếu của chuyển động tròn đều lên một đường thẳng nằm trong mặt phẳng quỹ đạo." Đây là một tính chất quan trọng, một cách để hình dung hoặc tạo ra dao động điều hòa, nhưng nó không phải là định nghĩa gốc mà là một mô hình hoặc hệ quả của dao động điều hòa.
+*   **Phương án C:** "chuyển động mà trạng thái chuyển động của vật được lặp lại như cũ sau những khoảng thời gian bằng nhau." Đây là định nghĩa của **dao động tuần hoàn**, một khái niệm rộng hơn dao động điều hòa. Mọi dao động điều hòa đều là dao động tuần hoàn, nhưng không phải mọi dao động tuần hoàn đều là dao động điều hòa.
+*   **Phương án D:** "chuyển động của một vật dưới tác dụng của một lực không đổi." Đây là định nghĩa của **chuyển động biến đổi đều**, không phải dao động điều hòa. Trong dao động điều hòa, lực kéo về luôn thay đổi và tỉ lệ thuận với li độ.
+
+Vì vậy, phương án A đưa ra định nghĩa chính xác và trực tiếp nhất về dao động điều hòa.
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Theo định nghĩa, dao động điều hòa là
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 4: [Trắc nghiệm]
+  Câu hỏi: Trong dao động điều hoà của con lắc lò xo, cơ năng của con lắc
+  Đáp án: A
+  Giải thích: Trong dao động điều hòa của con lắc lò xo (lý tưởng, không có ma sát), cơ năng của con lắc được bảo toàn. Cơ năng (E) được định nghĩa là tổng động năng (K) và thế năng (U) của vật tại bất kỳ vị trí nào trong quá trình dao động.
+
+*   **Phương án A:** "bằng tổng động năng và thế năng của vật khi qua một vị trí bất kì."
+    Đây là định nghĩa chính xác của cơ năng (E = K + U) và cũng phản ánh sự bảo toàn cơ năng trong dao động điều hòa. Vì cơ năng được bảo toàn, tổng động năng và thế năng luôn không đổi tại mọi vị trí. Do đó, phương án A là đúng.
+
+*   **Phương án B:** "tỉ lệ nghịch với biên độ dao động."
+    Cơ năng của con lắc lò xo được tính bằng công thức E = 1/2 kA², trong đó k là độ cứng của lò xo và A là biên độ dao động. Từ công thức này, ta thấy cơ năng tỉ lệ thuận với bình phương biên độ dao động (E ∝ A²), chứ không phải tỉ lệ nghịch với biên độ. Do đó, phương án B là sai.
+
+*   **Phương án C:** "bằng thế năng của vật nặng khi qua vị trí cân bằng."
+    Tại vị trí cân bằng (x=0), thế năng đàn hồi của con lắc lò xo là U = 1/2 kx² = 1/2 k(0)² = 0 (theo quy ước chọn thế năng bằng 0 tại vị trí cân bằng). Tại vị trí này, động năng đạt giá trị cực đại (K_max). Do đó, cơ năng E = K_max + 0 = K_max. Vì K_max thường khác 0, nên cơ năng không thể bằng 0 (thế năng tại vị trí cân bằng). Do đó, phương án C là sai.
+
+*   **Phương án D:** "bằng động năng của vật nặng khi qua vị trí biên."
+    Tại vị trí biên (x=±A), vật đổi chiều chuyển động nên vận tốc bằng 0. Do đó, động năng của vật bằng 0 (K=0). Tại vị trí này, thế năng đạt giá trị cực đại (U_max = 1/2 kA²). Do đó, cơ năng E = 0 + U_max = U_max. Vì K_max thường khác 0, nên cơ năng không thể bằng 0 (động năng tại vị trí biên). Do đó, phương án D là sai.
+
+Kết luận, phương án A mô tả chính xác nhất và tổng quát nhất về cơ năng của con lắc lò xo trong dao động điều hòa.
+
+--------------------------------------------------
+
+Câu 5: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự kiện vào tháng 4/1983, một lữ đoàn lính Anh khi hành quân qua cầu Broughton đã khiến cây cầu bị đổ gãy dưới chân các binh sĩ. Sau sự kiện này, quân đội Anh đã ban hành quy định mới: binh lính khi đi qua một cây cầu dài không được đi bước đều hoặc điều chỉnh nhịp nhàng, để đề phòng sự cố tái diễn.
+
+Hiện tượng này là một ví dụ điển hình của **cộng hưởng cơ**. Cộng hưởng cơ xảy ra khi tần số của ngoại lực tuần hoàn tác dụng lên một hệ dao động (ở đây là nhịp bước đều của binh sĩ) trùng với tần số riêng của hệ dao động đó (ở đây là cầu). Khi đó, biên độ dao động của hệ sẽ tăng lên rất lớn, có thể dẫn đến phá hủy hệ thống. Việc quy định binh lính không đi bước đều khi qua cầu dài là để phá vỡ điều kiện cộng hưởng, tránh cho cầu bị dao động quá mạnh.
+
+Các lựa chọn khác không giải thích đúng bản chất của sự cố:
+- B. Dao động tuần hoàn: Chỉ mô tả chung về sự lặp lại của dao động, không giải thích nguyên nhân gây sập cầu.
+- C. Dao động điều hòa: Là một dạng cụ thể của dao động tuần hoàn, nhưng cũng không đi sâu vào nguyên nhân sập cầu do sự trùng hợp tần số.
+- D. Dao động tắt dần: Mô tả sự giảm biên độ của dao động theo thời gian, ngược lại với những gì đã xảy ra trước khi cầu sập (biên độ dao động tăng lên).
+
+--------------------------------------------------
+
+Câu 6: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự cố cầu Broughton ở Anh bị sập khi một lữ đoàn lính diễu hành bước đều qua cầu. Hiện tượng này xảy ra khi tần số bước đi nhịp nhàng của đoàn lính trùng với tần số dao động riêng của cây cầu, làm cho biên độ dao động của cầu tăng lên đến mức quá lớn, dẫn đến việc cầu bị phá hủy. Đây chính là định nghĩa và ví dụ kinh điển của hiện tượng cộng hưởng cơ. Để tránh lặp lại sự cố, quân đội Anh đã ra quy định cấm binh lính đi bước đều hoặc điều hành nhịp nhàng khi qua cầu dài, nhằm phá vỡ điều kiện cộng hưởng.
+
+Các phương án khác:
+*   B. Dao động tuần hoàn: Là dao động lặp lại theo chu kỳ, nhưng không giải thích được sự tăng biên độ đột ngột gây sập cầu.
+*   C. Dao động điều hòa: Là một dạng dao động tuần hoàn đơn giản, cũng không giải thích được nguyên nhân sập cầu.
+*   D. Dao động tắt dần: Là dao động mà biên độ giảm dần theo thời gian do ma sát hoặc sức cản, hoàn toàn ngược lại với những gì đã xảy ra.
+
+--------------------------------------------------
+
+Câu 7: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự kiện một lữ đoàn lính hành quân bước đều qua cầu treo Broughton khiến cây cầu bị đổ gãy. Sau sự cố này, quân đội Anh đã ban hành quy định cấm binh lính đi qua cầu dài theo bước đều hoặc nhịp nhàng.
+
+Hiện tượng này được giải thích bởi khái niệm cộng hưởng cơ trong vật lí. Khi một lực tác dụng bên ngoài (bước chân đều của lính) có tần số trùng với tần số dao động riêng của hệ thống (cây cầu), biên độ dao động của hệ thống sẽ tăng lên đột ngột và mạnh mẽ. Trong trường hợp của cây cầu, sự tăng biên độ này có thể vượt quá giới hạn chịu đựng của kết cấu, dẫn đến hư hỏng hoặc sập đổ. Việc binh lính đi không đều nhau sẽ phá vỡ tính tuần hoàn của lực tác dụng, làm giảm khả năng xảy ra cộng hưởng.
+
+Các lựa chọn khác:
+*   B. Dao động tuần hoàn: Là dao động lặp lại theo chu kỳ, nhưng không giải thích được nguyên nhân gây sập cầu. Cộng hưởng là một trường hợp đặc biệt của dao động.
+*   C. Dao động điều hòa: Là một dạng dao động tuần hoàn đơn giản, lý tưởng, không mô tả trực tiếp hiện tượng sập cầu.
+*   D. Dao động tắt dần: Là dao động mà biên độ giảm dần theo thời gian do ma sát hoặc sức cản, hoàn toàn ngược lại với hiện tượng cây cầu rung lắc mạnh đến mức đổ sập.
+
+Vì vậy, "cộng hưởng cơ" là khái niệm vật lí chính xác nhất để giải thích sự kiện này.
+
+--------------------------------------------------
+
+Câu 8: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự việc một đoàn lính đi đều bước qua cầu Broughton, khiến cầu bị đổ gãy. Sau đó, quân đội Anh đã ban hành quy định lính khi đi qua cầu dài không được đi bước đều. Hiện tượng này chính là một ví dụ điển hình về cộng hưởng cơ.
+
+Khi các binh sĩ đi bước đều, họ tạo ra một lực tác dụng có tính chất chu kỳ lên cây cầu. Nếu tần số của lực tác dụng này (do bước chân đều đặn) trùng với tần số dao động riêng của cây cầu, biên độ dao động của cầu sẽ tăng lên rất lớn, dẫn đến việc cầu bị hư hại hoặc sập đổ. Đây chính là hiện tượng cộng hưởng cơ.
+
+Các lựa chọn khác không giải thích đúng bản chất của sự việc:
+B. Dao động tuần hoàn là một khái niệm chung, không đủ để giải thích tại sao cầu lại bị gãy.
+C. Dao động điều hòa là một dạng đặc biệt của dao động tuần hoàn, cũng không phải là nguyên nhân trực tiếp gây ra sự cố.
+D. Dao động tắt dần là dao động có biên độ giảm dần theo thời gian, trái ngược hoàn toàn với tình huống biên độ dao động tăng lên mạnh mẽ gây sập cầu.
+
+--------------------------------------------------
+
+Câu 9: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự cố cầu Broughton bị sập vào tháng 4 năm 1983 khi một đội lính diễu hành bước đều qua cầu. Việc lính đi đều tạo ra một lực tác dụng có chu kỳ lên cầu. Nếu tần số của lực này trùng với tần số dao động riêng của cầu, hiện tượng cộng hưởng cơ sẽ xảy ra. Khi đó, biên độ dao động của cầu sẽ tăng lên đáng kể, vượt quá giới hạn chịu đựng của vật liệu, dẫn đến việc cầu bị hỏng hoặc sập.
+
+Chính vì lý do này mà quân đội Anh đã ban hành quy định cấm lính đi đều bước khi qua cầu dài. Đây là một ví dụ kinh điển về hiện tượng cộng hưởng cơ trong vật lý.
+
+*   **Cộng hưởng cơ (A)**: Xảy ra khi một hệ dao động chịu tác dụng của một ngoại lực tuần hoàn có tần số bằng tần số dao động riêng của hệ, làm biên độ dao động của hệ tăng lên cực đại. Đây chính xác là hiện tượng được mô tả.
+*   **Dao động tuần hoàn (B)**: Là dao động mà trạng thái của nó lặp lại như cũ sau những khoảng thời gian bằng nhau. Việc lính đi đều tạo ra lực tuần hoàn, nhưng sự cố cầu sập là do hệ quả của cộng hưởng, không chỉ đơn thuần là dao động tuần hoàn.
+*   **Dao động điều hòa (C)**: Là một dạng đặc biệt của dao động tuần hoàn, có quy luật hình sin hoặc cosin. Đây là một khái niệm chung hơn và không giải thích trực tiếp nguyên nhân cầu sập.
+*   **Dao động tắt dần (D)**: Là dao động có biên độ giảm dần theo thời gian do có ma sát hoặc lực cản. Điều này ngược lại với hiện tượng gây sập cầu, nơi biên độ dao động tăng lên.
+
+Do đó, hiện tượng chính gây ra sự cố cầu sập khi lính đi đều bước là cộng hưởng cơ.
+
+--------------------------------------------------
+
+Câu 10: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự cố cầu Broughton bị sập khi một lữ đoàn lính hành quân bước đều qua cầu. Hiện tượng này xảy ra khi tần số bước chân đều đặn của binh lính (lực cưỡng bức tuần hoàn) trùng với tần số dao động riêng của cầu. Khi đó, biên độ dao động của cầu sẽ tăng lên rất lớn, dẫn đến việc cầu bị phá hủy. Đây chính là hiện tượng cộng hưởng cơ. Quy định cấm binh lính đi bước đều qua cầu cũng là để tránh hiện tượng cộng hưởng này.
+Các lựa chọn khác không phù hợp:
+*   B. Dao động tuần hoàn là dao động lặp lại theo chu kỳ, nhưng không giải thích được sự phá hủy do biên độ tăng mạnh.
+*   C. Dao động điều hòa là một dạng dao động tuần hoàn lý tưởng, cũng không giải thích được hiện tượng sập cầu.
+*   D. Dao động tắt dần là dao động có biên độ giảm dần theo thời gian, hoàn toàn trái ngược với nguyên nhân gây sập cầu.
+
+--------------------------------------------------
+
+Câu 11: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự kiện một đoàn lính diễu hành bước đều qua cầu Broughton ở Anh, khiến cây cầu bị gãy. Sau đó, quân đội Anh đã ban hành quy định mới yêu cầu lính không được bước đều khi qua cầu dài để phòng sự cố tái diễn. Hiện tượng này là một ví dụ điển hình của cộng hưởng cơ học.
+
+Cộng hưởng cơ xảy ra khi tần số của lực tác dụng định kỳ (trong trường hợp này là nhịp bước chân của lính) trùng với tần số dao động riêng của hệ thống (cây cầu). Khi đó, biên độ dao động của hệ thống sẽ tăng lên rất mạnh, có thể dẫn đến phá hủy cấu trúc. Việc yêu cầu lính không bước đều khi qua cầu là để phá vỡ sự đồng bộ của lực tác dụng, tránh hiện tượng cộng hưởng, từ đó bảo vệ cây cầu.
+
+Các lựa chọn khác không phù hợp:
+B. Dao động tuần hoàn là dao động mà trạng thái của vật lặp lại như cũ sau những khoảng thời gian bằng nhau. Mặc dù bước chân đều là dao động tuần hoàn, nhưng nguyên nhân gây sập cầu là do tần số của nó trùng với tần số riêng của cầu, tức là cộng hưởng.
+C. Dao động điều hòa là một dạng đặc biệt của dao động tuần hoàn, có quy luật hình sin hoặc cosin. Nó không trực tiếp giải thích nguyên nhân sập cầu.
+D. Dao động tắt dần là dao động có biên độ giảm dần theo thời gian do ma sát hoặc sức cản. Hiện tượng sập cầu là do biên độ dao động tăng mạnh, không phải tắt dần.
+
+--------------------------------------------------
+
+Câu 12: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự kiện một cây cầu bị gãy khi một tiểu đoàn lính diễu hành bước đều qua cầu Broughton vào tháng 4 năm 1831 (lưu ý: năm đúng của sự kiện này thường được trích dẫn là 1831, không phải 1983 như trong đề bài, nhưng bản chất vật lý của hiện tượng không đổi). Hiện tượng này xảy ra do tần số bước chân đều của binh lính trùng với tần số dao động riêng của cây cầu, khiến biên độ dao động của cầu tăng lên rất mạnh và dẫn đến sập. Đây chính là định nghĩa và một ví dụ kinh điển của hiện tượng cộng hưởng cơ. Vì thế, quân đội Anh đã ban hành quy định binh lính khi đi qua cầu dài phải đi bước không đều (hay phá bước) để tránh hiện tượng này.
+
+Các lựa chọn khác không phù hợp:
+*   **Dao động tuần hoàn** là bất kỳ dao động nào lặp lại theo chu kỳ, nhưng không giải thích được sự tăng biên độ đột ngột dẫn đến sập cầu.
+*   **Dao động điều hòa** là một dạng dao động tuần hoàn đơn giản, cũng không giải thích được hiện tượng sập cầu do tần số trùng khớp.
+*   **Dao động tắt dần** là dao động có biên độ giảm dần theo thời gian do ma sát hoặc lực cản, hoàn toàn trái ngược với sự tăng biên độ dẫn đến sập cầu trong trường hợp này.
+
+--------------------------------------------------
+
+Câu 13: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự kiện cây cầu Broughton bị sập khi một lữ đoàn lính đi đều bước qua. Sau đó, quân đội Anh đã ban hành quy định cấm binh lính đi đều bước khi qua cầu dài để ngăn chặn sự cố tái diễn. Hiện tượng này chính là cộng hưởng cơ. Khi tần số bước chân đều của binh lính (lực cưỡng bức tuần hoàn) trùng với tần số dao động riêng của cây cầu, biên độ dao động của cầu sẽ tăng lên rất lớn, dẫn đến đổ gãy. Đây là một ví dụ kinh điển về hiện tượng cộng hưởng trong vật lý.
+
+--------------------------------------------------
+
+Câu 14: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự kiện một đoàn lính đi đều bước khi qua cầu Broughton đã khiến cầu bị gãy, và sau đó quân đội Anh đã ban hành quy định lính khi đi qua cầu dài phải đi bước đều hoặc đi bước nhẹ nhàng để phòng sự cố tái diễn. Hiện tượng này minh họa rõ nét về "cộng hưởng cơ".
+Cộng hưởng cơ xảy ra khi tần số của lực tác dụng bên ngoài (bước đi đều của lính) trùng với tần số dao động riêng của hệ (cây cầu). Khi đó, biên độ dao động của hệ sẽ tăng lên rất lớn, có thể dẫn đến hư hỏng hoặc sụp đổ cấu trúc, như trường hợp của cầu Broughton. Việc quân đội yêu cầu lính không đi đều bước chính là để tránh tạo ra lực tuần hoàn có tần số trùng với tần số riêng của cầu, từ đó ngăn chặn hiện tượng cộng hưởng.
+
+Các phương án khác:
+- B. Dao động tuần hoàn: Là dao động lặp lại theo chu kỳ, nhưng không giải thích được sự tăng biên độ đột ngột dẫn đến sập cầu.
+- C. Dao động điều hòa: Là một dạng đặc biệt của dao động tuần hoàn, cũng không giải thích được nguyên nhân sập cầu.
+- D. Dao động tắt dần: Là dao động có biên độ giảm dần theo thời gian do mất năng lượng, ngược lại với hiện tượng xảy ra ở cây cầu.
+
+--------------------------------------------------
+
+Câu 15: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả việc lính Anh hành quân đều bước qua cầu Broughton đã khiến cầu rung lắc mạnh, gây thương vong và sau đó quân đội Anh phải ban hành quy định không cho lính hành quân đều bước khi qua cầu dài. Hiện tượng này chính là một ví dụ điển hình của cộng hưởng cơ.
+
+Cộng hưởng cơ xảy ra khi tần số của ngoại lực cưỡng bức (ở đây là nhịp chân đều của đoàn lính) trùng hoặc gần với tần số dao động riêng của hệ (cây cầu). Khi đó, biên độ dao động của hệ sẽ tăng lên rất mạnh, có thể dẫn đến hậu quả nghiêm trọng như gãy cầu.
+
+Các phương án khác không phù hợp:
+- B. Dao động tuần hoàn: Là dao động lặp lại theo chu kỳ, nhưng không giải thích được việc biên độ dao động tăng lên đáng kể.
+- C. Dao động điều hòa: Là một dạng đặc biệt của dao động tuần hoàn, cũng không giải thích được hiện tượng biên độ dao động tăng mạnh do tác động của ngoại lực có tần số phù hợp.
+- D. Dao động tắt dần: Là dao động có biên độ giảm dần theo thời gian do ma sát hoặc lực cản, hoàn toàn ngược lại với hiện tượng được mô tả trong bài, nơi biên độ dao động tăng lên.
+
+--------------------------------------------------
+
+Câu 16: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: A
+  Giải thích: Đoạn văn mô tả sự kiện một đơn vị lính hành quân đều bước qua cầu, dẫn đến việc cầu bị sập. Sau sự kiện này, quân đội Anh đã ban hành quy định mới là lính không được đi đều bước khi qua cầu dài. Hiện tượng này xảy ra khi tần số của lực tác dụng từ việc hành quân đều của lính (lực cưỡng bức) trùng với tần số dao động riêng của cây cầu. Khi đó, biên độ dao động của cầu tăng lên đột ngột và mạnh mẽ, có thể dẫn đến cấu trúc bị phá hủy. Đây chính là định nghĩa và ví dụ kinh điển của hiện tượng cộng hưởng cơ.
+
+*   **A. cộng hưởng cơ:** Đây là hiện tượng đúng. Cộng hưởng cơ xảy ra khi một hệ dao động dưới tác dụng của lực cưỡng bức có tần số bằng tần số dao động riêng của hệ, dẫn đến biên độ dao động tăng lên rất lớn.
+*   **B. dao động tuần hoàn:** Hành động đi đều bước của lính là một dạng dao động tuần hoàn, nhưng sự sập cầu là kết quả của hiện tượng cộng hưởng, không chỉ đơn thuần là dao động tuần hoàn.
+*   **C. dao động điều hòa:** Đây là một loại dao động tuần hoàn lý tưởng, không mô tả trực tiếp nguyên nhân gây sập cầu.
+*   **D. dao động tắt dần:** Dao động tắt dần là khi biên độ dao động giảm dần theo thời gian do ma sát hoặc lực cản, hoàn toàn trái ngược với việc biên độ dao động tăng lên gây sập cầu.
+
+--------------------------------------------------
+
+Câu 17: [Trắc nghiệm]
+  Câu hỏi: Tháng 4/1983, một lữ đoàn lính diễu hành bước đều qua cầu treo Broughton của Anh. Theo các ghi chép vào thời điểm đó, cây cầu đã bị đổ gãy dưới chân các binh sĩ, hàng chục người rơi xuống nước. Sau kh
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 18: [Trắc nghiệm]
+  Câu hỏi: Khi nói về sóng cơ, phát biểu nào sau đây sai?
+  Đáp án: A
+  Giải thích: Câu hỏi yêu cầu xác định phát biểu sai về sóng cơ. Chúng ta sẽ phân tích từng lựa chọn:
+
+*   **A. sóng cơ là quá trình lan truyền các phần tử vật chất trong một môi trường.**
+    *   Phát biểu này sai. Sóng cơ là sự lan truyền dao động (năng lượng) trong môi trường vật chất, chứ không phải sự lan truyền các phần tử vật chất. Các phần tử vật chất trong môi trường chỉ dao động tại chỗ xung quanh vị trí cân bằng của chúng, chứ không di chuyển theo sóng.
+
+*   **B. quá trình truyền sóng cơ là quá trình truyền năng lượng.**
+    *   Phát biểu này đúng. Chức năng chính của sóng cơ là truyền năng lượng từ nơi này đến nơi khác.
+
+*   **C. sóng cơ là dao động cơ lan truyền trong một môi trường.**
+    *   Phát biểu này đúng. Đây là định nghĩa cơ bản của sóng cơ. Sóng cơ là một sự nhiễu loạn (dao động cơ) lan truyền qua một môi trường.
+
+*   **D. sóng cơ không truyền được trong chân không.**
+    *   Phát biểu này đúng. Sóng cơ cần một môi trường vật chất (rắn, lỏng, khí) để truyền đi vì chúng liên quan đến sự dao động của các hạt trong môi trường đó. Chân không không có các hạt vật chất để truyền dao động, do đó sóng cơ không thể truyền qua chân không.
+
+Vậy, phát biểu sai là A.
+
+--------------------------------------------------
+
+Câu 19: [Trắc nghiệm]
+  Câu hỏi: Sóng dọc là sóng trong đó các phần tử của môi trường
+  Đáp án: D
+  Giải thích: Sóng dọc (longitudinal wave) là loại sóng mà phương dao động của các phần tử môi trường trùng với phương truyền sóng. Điều này có nghĩa là các phần tử môi trường dao động qua lại dọc theo hướng mà sóng đang lan truyền.
+*   Phương án A và C không phải là định nghĩa chung của sóng dọc.
+*   Phương án B mô tả sóng ngang (transverse wave), trong đó phương dao động vuông góc với phương truyền sóng.
+*   Phương án D chính xác định nghĩa sóng dọc.
+
+--------------------------------------------------
+
+Câu 22: [Trắc nghiệm]
+  Câu hỏi: Hình vẽ bên mô tả hai sóng địa chấn truyền trong môi trường khi có động đất. Sóng P là sóng sơ cấp, sóng S là sóng thứ cấp. Chọn câu đúng.
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 50: [Trắc nghiệm]
+  Câu hỏi: Sóng điện từ
+  Đáp án: D
+  Giải thích: Để trả lời câu hỏi này, chúng ta cần hiểu rõ định nghĩa và các tính chất cơ bản của sóng điện từ.
+
+*   **Sóng điện từ** là sự lan truyền của điện từ trường biến thiên trong không gian. Nó bao gồm thành phần điện trường (E) và thành phần từ trường (B) dao động vuông góc với nhau và vuông góc với phương truyền sóng.
+
+Bây giờ, hãy phân tích từng lựa chọn:
+
+*   **A. có thành phần điện trường và thành phần từ trường tại một điểm dao động cùng phương.**
+    *   Đây là một phát biểu sai. Trong sóng điện từ, vectơ cường độ điện trường (E) và vectơ cảm ứng từ (B) luôn vuông góc với nhau và vuông góc với phương truyền sóng. Do đó, chúng dao động theo các phương vuông góc với nhau chứ không phải cùng phương.
+
+*   **B. không truyền được trong chân không.**
+    *   Đây là một phát biểu sai. Một trong những đặc điểm quan trọng nhất của sóng điện từ là chúng có thể truyền được trong chân không (với tốc độ ánh sáng c ≈ 3 x 10^8 m/s). Ví dụ điển hình là ánh sáng mặt trời truyền qua chân không đến Trái Đất.
+
+*   **C. là sóng dọc hoặc sóng ngang.**
+    *   Đây là một phát biểu sai một phần. Sóng điện từ luôn là sóng ngang. Điều này có nghĩa là các dao động của điện trường và từ trường luôn vuông góc với phương truyền sóng. Sóng dọc (ví dụ như sóng âm) có các dao động song song với phương truyền sóng.
+
+*   **D. là điện từ trường lan truyền trong không gian.**
+    *   Đây là phát biểu chính xác nhất và là định nghĩa cơ bản của sóng điện từ. Sóng điện từ chính là sự lan truyền của điện từ trường (bao gồm điện trường và từ trường liên kết với nhau) trong không gian, mang theo năng lượng.
+
+Vì vậy, lựa chọn D là đúng.
+
+--------------------------------------------------
+

@@ -1,0 +1,200 @@
+=== Quiz Log - 2025-12-10 19:53:53 ===
+
+Câu 1: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành tâm
+O
+. Gọi
+M
+,
+N
+lần lượt là trung điểm của
+S
+A
+và
+S
+D
+.
+  Đáp án: a=S, b=S, c=S, d=Đ
+  Giải thích: [
+"a) Sai. O là trung điểm BD, N là trung điểm SD. Trong tam giác SBD, ON là đường trung bình nên ON = (1/2)SB, không phải (1/3)SB.",
+"b) Sai. M là trung điểm SA, N là trung điểm SD. Trong tam giác SAD, MN là đường trung bình nên MN // AD. Vì ABCD là hình bình hành nên AD // BC. Do đó MN // BC. Vì BC nằm trong (SBC), nên MN // (SBC). Tuy nhiên, đường thẳng AM (thuộc SA) không song song với mặt phẳng (SBC) trong hình chóp thông thường (nếu SA // (SBC) thì hình chóp suy biến). Do đó, mặt phẳng (AMN) không song song với (SBC).",
+"c) Sai. P là trung điểm AB, Q là trung điểm ON. Bằng phương pháp vector, ta có thể chứng minh vector PQ song song với vector AD. Vì AD // BC và BC nằm trong (SBC), nên AD // (SBC). Do đó, PQ // (SBC). Vì P không nằm trong (SBC) (trừ trường hợp hình chóp suy biến), nên PQ không nằm trong (SBC). Một đường thẳng song song với một mặt phẳng và không nằm trong mặt phẳng đó thì không cắt mặt phẳng. Vậy PQ không cắt (SBC).",
+"d) Đúng. R là trung điểm AD. Trong tam giác SAD, MR là đường trung bình (vì M là trung điểm SA, R là trung điểm AD) nên MR // SD. Vì SD nằm trong (SCD), nên MR // (SCD). Trong tam giác ACD, OR là đường trung bình (vì O là trung điểm AC, R là trung điểm AD) nên OR // CD. Vì CD nằm trong (SCD), nên OR // (SCD). Hai đường thẳng MR và OR cắt nhau tại R và cùng song song với (SCD). Do đó, mặt phẳng (MOR) song song với (SCD)."
+]
+
+--------------------------------------------------
+
+Câu 2: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy là hình bình hành tâm
+O
+. Gọi
+M
+,
+N
+lần lượt là trung điểm của
+S
+A
+và
+S
+D
+. Lấy
+G
+là mộ
+  Đáp án: 1
+  Giải thích: We are given a pyramid S.ABCD where ABCD is a parallelogram with center O. M is the midpoint of SA, and N is the midpoint of SD. G is a point in the plane (ABCD) equidistant from AB and CD. We need to identify how many of the planes (NGO), (NDC), (MOG) are parallel to plane (SAB).
+
+The condition for two planes to be parallel is that two intersecting lines in one plane must be parallel to the other plane.
+
+**1. Analyze plane (NGO) with respect to plane (SAB):**
+*   **Consider line GO:**
+    *   Since ABCD is a parallelogram, AB || CD. The locus of points in plane (ABCD) equidistant from AB and CD is the line that passes through the midpoint of AD and BC, and through the center O. Let's call this line 'l'.
+    *   This line 'l' is parallel to AB (and CD).
+    *   G is on this line 'l'. O is also on this line 'l'.
+    *   Therefore, GO is a segment of line 'l', so GO || AB.
+    *   Since AB lies in plane (SAB), it implies that GO || (SAB).
+
+*   **Consider line NO:**
+    *   N is the midpoint of SD.
+    *   O is the center of the parallelogram ABCD, so O is the midpoint of the diagonal BD.
+    *   In triangle SBD, NO connects the midpoint of SD (N) and the midpoint of BD (O).
+    *   By the Midpoint Theorem, NO || SB.
+    *   Since SB lies in plane (SAB), it implies that NO || (SAB).
+
+*   Lines GO and NO are two intersecting lines in plane (NGO) (they intersect at O). Both lines are parallel to plane (SAB).
+*   Therefore, plane (NGO) is parallel to plane (SAB).
+
+**2. Analyze plane (NDC) with respect to plane (SAB):**
+*   **Consider line DC:**
+    *   Since ABCD is a parallelogram, DC || AB.
+    *   Since AB lies in plane (SAB), it implies that DC || (SAB).
+*   For plane (NDC) to be parallel to (SAB), every line in (NDC) must be parallel to (SAB).
+*   **Consider line ND:**
+    *   N is the midpoint of SD.
+    *   The line segment ND lies on the line SD.
+    *   Line SD intersects plane (SAB) at point S (they share the vertex S).
+    *   Furthermore, SD is not parallel to SA, SB, or AB (the edges of plane SAB). For example, SD is skew to AB.
+    *   Thus, line SD is not parallel to plane (SAB).
+    *   Since line ND is part of line SD, ND is not parallel to plane (SAB).
+*   Since there is a line (ND) in plane (NDC) that is not parallel to plane (SAB), plane (NDC) is not parallel to plane (SAB).
+
+**3. Analyze plane (MOG) with respect to plane (SAB):**
+*   **Consider line GO:**
+    *   As established in point 1, GO || AB.
+    *   Since AB lies in plane (SAB), it implies that GO || (SAB).
+*   **Consider line MO:**
+    *   M is the midpoint of SA.
+    *   O is the center of the parallelogram ABCD, so O is the midpoint of the diagonal AC.
+    *   In triangle SAC, MO connects the midpoint of SA (M) and the midpoint of AC (O).
+    *   By the Midpoint Theorem, MO || SC.
+*   For plane (MOG) to be parallel to (SAB), every line in (MOG) must be parallel to (SAB).
+*   **Is SC parallel to plane (SAB)?**
+    *   Line SC intersects plane (SAB) at point S.
+    *   SC is not parallel to SA (they intersect at S).
+    *   SC is not parallel to SB (they are skew lines).
+    *   SC is not parallel to AB (they are skew lines).
+    *   Thus, line SC is not parallel to plane (SAB).
+    *   Since MO || SC, and SC is not parallel to (SAB), it implies that MO is not parallel to (SAB).
+*   Since there is a line (MO) in plane (MOG) that is not parallel to plane (SAB), plane (MOG) is not parallel to plane (SAB).
+
+Based on the analysis, only plane (NGO) is parallel to plane (SAB).
+
+The final answer is $\boxed{1}$
+
+--------------------------------------------------
+
+Câu 4: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho tứ diện
+S
+.
+A
+B
+C
+. Lấy
+A
+1
+là trung điểm của
+S
+A
+,
+A
+2
+là trung điểm của
+A
+1
+A
+. Qua
+A
+1
+vẽ mặt phẳng song song với
+  Đáp án: 11
+  Giải thích: Let S be the apex of the tetrahedron S.ABC.
+
+1.  **Determine the ratios SA1/SA and SA2/SA:**
+    *   A1 is the midpoint of SA. Therefore, SA1 = (1/2)SA.
+        So, SA1/SA = 1/2.
+    *   A2 is the midpoint of the segment A1A. This means that A1A2 = A2A = (1/2)A1A.
+        Since A1 is the midpoint of SA, A1A = SA - SA1 = SA - (1/2)SA = (1/2)SA.
+        Therefore, A1A2 = (1/2) * (1/2)SA = (1/4)SA.
+    *   Now, calculate SA2: SA2 = SA1 + A1A2 = (1/2)SA + (1/4)SA = (3/4)SA.
+        So, SA2/SA = 3/4.
+
+2.  **Determine the ratios SB1/SB, SC1/SC, SB2/SB, SC2/SC using properties of parallel planes:**
+    *   A plane through A1 parallel to (ABC) intersects SB at B1 and SC at C1. Due to similar triangles (e.g., ΔSA1B1 ~ ΔSAB and ΔSA1C1 ~ ΔSAC) formed by parallel planes cutting through the pyramid, we have:
+        SB1/SB = SC1/SC = SA1/SA = 1/2.
+    *   A plane through A2 parallel to (ABC) intersects SB at B2 and SC at C2. Similarly:
+        SB2/SB = SC2/SC = SA2/SA = 3/4.
+
+3.  **Calculate SB1/SB2 and SC1/SC2:**
+    *   To find SB1/SB2, we can write it as (SB1/SB) / (SB2/SB):
+        SB1/SB2 = (1/2) / (3/4) = (1/2) * (4/3) = 4/6 = 2/3.
+    *   Similarly, for SC1/SC2:
+        SC1/SC2 = (SC1/SC) / (SC2/SC) = (1/2) / (3/4) = (1/2) * (4/3) = 4/6 = 2/3.
+
+4.  **Evaluate the given sum and find a and b:**
+    *   The problem states (SB1/SB2) + (SC1/SC2) = a/b.
+    *   Substituting the values we found: (2/3) + (2/3) = 4/3.
+    *   So, a/b = 4/3.
+    *   Given that a and b are natural numbers and gcd(a,b) = 1 (they are coprime), we can conclude that a = 4 and b = 3.
+
+5.  **Calculate 2a + b:**
+    *   2a + b = 2 * 4 + 3 = 8 + 3 = 11.
+
+The final answer is $\boxed{11}$
+
+--------------------------------------------------
+
+Câu 6: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Có bao nhiêu phát biểu đúng trong các phát biểu sau?
+i) Hai mặt phẳng phân biệt không cắt nhau thì song song.
+ii) Nếu mặ
+  Đáp án: RANDOM: 76
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 6
+Đúng: 5 | Sai: 1
+Thời gian: 5.9 phút

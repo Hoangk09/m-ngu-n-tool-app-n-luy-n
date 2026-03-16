@@ -1,0 +1,147 @@
+=== Quiz Log - 2025-12-10 20:02:17 ===
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+They expected that the clean-up project would have a marked ______ on the atmosphere of this area.
+  Đáp án: A
+  Giải thích: Câu hỏi yêu cầu điền vào chỗ trống để hoàn thành câu: "They expected that the clean-up project would have a marked ______ on the atmosphere of this area." (Họ mong đợi rằng dự án dọn dẹp sẽ có một ______ đáng kể đến bầu khí quyển của khu vực này.)
+
+Chúng ta hãy xem xét các lựa chọn:
+A. **impact**: (danh từ) tác động, ảnh hưởng. Cụm từ "have an impact on" (có tác động/ảnh hưởng đến) rất phổ biến và phù hợp với ngữ cảnh. Một dự án dọn dẹp được mong đợi sẽ có tác động (thường là tích cực) đến bầu khí quyển.
+B. **failure**: (danh từ) sự thất bại. "Failure" không phù hợp vì một dự án có thể *là* một thất bại, nhưng nó không *có* một thất bại *lên* bầu khí quyển.
+C. **mistake**: (danh từ) lỗi lầm. Tương tự như "failure", "mistake" không phù hợp. Một dự án có thể *mắc* lỗi lầm, nhưng không *có* lỗi lầm *lên* bầu khí quyển.
+D. **balance**: (danh từ) sự cân bằng. Mặc dù dự án có thể giúp *phục hồi* sự cân bằng, nhưng nó không *có* một sự cân bằng *lên* bầu khí quyển theo cách diễn đạt này.
+
+Dựa trên ngữ cảnh và cấu trúc câu, "impact" là từ phù hợp nhất để diễn tả ảnh hưởng hoặc kết quả của dự án dọn dẹp đối với bầu khí quyển. "A marked impact" có nghĩa là một tác động đáng kể.
+
+Vì vậy, lựa chọn A là đáp án đúng.
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+A(n) ______ is a chemical or biological substance which harms water, air, or land quality.
+  Đáp án: D
+  Giải thích: Câu hỏi định nghĩa "A(n) _____ is a chemical or biological substance which harms water, air, or land quality." (Một _____ là một chất hóa học hoặc sinh học gây hại đến chất lượng nước, không khí hoặc đất).
+
+Chúng ta hãy xem xét các lựa chọn:
+A. **virus**: Virus là một tác nhân truyền nhiễm, chủ yếu gây bệnh cho sinh vật sống, không phải là một chất gây hại chung cho chất lượng nước, không khí hay đất theo định nghĩa của ô nhiễm.
+B. **leaflet**: Leaflet là tờ rơi, một ấn phẩm quảng cáo hoặc thông tin, không liên quan đến định nghĩa trong câu hỏi.
+C. **emission**: Emission là sự phát thải, sự xả ra (khí, chất), đây là hành động hoặc quá trình, không phải là bản thân chất gây hại. Ví dụ, "khí thải" (emissions) có chứa các chất ô nhiễm.
+D. **pollutant**: Pollutant là chất gây ô nhiễm, một chất hóa học hoặc sinh học gây hại cho môi trường. Định nghĩa này hoàn toàn khớp với mô tả trong câu hỏi.
+
+Vì vậy, "pollutant" là từ thích hợp nhất để điền vào chỗ trống.
+
+--------------------------------------------------
+
+Câu 4: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+Water pollution is caused by the irresponsible disposal of ______ by the factories.
+  Đáp án: B
+  Giải thích: Câu hỏi "Water pollution is caused by the irresponsible disposal of ______ by the factories" có nghĩa là "Ô nhiễm nước là do việc xả thải vô trách nhiệm ______ của các nhà máy." Chúng ta cần tìm một từ phù hợp để điền vào chỗ trống, mô tả thứ mà các nhà máy xả thải ra gây ô nhiễm nước.
+
+*   **A. soot (bồ hóng, muội than)**: "Soot" chủ yếu là tác nhân gây ô nhiễm không khí. Mặc dù nó có thể lắng xuống nước, nhưng nó không phải là thứ chính được "xả thải" trực tiếp vào nước theo nghĩa gây ô nhiễm nước.
+*   **B. waste (chất thải, rác thải)**: "Waste" là chất thải công nghiệp, hóa chất hoặc nước thải từ các nhà máy. Việc xả thải chất thải này một cách vô trách nhiệm (irresponsible disposal) là nguyên nhân chính gây ô nhiễm nguồn nước. Từ này hoàn toàn phù hợp với ngữ cảnh của câu.
+*   **C. air (không khí)**: "Air" không phải là thứ được các nhà máy "xả thải" để gây ô nhiễm nước. Các nhà máy thải chất ô nhiễm *vào* không khí, chứ không phải xả thải *không khí*.
+*   **D. coal (than đá)**: "Coal" là nhiên liệu. Mặc dù quá trình khai thác hoặc sử dụng than đá có thể gián tiếp gây ô nhiễm nước (ví dụ, nước thải từ mỏ than, tro xỉ từ nhà máy nhiệt điện than), nhưng "disposal of coal" (xả thải than đá) không phải là nguyên nhân trực tiếp và phổ biến nhất gây ô nhiễm nước từ các nhà máy theo cách này. "Waste" là một từ bao quát hơn và chính xác hơn cho các sản phẩm phụ hoặc chất thải từ quá trình công nghiệp.
+
+Dựa trên phân tích, "waste" là từ chính xác nhất để điền vào chỗ trống, vì các nhà máy thường xả thải chất thải công nghiệp trực tiếp vào sông, hồ, biển một cách vô trách nhiệm, dẫn đến ô nhiễm nước.
+
+--------------------------------------------------
+
+Câu 5: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+The water was cold. Its ______ was about 20 degrees.
+  Đáp án: A
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 6: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+Each individual should take action to reduce negative impacts of ______ activities on the environment.
+  Đáp án: D
+  Giải thích: Câu hỏi yêu cầu điền vào chỗ trống để hoàn thành câu: "Each individual should take action to reduce negative impacts of _______ activities on the environment." (Mỗi cá nhân nên hành động để giảm tác động tiêu cực của các hoạt động _______ đến môi trường.)
+
+Chúng ta hãy xem xét các lựa chọn:
+*   **A. children (trẻ em):** Các hoạt động của trẻ em thường không được coi là nguyên nhân chính gây ra tác động tiêu cực lớn đến môi trường mà cả xã hội cần phải hành động để giảm thiểu.
+*   **B. man (người đàn ông / loài người):** Từ "man" có thể dùng để chỉ loài người nói chung, nhưng cụm "man activities" không phổ biến bằng "human activities" trong ngữ cảnh môi trường. Hơn nữa, "man" cũng có thể gây hiểu lầm là chỉ riêng đàn ông.
+*   **C. animal (động vật):** Mặc dù động vật cũng có tác động đến môi trường, nhưng trọng tâm của câu này là "Each individual should take action" (Mỗi cá nhân nên hành động), ngụ ý rằng các cá nhân (con người) phải chịu trách nhiệm giảm tác động từ *chính hoạt động của con người*, chứ không phải hành động để giảm tác động của động vật.
+*   **D. human (con người):** Cụm từ "human activities" (các hoạt động của con người) là cụm từ rất phổ biến và chính xác trong các cuộc thảo luận về môi trường. Nó bao gồm tất cả các hành động của con người (cá nhân, xã hội, công nghiệp) có thể gây ra ảnh hưởng đến môi trường. Việc con người gây ra tác động tiêu cực đến môi trường là một vấn đề toàn cầu và trách nhiệm giảm thiểu những tác động này thuộc về mỗi cá nhân.
+
+Do đó, "human" là lựa chọn phù hợp nhất để hoàn thành câu, tạo thành cụm "human activities" (các hoạt động của con người), hoàn toàn ăn khớp với ngữ cảnh bảo vệ môi trường.
+
+Câu hoàn chỉnh sẽ là: "Each individual should take action to reduce negative impacts of **human** activities on the environment." (Mỗi cá nhân nên hành động để giảm tác động tiêu cực của các hoạt động của con người đến môi trường.)
+
+--------------------------------------------------
+
+Câu 7: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+Residents need to understand the ______ of littering to the beauty and the environment.
+  Đáp án: A
+  Giải thích: Câu hỏi yêu cầu điền vào chỗ trống để hoàn thành câu: "Residents need to understand the _______ of littering to the beauty and the environment." (Cư dân cần hiểu _______ của việc xả rác đối với vẻ đẹp và môi trường.)
+
+Chúng ta hãy xem xét các lựa chọn:
+A. consequences (hậu quả): Việc xả rác gây ra những hậu quả tiêu cực đối với vẻ đẹp và môi trường. Từ "consequences" rất phù hợp trong ngữ cảnh này.
+B. names (tên): "Tên của việc xả rác" không có ý nghĩa trong câu này.
+C. steps (các bước): "Các bước của việc xả rác" không hợp lý. Xả rác là một hành động, không phải là một quy trình có các bước.
+D. comparisons (sự so sánh): "Sự so sánh của việc xả rác" không có ý nghĩa trong ngữ cảnh này. Mọi người cần hiểu tác động, chứ không phải so sánh hành động xả rác.
+
+Dựa trên ngữ nghĩa, từ "consequences" (hậu quả) là lựa chọn chính xác nhất, vì nó thể hiện những tác động tiêu cực mà việc xả rác gây ra cho môi trường và cảnh quan.
+Vì vậy, câu hoàn chỉnh sẽ là: "Residents need to understand the **consequences** of littering to the beauty and the environment." (Cư dân cần hiểu **những hậu quả** của việc xả rác đối với vẻ đẹp và môi trường.)
+
+--------------------------------------------------
+
+Câu 8: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+Cutting ______ trees is one of the main causes of soil erosion.
+  Đáp án: C
+  Giải thích: Từ cần điền vào chỗ trống là một phần của cụm động từ (phrasal verb) với "cutting". Trong tiếng Anh, cụm từ "cut down" có nghĩa là chặt hạ hoặc đốn hạ (cây cối).
+- "Cutting on" không phải là một cụm động từ có nghĩa liên quan đến việc chặt cây.
+- "Cutting off" có nghĩa là cắt đứt, cô lập, hoặc ngừng cung cấp.
+- "Cutting down" có nghĩa là chặt hạ, đốn hạ (cây).
+- "Cutting in" có nghĩa là chen vào, ngắt lời, hoặc cắt vào (ví dụ như khi lái xe).
+
+Trong ngữ cảnh của câu "Cutting ______ trees is one of the main causes of soil erosion," chúng ta cần một cụm từ để chỉ hành động chặt hạ cây cối. Do đó, "cut down" là lựa chọn phù hợp nhất, tạo thành "Cutting down trees" (chặt phá rừng/cây) là một trong những nguyên nhân chính gây xói mòn đất.
+
+--------------------------------------------------
+
+Câu 13: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+The process of melting ice is being accelerated by the increase of ______.
+  Đáp án: D
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 17: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the correct answer to the following question.
+The increasing levels of greenhouse gasses in the atmosphere have led to ______.
+  Đáp án: D
+  Giải thích: Câu hỏi yêu cầu điền vào chỗ trống để hoàn thành câu "The increasing levels of greenhouse gases in the atmosphere have led to _____." (Mức độ gia tăng của khí nhà kính trong khí quyển đã dẫn đến _____.)
+Các lựa chọn là:
+A. fitness (thể lực, sự phù hợp) - Không liên quan đến khí nhà kính.
+B. weakness (sự yếu đuối) - Không liên quan đến khí nhà kính.
+C. inflection (sự uốn cong, sự biến tố) - Không liên quan đến khí nhà kính.
+D. global warming (sự nóng lên toàn cầu) - Đây là hiện tượng chính được gây ra bởi sự gia tăng nồng độ khí nhà kính trong khí quyển.
+
+Dựa vào kiến thức khoa học và ngữ cảnh của câu hỏi (đề bài là "Vocabulary: Từ vựng về sự nóng lên toàn cầu"), đáp án chính xác nhất để hoàn thành câu là "global warming".
+
+--------------------------------------------------
+
+Câu 18: [Trắc nghiệm]
+  Câu hỏi: Mark the letter A, B, C or D to indicate the word(s) CLOSEST in meaning to the underlined word(s) in the following question.
+Oil is discharged from the pump into the casing and out the wellhead.
+  Đáp án: A
+  Giải thích: Từ "discharged" trong câu "Oil is discharged from the pump into the casing and out the wellhead" có nghĩa là được xả ra, được bơm ra, hoặc được thải ra từ một nơi nào đó. Trong ngữ cảnh này, dầu được bơm ra khỏi máy bơm để đi vào vỏ và ra khỏi miệng giếng.
+
+Chúng ta hãy xem xét các lựa chọn:
+A. **release**: có nghĩa là giải phóng, thả ra, xả ra. Đây là từ có nghĩa gần nhất với "discharged" trong ngữ cảnh này, vì nó mô tả hành động dầu được đưa ra khỏi máy bơm.
+B. **pollute**: có nghĩa là làm ô nhiễm. Từ này không phù hợp với ngữ cảnh của câu.
+C. **charge**: có nhiều nghĩa như tính phí, nạp điện, buộc tội. Không có nghĩa nào phù hợp với "discharged" trong câu này.
+D. **influence**: có nghĩa là ảnh hưởng. Từ này không liên quan đến hành động xả dầu.
+
+Vì vậy, "release" là từ có nghĩa gần nhất với "discharged".
+
+--------------------------------------------------
+

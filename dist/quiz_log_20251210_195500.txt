@@ -1,0 +1,132 @@
+=== Quiz Log - 2025-12-10 19:55:00 ===
+
+Câu 1: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành tâm
+O
+. Gọi
+M
+,
+N
+lần lượt là trung điểm của
+S
+A
+và
+S
+D
+.
+  Đáp án: a=S, b=S, c=Đ, d=Đ
+  Giải thích: Để giải bài toán này, chúng ta cần phân tích từng phát biểu dựa trên các định nghĩa và định lý hình học không gian.
+
+**Thông tin đề bài:**
+Cho hình chóp S. ABCD có đáy ABCD là hình bình hành tâm O. M, N lần lượt là trung điểm của SA và SD.
+
+**Phân tích từng phát biểu:**
+
+**a) (1) ON = (1/3)SB**
+*   **Giải thích:**
+    *   O là tâm của hình bình hành ABCD, vậy O là trung điểm của đường chéo BD.
+    *   N là trung điểm của cạnh SD.
+    *   Xét tam giác SBD, ta có O là trung điểm của BD và N là trung điểm của SD.
+    *   Theo định lý đường trung bình trong tam giác, đoạn thẳng nối trung điểm hai cạnh của một tam giác thì song song với cạnh thứ ba và bằng một nửa cạnh đó.
+    *   Do đó, ON là đường trung bình của tam giác SBD.
+    *   Suy ra ON // SB và ON = (1/2)SB.
+*   **Kết luận:** Phát biểu ON = (1/3)SB là sai vì ON = (1/2)SB.
+
+**b) (2) (AMN) // (SBC)**
+*   **Giải thích:**
+    *   M là trung điểm của SA và N là trung điểm của SD.
+    *   Xét tam giác SAD, MN là đường trung bình của tam giác SAD.
+    *   Suy ra MN // AD.
+    *   Vì ABCD là hình bình hành, nên AD // BC.
+    *   Từ đó, MN // BC.
+    *   Vì BC nằm trong mặt phẳng (SBC), nên MN // (SBC). (Đây là một điều kiện cần để hai mặt phẳng song song, nhưng chưa đủ).
+    *   Để mặt phẳng (AMN) song song với mặt phẳng (SBC), thì mọi đường thẳng trong (AMN) phải song song với (SBC).
+    *   Xét đường thẳng AM (hay SA) trong mặt phẳng (AMN). Đường thẳng SA đi qua điểm S và không song song với mặt phẳng (SBC) (vì SA cắt (SBC) tại S và SA không nằm trong (SBC)).
+    *   Do đó, mặt phẳng (AMN) không thể song song với mặt phẳng (SBC).
+*   **Kết luận:** Phát biểu (AMN) // (SBC) là sai.
+
+**c) (3) Gọi P và Q là trung điểm của AB và ON. Khi đó PQ cắt (SBC)**
+*   **Giải thích:**
+    *   P là trung điểm của AB.
+    *   Q là trung điểm của ON.
+    *   Từ phân tích ở câu a), chúng ta biết ON // SB.
+    *   Để chứng minh đường thẳng PQ cắt mặt phẳng (SBC), ta cần chứng minh PQ không song song với (SBC) và PQ không nằm trong (SBC).
+    *   P là trung điểm AB, nên P nằm trên mặt phẳng đáy (ABCD).
+    *   Q là trung điểm của ON. Vì ON nằm trong tam giác SBD (có S là đỉnh và O, N nằm trong tam giác), Q sẽ nằm bên trong hình chóp, không nằm trên mặt phẳng đáy.
+    *   PQ là một đường thẳng nối một điểm trên mặt đáy (P) và một điểm bên trong hình chóp (Q).
+    *   Nếu PQ song song với (SBC), thì PQ phải song song với một đường thẳng nào đó trong (SBC) (ví dụ SB, BC, SC).
+    *   Giả sử PQ // BC. Điều này chỉ xảy ra nếu P, Q và một điểm trên BC thẳng hàng, hoặc vector PQ song song với vector BC.
+    *   P là trung điểm AB. Q là trung điểm ON. O là trung điểm BD. N là trung điểm SD.
+    *   Ta thấy rằng Q không thể trùng với O (vì S, D, B không cùng một điểm), vậy Q không thể nằm trên đường thẳng đi qua P và song song với BC (như trường hợp PO).
+    *   Cũng không có mối liên hệ nào đặc biệt cho thấy PQ sẽ song song với SB hoặc SC.
+    *   Trong hình học không gian, một đường thẳng nối một điểm trên đáy và một điểm bên trong hình chóp thường sẽ cắt các mặt bên, trừ khi có một điều kiện song song cụ thể. Trong trường hợp này, không có điều kiện song song nào rõ ràng.
+*   **Kết luận:** Phát biểu PQ cắt (SBC) là đúng.
+
+**d) (4) Gọi R là trung điểm AD. Khi đó (MOR) // (SCD)**
+*   **Giải thích:**
+    *   R là trung điểm của AD.
+    *   O là tâm hình bình hành ABCD, vậy O là trung điểm của AC.
+    *   M là trung điểm của SA.
+    *   Để chứng minh mặt phẳng (MOR) song song với mặt phẳng (SCD), ta cần tìm hai đường thẳng cắt nhau trong (MOR) và chứng minh chúng lần lượt song song với (SCD).
+    *   **Xét đường thẳng RO:**
+        *   R là trung điểm của AD.
+        *   O là trung điểm của AC.
+        *   Xét tam giác ADC, RO là đường trung bình của tam giác ADC.
+        *   Suy ra RO // DC.
+        *   Vì DC nằm trong mặt phẳng (SCD), nên RO // (SCD). (Điều kiện 1)
+    *   **Xét đường thẳng MO:**
+        *   M là trung điểm của SA.
+        *   O là trung điểm của AC.
+        *   Xét tam giác SAC, MO là đường trung bình của tam giác SAC.
+        *   Suy ra MO // SC.
+        *   Vì SC nằm trong mặt phẳng (SCD), nên MO // (SCD). (Điều kiện 2)
+    *   Vì RO và MO là hai đường thẳng cắt nhau tại O trong mặt phẳng (MOR), và cả hai đường thẳng này đều song song với mặt phẳng (SCD), nên mặt phẳng (MOR) song song với mặt phẳng (SCD).
+*   **Kết luận:** Phát biểu (MOR) // (SCD) là đúng.
+
+--------------------------------------------------
+
+Câu 3: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho hình bình hành
+A
+B
+C
+D
+và
+A
+B
+E
+F
+nằm ở hai mặt phẳng khác nhau. Gọi
+M
+là trọng tâm
+Δ
+A
+B
+E
+. Gọi
+(
+P
+)
+là mặt phẳng
+  Đáp án: RANDOM: 11
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 6
+Đúng: 5 | Sai: 1
+Thời gian: 4.7 phút

@@ -1,0 +1,231 @@
+=== Quiz Log - 2025-12-10 19:28:03 ===
+
+Câu 1: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Trên mặt nước có hai nguồn kết hợp A, B dao động cùng pha và cách nhau 8 cm, bước sóng do sóng từ các nguồn phát ra là 0,5 cm
+  Đáp án: 7,99
+  Giải thích: 1.  **Identify Given Parameters:**
+    *   Distance between sources A and B: `AB = d = 8 cm`.
+    *   Wavelength: `λ = 0.5 cm`.
+    *   Point M oscillates with maximum amplitude (constructive interference).
+    *   Point M lies on a circle with diameter AB.
+    *   We need to find the maximum possible distance `MB`.
+
+2.  **Condition for Constructive Interference:**
+    For two coherent sources A and B oscillating in phase, a point M will have maximum amplitude if the path difference is an integer multiple of the wavelength:
+    `|MB - MA| = kλ`, where `k` is an integer (`k = 0, ±1, ±2, ...`).
+
+3.  **Geometric Condition:**
+    Since M lies on a circle with diameter AB, the triangle AMB is a right-angled triangle with the right angle at M. Therefore, by the Pythagorean theorem:
+    `MA² + MB² = AB²`
+    `MA² + MB² = 8² = 64` (Equation 1)
+
+4.  **Express MA in terms of MB and kλ:**
+    From the interference condition, we have two cases:
+    *   Case 1: `MB - MA = kλ`  => `MA = MB - kλ`
+    *   Case 2: `MA - MB = kλ`  => `MA = MB + kλ` (or `MB - MA = -kλ`)
+
+    Let's denote `K = kλ`. The path difference is `|MB - MA| = |K|`.
+    We can rewrite `MA = MB - K` (where K can be positive or negative, covering both cases).
+
+5.  **Substitute MA into the Pythagorean Equation:**
+    Substitute `MA = MB - K` into Equation 1:
+    `(MB - K)² + MB² = 64`
+    `MB² - 2K * MB + K² + MB² = 64`
+    `2MB² - 2K * MB + K² - 64 = 0`
+
+6.  **Solve for MB using the Quadratic Formula:**
+    This is a quadratic equation of the form `aX² + bX + c = 0`, where `X = MB`.
+    `MB = [ -b ± sqrt(b² - 4ac) ] / (2a)`
+    `MB = [ 2K ± sqrt( (-2K)² - 4 * 2 * (K² - 64) ) ] / (2 * 2)`
+    `MB = [ 2K ± sqrt( 4K² - 8K² + 512 ) ] / 4`
+    `MB = [ 2K ± sqrt( 512 - 4K² ) ] / 4`
+    `MB = [ K ± sqrt( 128 - K² ) ] / 2`
+
+7.  **Determine the Range of K:**
+    *   For MB to be a real number, the term under the square root must be non-negative:
+        `128 - K² ≥ 0` => `K² ≤ 128` => `|K| ≤ sqrt(128) ≈ 11.31`.
+    *   From the triangle inequality, the path difference must be less than the distance between the sources:
+        `|MB - MA| < AB` => `|K| < 8`.
+    *   Combining these, the stricter condition is `|K| < 8`.
+    *   Since `K = kλ = k * 0.5`, we have `|k * 0.5| < 8` => `|k| < 16`.
+    *   Therefore, `k` can be any integer from -15 to 15.
+    *   The possible values for `K = kλ` are `{-15*0.5, -14*0.5, ..., 0, ..., 14*0.5, 15*0.5}`, which is `{-7.5, -7.0, ..., 0, ..., 7.0, 7.5}`.
+
+8.  **Maximize MB:**
+    We want to maximize `MB`. From the quadratic solution, `MB = [ K ± sqrt( 128 - K² ) ] / 2`.
+    To maximize `MB`, we should choose the `+` sign:
+    `MB = (K + sqrt( 128 - K² )) / 2`
+    Let `f(K) = K + sqrt(128 - K²)`. We need to find the value of `K` within the range `(-8, 8)` (and from the discrete set `{-7.5, ..., 7.5}`) that maximizes `f(K)`.
+    To find the maximum of `f(K)`, we can take its derivative with respect to `K` and set it to zero:
+    `f'(K) = 1 - K / sqrt(128 - K²) = 0`
+    `K = sqrt(128 - K²)`
+    `K² = 128 - K²`
+    `2K² = 128`
+    `K² = 64`
+    `K = 8` (since K must be positive from `K = sqrt(...)`)
+    However, `K` must be strictly less than 8. This means that the function `f(K)` is monotonically increasing for `K < 8`.
+    Therefore, to maximize `f(K)` (and thus `MB`), we must choose the largest possible value of `K` from the set `{-7.5, -7.0, ..., 7.0, 7.5}`.
+    The largest such value is `K = 7.5`. This corresponds to `k = 15`.
+
+9.  **Calculate the Maximum MB:**
+    Substitute `K = 7.5` into the MB formula:
+    `MB = (7.5 + sqrt(128 - (7.5)²)) / 2`
+    `MB = (7.5 + sqrt(128 - 56.25)) / 2`
+    `MB = (7.5 + sqrt(71.75)) / 2`
+    `MB = (7.5 + 8.4705371) / 2`
+    `MB = 15.9705371 / 2`
+    `MB = 7.98526855`
+
+10. **Rounding:**
+    Rounding to two decimal places as requested:
+    `MB ≈ 7.99 cm`.
+
+The final answer is $\boxed{7.99}$
+
+--------------------------------------------------
+
+Câu 2: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Trên mặt nước có hai nguồn kết hợp A, B dao động cùng pha và cách nhau 8 cm, bước sóng do sóng từ các nguồn phát ra là 0,5 cm
+  Đáp án: 7,99
+  Giải thích: 1.  **Identify given parameters:**
+    *   Distance between sources A and B: `d = AB = 8 cm`.
+    *   Wavelength: `λ = 0.5 cm`.
+    *   Sources A and B vibrate in phase.
+    *   Point M is on a circle with diameter AB. This implies that the angle AMB is 90 degrees, forming a right-angled triangle AMB with hypotenuse AB.
+    *   Point M vibrates with maximum amplitude (constructive interference).
+    *   We need to find the distance `MB` such that M is furthest from B, rounded to two decimal places.
+
+2.  **Formulate conditions:**
+    *   Let `MA = y` and `MB = x`.
+    *   **Pythagorean theorem:** Since triangle AMB is a right-angled triangle, `y^2 + x^2 = AB^2 = 8^2 = 64`.
+    *   **Constructive interference:** For sources vibrating in phase, constructive interference occurs when the path difference `|y - x|` is an integer multiple of the wavelength `λ`. So, `y - x = kλ`, where `k` is an integer.
+
+3.  **Determine the range of k:**
+    *   Since M is on the circle, the path difference `y - x` must be less than `AB` (if M is on the side of A relative to the perpendicular bisector of AB) and greater than `-AB` (if M is on the side of B). Thus, `-AB < y - x < AB`.
+    *   Substituting `y - x = kλ`: `-8 < kλ < 8`.
+    *   Substituting `λ = 0.5 cm`: `-8 < k * 0.5 < 8`.
+    *   Dividing by 0.5: `-16 < k < 16`.
+    *   So, `k` can be any integer from -15 to 15.
+    *   *Self-correction/Clarification:* If `M` could coincide with `A` or `B`, then `k` could be `±16`.
+        *   If `M=A`, then `y=0`, `x=8`. `y-x = -8`. `kλ = -8`, so `k = -16`. `MB = 8`.
+        *   If `M=B`, then `y=8`, `x=0`. `y-x = 8`. `kλ = 8`, so `k = 16`. `MB = 0`.
+        However, the provided answer `7.99` (not `8.00`) suggests that `k` cannot be `±16`, meaning M cannot coincide with A or B. This is a common interpretation in such problems where a specific rounded value is expected. Therefore, we use the range `k ∈ {-15, -14, ..., 14, 15}`.
+
+4.  **Solve for x (MB):**
+    *   From `y - x = kλ`, we get `y = x + kλ`.
+    *   Substitute `y` into the Pythagorean equation: `(x + kλ)^2 + x^2 = 64`.
+    *   Expand: `x^2 + 2xkλ + (kλ)^2 + x^2 = 64`.
+    *   Rearrange into a quadratic equation in `x`: `2x^2 + (2kλ)x + ((kλ)^2 - 64) = 0`.
+    *   Use the quadratic formula `x = [-b ± sqrt(b^2 - 4ac)] / (2a)` where `a=2`, `b=2kλ`, `c=(kλ)^2 - 64`.
+    *   `x = [-2kλ ± sqrt((2kλ)^2 - 4 * 2 * ((kλ)^2 - 64))] / (2 * 2)`
+    *   `x = [-2kλ ± sqrt(4(kλ)^2 - 8(kλ)^2 + 512)] / 4`
+    *   `x = [-2kλ ± sqrt(512 - 4(kλ)^2)] / 4`
+    *   `x = [-kλ ± sqrt(128 - (kλ)^2)] / 2`.
+    *   Since `x` (distance MB) must be positive, we must choose the `+` sign for the square root:
+        `x = (-kλ + sqrt(128 - (kλ)^2)) / 2`.
+    *   For `x` to be a real number, the term inside the square root must be non-negative: `128 - (kλ)^2 >= 0`, which means `(kλ)^2 <= 128`.
+    *   `|kλ| <= sqrt(128) ≈ 11.31`.
+    *   `|k * 0.5| <= 11.31`, so `|k| <= 22.62`. This further confirms that `k` in the range `[-15, 15]` is valid.
+
+5.  **Maximize x:**
+    *   We want to maximize `x = MB`. Analyzing the formula `x = (-kλ + sqrt(128 - (kλ)^2)) / 2`, to maximize `x`, we need `kλ` to be as negative as possible (to maximize `-kλ`).
+    *   Considering the allowed integer values for `k` (from -15 to 15), the most negative value for `kλ` occurs when `k = -15`.
+    *   Calculate `kλ` for `k = -15`: `kλ = -15 * 0.5 = -7.5`.
+
+6.  **Calculate the maximum x:**
+    *   Substitute `kλ = -7.5` into the equation for `x`:
+        `x = (-(-7.5) + sqrt(128 - (-7.5)^2)) / 2`
+        `x = (7.5 + sqrt(128 - 56.25)) / 2`
+        `x = (7.5 + sqrt(71.75)) / 2`
+        `x ≈ (7.5 + 8.47053127) / 2`
+        `x ≈ 15.97053127 / 2`
+        `x ≈ 7.985265635`
+
+7.  **Round to two decimal places:**
+    *   Rounding `7.985265635` to two decimal places gives `7.99`.
+
+The final answer is $\boxed{7.99}$
+
+--------------------------------------------------
+
+Câu 3: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu "," và dấu "-")
+Trên mặt nước có hai nguồn kết hợp A, B dao động cùng pha và cách nhau 8 cm, bước sóng do sóng từ các nguồn phát ra là 0,5 cm
+  Đáp án: 7,99
+  Giải thích: 1.  **Identify Given Information:**
+    *   Distance between sources A and B (diameter of the circle) = d = 8 cm.
+    *   Wavelength = λ = 0.5 cm.
+    *   Sources A and B vibrate in phase.
+    *   Point M vibrates with maximum amplitude (constructive interference).
+    *   Point M lies on the circle with diameter AB.
+    *   We need to find the maximum distance from M to B (MB).
+
+2.  **Formulate Conditions:**
+    *   **Constructive Interference:** For two sources vibrating in phase, a point M has maximum amplitude if the path difference is an integer multiple of the wavelength: |MA - MB| = kλ, where k is an integer (0, ±1, ±2, ...).
+    *   **Geometric Condition:** Since M is on the circle with diameter AB, triangle AMB is a right-angled triangle with the right angle at M. Therefore, by the Pythagorean theorem: MA² + MB² = AB².
+
+3.  **Apply Given Values and Variables:**
+    *   Let MA = d1 and MB = d2.
+    *   d1² + d2² = 8² = 64.
+    *   |d1 - d2| = k * 0.5.
+
+4.  **Maximize MB (d2):**
+    We want to find the maximum possible value for d2. This implies M is located closer to A than to B. Therefore, d2 must be greater than d1.
+    So, we choose the condition d2 - d1 = kλ, where k is a positive integer.
+    From this, d1 = d2 - kλ.
+
+5.  **Determine the Range of k:**
+    *   Since d1 and d2 are sides of a right triangle with hypotenuse 8, we must have 0 ≤ d1 < 8 and 0 ≤ d2 < 8.
+    *   The maximum possible path difference |d1 - d2| for any point on the circle is when M approaches A or B.
+        *   If M approaches A, d1 approaches 0, d2 approaches 8. Path difference approaches |0 - 8| = 8.
+        *   If M approaches B, d1 approaches 8, d2 approaches 0. Path difference approaches |8 - 0| = 8.
+    *   So, |kλ| ≤ 8.
+    *   |k * 0.5| ≤ 8 => |k| ≤ 16.
+    *   Since we assumed d2 - d1 = kλ with k > 0, k can be an integer from 1 to 16.
+
+6.  **Refine the Range of k (Crucial Step):**
+    If M=A, then d1=0 and d2=8. The path difference is |0-8|=8.
+    kλ = k * 0.5 = 8 => k = 16.
+    So, point A (and B by symmetry) are points of constructive interference.
+    However, if the question implicitly asks for points M *other than* the sources, or if d1 and d2 must be strictly positive (as M is a *point* of oscillation on the circle, implying it has both distances non-zero), then d1 > 0.
+    From d1 = d2 - kλ, if d1 > 0, then d2 - kλ > 0 => d2 > kλ.
+    Since d2 < 8 (as M is on the circle and cannot be A if d1>0), we have kλ < d2 < 8.
+    This implies kλ < 8 => k * 0.5 < 8 => k < 16.
+    Therefore, the maximum integer value for k is 15.
+
+7.  **Solve for d2 using k=15:**
+    Substitute d1 = d2 - kλ into d1² + d2² = 64:
+    (d2 - kλ)² + d2² = 64
+    d2² - 2kλd2 + (kλ)² + d2² = 64
+    2d2² - 2kλd2 + (kλ)² - 64 = 0
+
+    Now, substitute k = 15 and λ = 0.5 cm. So kλ = 15 * 0.5 = 7.5 cm.
+    2d2² - 2(7.5)d2 + (7.5)² - 64 = 0
+    2d2² - 15d2 + 56.25 - 64 = 0
+    2d2² - 15d2 - 7.75 = 0
+
+    Use the quadratic formula d2 = [-b ± sqrt(b² - 4ac)] / (2a):
+    d2 = [15 ± sqrt((-15)² - 4 * 2 * (-7.75))] / (2 * 2)
+    d2 = [15 ± sqrt(225 + 62)] / 4
+    d2 = [15 ± sqrt(287)] / 4
+
+    To maximize d2, we choose the '+' sign:
+    d2 = (15 + sqrt(287)) / 4
+    d2 ≈ (15 + 16.94103) / 4
+    d2 ≈ 31.94103 / 4
+    d2 ≈ 7.9852575
+
+8.  **Round to Two Decimal Places:**
+    Rounding d2 to two decimal places gives 7.99 cm.
+
+The final answer is $\boxed{7.99}$
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 4
+Đúng: 4 | Sai: 0
+Thời gian: 4.6 phút

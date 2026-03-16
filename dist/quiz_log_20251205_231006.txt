@@ -1,0 +1,1555 @@
+=== Quiz Log - 2025-12-05 23:10:06 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Cho tứ diện
+A
+B
+C
+D
+, gọi M, N lần lượt là trung điểm các cạnh AB và AC. Khi đó vị trí tương đối của đường thẳng MN và mp
+(
+B
+C
+D
+)
+là
+  Đáp án: A
+  Giải thích: Để xác định vị trí tương đối của đường thẳng MN và mặt phẳng (BCD), ta sử dụng định lý đường trung bình trong tam giác.
+
+1.  **Xét tam giác ABC:**
+    *   M là trung điểm của cạnh AB (theo đề bài).
+    *   N là trung điểm của cạnh AC (theo đề bài).
+
+2.  **Áp dụng định lý đường trung bình:**
+    *   Trong tam giác ABC, đường thẳng MN nối trung điểm của hai cạnh AB và AC.
+    *   Theo định lý đường trung bình, đường thẳng MN sẽ song song với cạnh còn lại của tam giác, tức là cạnh BC.
+    *   Vậy, MN // BC.
+
+3.  **Xét vị trí tương đối của MN và mặt phẳng (BCD):**
+    *   Ta có MN // BC.
+    *   Đường thẳng BC nằm hoàn toàn trong mặt phẳng (BCD) (vì B và C là hai điểm thuộc mặt phẳng (BCD)).
+    *   Nếu một đường thẳng song song với một đường thẳng khác nằm trong một mặt phẳng, thì đường thẳng đó sẽ song song với mặt phẳng chứa đường thẳng kia.
+
+4.  **Kết luận:**
+    *   Vì MN // BC và BC ⊂ mp(BCD), nên đường thẳng MN song song với mặt phẳng (BCD).
+
+Vậy, phương án A là đúng.
+
+--------------------------------------------------
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Cho tứ diện
+A
+B
+C
+D
+, gọi
+M
+,
+K
+lần lượt là trung điểm của
+B
+C
+,
+A
+C
+,
+N
+ là điểm trên cạnh
+B
+D
+sao cho
+B
+N
+=
+2
+N
+D
+. Gọi
+F
+là giao điểm của
+A
+D
+và
+(
+M
+N
+K
+)
+. Khẳng định nào sau đây là đúng?
+  Đáp án: B
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+G
+1
+,
+G
+2
+lần lượt là trọng tâm tam giác
+A
+B
+C
+và
+S
+B
+C
+. Khi đó ta có
+  Đáp án: D
+  Giải thích: Để giải bài toán này, chúng ta cần sử dụng định nghĩa và tính chất của trọng tâm tam giác, cùng với định lý Thales đảo trong không gian.
+
+1.  **Xác định các điểm trọng tâm G1 và G2:**
+    *   G1 là trọng tâm tam giác ABC. Gọi E là trung điểm của cạnh BC. Khi đó, AE là một đường trung tuyến của tam giác ABC. Theo tính chất của trọng tâm, G1 nằm trên AE và chia AE theo tỉ lệ AG1/AE = 2/3, hay EG1/EA = 1/3.
+    *   G2 là trọng tâm tam giác SBC. E cũng là trung điểm của BC. Khi đó, SE là một đường trung tuyến của tam giác SBC. Theo tính chất của trọng tâm, G2 nằm trên SE và chia SE theo tỉ lệ SG2/SE = 2/3, hay EG2/ES = 1/3.
+
+2.  **Xét tam giác SAE:**
+    *   Chúng ta có điểm G1 nằm trên cạnh AE và điểm G2 nằm trên cạnh SE.
+    *   Từ các tỉ lệ ở bước 1, ta có:
+        EG1/EA = 1/3
+        EG2/ES = 1/3
+    *   Vì EG1/EA = EG2/ES = 1/3, theo định lý Thales đảo (hoặc định lý về đường trung bình của tam giác mở rộng), đường thẳng G1G2 song song với cạnh SA của tam giác SAE. Tức là, G1G2 // SA.
+
+3.  **Kết luận về mối quan hệ song song giữa G1G2 và các mặt phẳng:**
+    *   Vì đường thẳng G1G2 song song với đường thẳng SA (G1G2 // SA).
+    *   Đường thẳng SA nằm trong mặt phẳng (SAB) (SA ⊂ (SAB)).
+    *   Theo định nghĩa về đường thẳng song song với mặt phẳng, nếu một đường thẳng song song với một đường thẳng khác nằm trong mặt phẳng, thì đường thẳng đó song song với mặt phẳng.
+    *   Do đó, G1G2 // (SAB).
+
+Kiểm tra các phương án:
+A. G1G2 // (SDC): Sai, vì SA không song song hay nằm trong (SDC) nói chung.
+B. G1G2 // (SBD): Sai, vì SA không song song hay nằm trong (SBD) nói chung.
+C. G1G2 // (SBC): Sai, vì G2 nằm trong (SBC) nhưng G1 thì không. Nếu G1G2 // (SBC) thì G1 cũng phải song song với (SBC), điều này có nghĩa là SA // (SBC), mà điều này là sai.
+D. G1G2 // (SAB): Đúng, vì G1G2 // SA và SA ⊂ (SAB).
+
+The final answer is $\boxed{D}$
+
+--------------------------------------------------
+
+Câu 4: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+M
+,
+N
+,
+P
+lần lượt là trung điểm của
+A
+B
+,
+D
+C
+,
+SA
+. Khi đó số giao điểm của
+S
+C
+và
+m
+p
+(
+M
+N
+P
+)
+là
+  Đáp án: B
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 5: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy là hình bình hành. Giao tuyến của
+(
+S
+A
+B
+)
+và
+(
+S
+C
+D
+)
+là
+  Đáp án: C
+  Giải thích: Để tìm giao tuyến của hai mặt phẳng (SAB) và (SCD), ta thực hiện các bước sau:
+
+1.  **Tìm điểm chung:** Dễ thấy S là điểm chung của cả hai mặt phẳng (SAB) và (SCD).
+
+2.  **Tìm hai đường thẳng song song trong mỗi mặt phẳng:**
+    *   Trong mặt phẳng (SAB), có đường thẳng AB.
+    *   Trong mặt phẳng (SCD), có đường thẳng CD.
+    *   Vì đáy ABCD là hình bình hành nên AB song song với CD (AB // CD).
+
+3.  **Áp dụng định lý về giao tuyến của hai mặt phẳng song song:**
+    Nếu hai mặt phẳng cắt nhau lần lượt chứa hai đường thẳng song song thì giao tuyến của chúng sẽ song song với hai đường thẳng đó.
+    Ở đây, mặt phẳng (SAB) và mặt phẳng (SCD) cắt nhau, chúng chứa cặp đường thẳng song song AB và CD. Do đó, giao tuyến của chúng phải song song với AB và CD.
+
+4.  **Kết luận:**
+    Giao tuyến của (SAB) và (SCD) là đường thẳng đi qua điểm chung S và song song với AB (đồng thời cũng song song với CD).
+
+So sánh với các phương án:
+A. Đường thẳng đi qua S và song song với BD. (Sai, BD không song song với AB hay CD).
+B. Đường thẳng đi qua S và song song với AC. (Sai, AC không song song với AB hay CD).
+C. Đường thẳng đi qua S và song song với AB. (Đúng, thỏa mãn cả hai điều kiện: đi qua S và song song với AB).
+D. Đường thẳng đi qua S và song song với AD. (Sai, AD không song song với AB hay CD).
+
+Vậy, đáp án đúng là C.
+
+--------------------------------------------------
+
+Câu 6: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+, đáy
+A
+B
+C
+D
+là hình bình hành có tâm
+O
+. Gọi
+I
+là trung điểm của
+S
+C
+. Mặt phẳng
+(
+P
+)
+chứa
+A
+I
+và song song với
+B
+D
+cắt
+S
+B
+,
+S
+D
+lần lượt tại
+M
+,
+N
+. Khẳng định nào sau đ
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 7: [Trắc nghiệm]
+  Câu hỏi: Cho hai hình bình hành
+A
+B
+C
+D
+;
+A
+B
+E
+F
+ không cùng nằm trong một mặt phẳng. Gọi 
+O
+,
+O
+′
+ lần lượt là tâm của
+A
+B
+C
+D
+;
+A
+B
+E
+F
+.
+ Khẳng định nào sau đây là đúng?
+  Đáp án: A
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 8: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Gọi I, J lần lượt là trung điểm của AB và CD. Giao tuyến của hai mp(SAB và (SCD) là đường thẳng song song với:
+  Đáp án: D
+  Giải thích: Để tìm đường thẳng song song với giao tuyến của hai mặt phẳng mp(SAB) và mp(SCD), chúng ta thực hiện các bước sau:
+
+1.  **Xác định giao tuyến của hai mặt phẳng:**
+    *   Hai mặt phẳng mp(SAB) và mp(SCD) có điểm chung đầu tiên là đỉnh S.
+    *   Mặt phẳng (SAB) chứa đường thẳng AB.
+    *   Mặt phẳng (SCD) chứa đường thẳng CD.
+    *   Theo đề bài, đáy ABCD là hình bình hành, nên đường thẳng AB song song với đường thẳng CD (AB // CD).
+
+2.  **Áp dụng định lý về giao tuyến của hai mặt phẳng chứa hai đường thẳng song song:**
+    *   Nếu hai mặt phẳng cắt nhau và lần lượt chứa hai đường thẳng song song, thì giao tuyến của chúng sẽ song song với hai đường thẳng đó.
+    *   Ở đây, mp(SAB) và mp(SCD) cắt nhau (vì có điểm chung S và không trùng nhau). Chúng chứa hai đường thẳng AB và CD song song với nhau.
+    *   Do đó, giao tuyến của mp(SAB) và mp(SCD) là một đường thẳng đi qua S và song song với AB và CD.
+
+3.  **Kiểm tra các phương án:**
+    *   Giao tuyến của mp(SAB) và mp(SCD) song song với đường thẳng AB.
+    *   Chúng ta cần tìm trong các phương án một đường thẳng song song với AB.
+
+    *   **A. IJ:** I là trung điểm của AB, J là trung điểm của CD. Trong hình bình hành ABCD, đường thẳng nối trung điểm hai cạnh đối diện (IJ) sẽ song song với hai cạnh còn lại (AD và BC). Vậy IJ // AD và IJ // BC. Do đó, IJ không song song với AB.
+    *   **B. BJ:** Đường thẳng BJ nối điểm B với trung điểm J của CD. Đường thẳng này không song song với AB.
+    *   **C. AD:** Đường thẳng AD là một cạnh của hình bình hành, AD // BC. AD không song song với AB (trừ trường hợp đặc biệt là hình chữ nhật hoặc hình vuông, nhưng hình bình hành nói chung thì không).
+    *   **D. BI:** I là trung điểm của AB. Đoạn thẳng BI nằm trên đường thẳng AB. Do đó, đường thẳng chứa đoạn BI chính là đường thẳng AB. Vì giao tuyến của hai mặt phẳng (SAB) và (SCD) song song với AB, nên giao tuyến đó cũng song song với đường thẳng BI.
+
+Vậy, đường thẳng song song với giao tuyến của hai mặt phẳng mp(SAB) và mp(SCD) là đường thẳng BI.
+
+--------------------------------------------------
+
+Câu 9: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp tứ giác S.ABCD. Goi d là giao tuyến của hai mặt phẳng (SAB) và (SCD) là đường thẳng d:
+  Đáp án: C
+  Giải thích: Để xác định đường thẳng d là giao tuyến của hai mặt phẳng (SAB) và (SCD), ta xét các yếu tố chung của hai mặt phẳng này:
+
+1.  **Điểm chung thứ nhất:** Cả hai mặt phẳng (SAB) và (SCD) đều chứa điểm S (đỉnh của hình chóp). Vậy S là một điểm thuộc giao tuyến d.
+
+2.  **Xét mối quan hệ giữa hai đường thẳng AB và CD:**
+    *   Đường thẳng AB nằm trong mặt phẳng (SAB).
+    *   Đường thẳng CD nằm trong mặt phẳng (SCD).
+
+    Có hai trường hợp xảy ra đối với hai đường thẳng AB và CD trong mặt phẳng đáy (ABCD):
+
+    *   **Trường hợp 1: AB song song với CD (AB // CD).**
+        Theo định lý về giao tuyến của hai mặt phẳng chứa hai đường thẳng song song: "Nếu hai mặt phẳng cắt nhau và lần lượt chứa hai đường thẳng song song thì giao tuyến của chúng sẽ song song với hai đường thẳng đó."
+        Trong trường hợp này, vì AB // CD, nên giao tuyến d sẽ song song với AB và song song với CD (d // AB // CD).
+        Vậy ba đường thẳng d, AB, CD song song với nhau.
+
+    *   **Trường hợp 2: AB cắt CD tại một điểm I (AB ∩ CD = I).**
+        Vì I thuộc AB và AB nằm trong mặt phẳng (SAB), nên I thuộc mặt phẳng (SAB).
+        Vì I thuộc CD và CD nằm trong mặt phẳng (SCD), nên I thuộc mặt phẳng (SCD).
+        Do đó, I là một điểm chung của hai mặt phẳng (SAB) và (SCD).
+        Vì S và I đều là các điểm chung của hai mặt phẳng (SAB) và (SCD), nên giao tuyến d chính là đường thẳng SI.
+        Trong trường hợp này, ba đường thẳng d (là SI), AB, CD đều đi qua điểm I. Vậy ba đường thẳng d, AB, CD đồng quy tại I.
+
+Kết hợp cả hai trường hợp trên, ta thấy rằng ba đường thẳng d, AB, CD luôn "đồng quy hoặc song song".
+
+Bây giờ ta xét các lựa chọn:
+*   **A. d cắt đường thẳng AB hoặc CD.** Điều này không đúng nếu AB // CD, khi đó d // AB và d // CD nên d không cắt AB hoặc CD (trừ khi d trùng với AB hoặc CD, điều này không xảy ra trong hình chóp thông thường).
+*   **B. d đi qua S và song song với AB.** d đi qua S là đúng, nhưng d chỉ song song với AB khi AB // CD. Nếu AB và CD cắt nhau, d sẽ cắt AB tại I (trừ trường hợp S trùng I, nhưng S là đỉnh chóp còn I là điểm trên đáy).
+*   **C. Ba đường thẳng d, AB, CD đồng quy hoặc song song.** Lựa chọn này bao hàm cả hai trường hợp đã phân tích ở trên (AB // CD thì d, AB, CD song song; AB cắt CD tại I thì d, AB, CD đồng quy tại I). Đây là phát biểu đúng và tổng quát nhất.
+*   **D. d đi qua giao điểm của AB và CD.** Điều này chỉ đúng khi AB và CD cắt nhau. Nếu AB // CD thì không có giao điểm, hoặc giao điểm là "điểm vô cực" nên phát biểu này không đúng trong hình học Euclid thông thường.
+
+Vậy, lựa chọn C là phát biểu chính xác nhất mô tả về đường thẳng d.
+
+The final answer is $\boxed{C}$
+
+--------------------------------------------------
+
+Câu 10: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp S.ABCD có đáy ABCD là hình bình hành. Gọi
+G
+1
+,
+G
+2
+lần lượt là trọng tâm của
+Δ
+A
+B
+C
+và
+Δ
+S
+B
+C
+. Khẳng định nào dưới đây đúng?
+  Đáp án: C
+  Giải thích: Để giải bài toán này, chúng ta sẽ sử dụng tính chất của trọng tâm tam giác và định lý Thales đảo.
+
+1.  **Xác định các trọng tâm G1 và G2:**
+    *   G1 là trọng tâm của tam giác ABC.
+    *   G2 là trọng tâm của tam giác SBC.
+
+2.  **Gọi M là trung điểm của cạnh BC:**
+    *   Trong tam giác ABC, AM là đường trung tuyến. Vì G1 là trọng tâm, G1 nằm trên AM và AG1/AM = 2/3. Điều này cũng có nghĩa là MG1/MA = 1/3.
+    *   Trong tam giác SBC, SM là đường trung tuyến. Vì G2 là trọng tâm, G2 nằm trên SM và SG2/SM = 2/3. Điều này cũng có nghĩa là MG2/MS = 1/3.
+
+3.  **Xét tam giác SAM:**
+    *   Chúng ta có điểm G1 trên cạnh AM sao cho MG1/MA = 1/3.
+    *   Chúng ta có điểm G2 trên cạnh SM sao cho MG2/MS = 1/3.
+
+4.  **Áp dụng định lý Thales đảo:**
+    *   Trong tam giác SAM, ta có tỉ lệ MG1/MA = MG2/MS = 1/3.
+    *   Theo định lý Thales đảo, đường thẳng nối hai điểm G1 và G2 phải song song với cạnh còn lại của tam giác SAM, tức là G1G2 // SA.
+
+5.  **Kiểm tra các phương án:**
+    *   **A. G1G2 // (SBC):** Vì G1G2 // SA, nên điều này tương đương với SA // (SBC). Tuy nhiên, đường thẳng SA cắt mặt phẳng (SBC) tại điểm S (trừ trường hợp đặc biệt SA nằm trong (SBC) khi A, S, B, C thẳng hàng hoặc A nằm trong (SBC) - điều này không xảy ra với hình chóp). Do đó, A sai.
+    *   **B. G1G2 // (SCD):** Tương tự, SA cắt mặt phẳng (SCD) tại S. Do đó, B sai.
+    *   **C. G1G2 // (SAB):** Vì G1G2 // SA, và đường thẳng SA nằm hoàn toàn trong mặt phẳng (SAB), nên theo định nghĩa đường thẳng song song với mặt phẳng (một đường thẳng được coi là song song với một mặt phẳng nếu nó nằm trong mặt phẳng đó hoặc không có điểm chung với mặt phẳng đó), G1G2 song song với mặt phẳng (SAB). Do đó, C đúng.
+    *   **D. G1G2 // (SBD):** Tương tự, SA cắt mặt phẳng (SBD) tại S. Do đó, D sai.
+
+Kết luận, khẳng định đúng là G1G2 // (SAB).
+
+The final answer is $\boxed{C}$
+
+--------------------------------------------------
+
+Câu 11: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình thang với
+A
+D
+song song với
+B
+C
+và
+A
+D
+=
+2
+B
+C
+. Gọi
+E
+là điểm thuộc cạnh
+B
+C
+sao cho
+B
+C
+=
+4
+B
+E
+. Lấy
+F
+thuộc cạnh
+S
+A
+sao cho
+F
+A
+=
+k
+.
+F
+S
+. Biết r
+  Đáp án: C
+  Giải thích: Để giải bài toán này, chúng ta sẽ sử dụng phương pháp tọa độ vector với gốc tọa độ đặt tại đỉnh S của hình chóp.
+
+Đặt $\vec{SA} = \vec{a}$, $\vec{SB} = \vec{b}$, $\vec{SC} = \vec{c}$.
+Vì ABCD là hình thang với AD song song với BC và AD = 2BC, ta có mối quan hệ giữa các vector:
+$\vec{AD} = 2 \vec{BC}$
+$\vec{SD} - \vec{SA} = 2 (\vec{SC} - \vec{SB})$
+$\vec{d} - \vec{a} = 2 (\vec{c} - \vec{b})$
+$\vec{d} = \vec{a} + 2\vec{c} - 2\vec{b}$ (1)
+
+Điểm E thuộc cạnh BC sao cho BC = 4BE. Điều này có nghĩa là E chia đoạn BC theo tỉ lệ BE/BC = 1/4.
+Vậy $\vec{SE} = (1 - \frac{1}{4})\vec{SB} + \frac{1}{4}\vec{SC} = \frac{3}{4}\vec{b} + \frac{1}{4}\vec{c}$. (2)
+
+Điểm F thuộc cạnh SA sao cho FA = k FS.
+Nếu F nằm giữa S và A, thì FS + FA = SA.
+FS + k FS = SA
+(1+k) FS = SA
+FS = SA / (1+k).
+Vậy $\vec{SF} = \frac{1}{1+k}\vec{SA} = \frac{1}{1+k}\vec{a}$. (3)
+(Lưu ý rằng k > 0 vì F nằm trên đoạn SA)
+
+Bây giờ ta tính vector $\vec{EF}$:
+$\vec{EF} = \vec{SF} - \vec{SE}$
+Thế (2) và (3) vào:
+$\vec{EF} = \frac{1}{1+k}\vec{a} - (\frac{3}{4}\vec{b} + \frac{1}{4}\vec{c})$
+$\vec{EF} = \frac{1}{1+k}\vec{a} - \frac{3}{4}\vec{b} - \frac{1}{4}\vec{c}$. (4)
+
+Điều kiện EF song song với mặt phẳng (SCD) có nghĩa là vector $\vec{EF}$ phải là một tổ hợp tuyến tính của hai vector bất kỳ không cùng phương nằm trong mặt phẳng (SCD) và có gốc tại S, ví dụ như $\vec{SC}$ và $\vec{SD}$.
+Vậy, ta có thể viết $\vec{EF} = x\vec{SC} + y\vec{SD}$ với x, y là các số thực.
+$\vec{EF} = x\vec{c} + y\vec{d}$. (5)
+
+Thế (1) vào (5):
+$\vec{EF} = x\vec{c} + y(\vec{a} + 2\vec{c} - 2\vec{b})$
+$\vec{EF} = y\vec{a} - 2y\vec{b} + (x + 2y)\vec{c}$. (6)
+
+So sánh (4) và (6), và giả sử các vector $\vec{a}$, $\vec{b}$, $\vec{c}$ không đồng phẳng (điều này đúng trong hình chóp vì S, A, B, C không đồng phẳng), ta có thể so sánh các hệ số của từng vector:
+Hệ số của $\vec{a}$: $\frac{1}{1+k} = y$ (i)
+Hệ số của $\vec{b}$: $-\frac{3}{4} = -2y$ (ii)
+Hệ số của $\vec{c}$: $-\frac{1}{4} = x + 2y$ (iii)
+
+Từ phương trình (ii):
+$y = \frac{-3/4}{-2} = \frac{3}{8}$.
+
+Thay giá trị của y vào phương trình (i):
+$\frac{1}{1+k} = \frac{3}{8}$
+$1+k = \frac{8}{3}$
+$k = \frac{8}{3} - 1 = \frac{5}{3}$.
+
+Thay giá trị của y vào phương trình (iii) để tìm x (không cần thiết để tìm k nhưng giúp kiểm tra tính nhất quán):
+$-\frac{1}{4} = x + 2(\frac{3}{8})$
+$-\frac{1}{4} = x + \frac{3}{4}$
+$x = -\frac{1}{4} - \frac{3}{4} = -1$.
+Vậy $k = \frac{5}{3}$.
+
+Bây giờ chúng ta cần xác định $k = \frac{5}{3}$ nằm trong khoảng nào trong các lựa chọn:
+$\frac{5}{3} \approx 1.666...$
+
+Kiểm tra các phương án:
+A. $(\frac{9}{5}; 2) = (1.8; 2)$. (Không chứa $1.666...$)
+B. $(1; \frac{7}{5}) = (1; 1.4)$. (Không chứa $1.666...$)
+C. $(\frac{8}{5}; \frac{9}{5}) = (1.6; 1.8)$. (Chứa $1.666...$ vì $1.6 < 1.666... < 1.8$)
+D. $(\frac{7}{5}; \frac{8}{5}) = (1.4; 1.6)$. (Không chứa $1.666...$)
+
+Vậy giá trị của k là $\frac{5}{3}$ nằm trong khoảng $(\frac{8}{5}; \frac{9}{5})$.
+
+The final answer is $\boxed{C}$
+
+--------------------------------------------------
+
+Câu 12: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+M
+,
+N
+theo thứ tự là trọng tâm của
+Δ
+S
+A
+B
+;
+Δ
+S
+C
+D
+. Gọi
+I
+là giao điểm của các đường thẳng
+B
+M
+,
+C
+N
+. Khi đó tỉ số
+S
+I
+C
+D
+bằng
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 13: [Đúng/Sai]
+  Câu hỏi: Cho hai hình bình hành
+A
+B
+C
+D
+và
+A
+B
+E
+F
+không cùng nằm trong một mặt phẳng và có tâm lần lượt là
+O
+và
+O
+′
+. Gọi
+M
+,
+N
+lần lượt là hai điểm trên các cạnh
+A
+E
+,
+B
+D
+sao cho
+A
+M
+=
+1
+3
+A
+E
+,
+B
+N
+=
+1
+3
+B
+  Đáp án: a=Đ, b=S, c=S, d=Đ
+  Giải thích: Đầu tiên, chúng ta thiết lập hệ vector với gốc tại điểm A. Gọi các vector cơ sở là $\vec{AB} = \mathbf{a}$, $\vec{AD} = \mathbf{d}$, và $\vec{AF} = \mathbf{f}$. Vì hai hình bình hành ABCD và ABEF không cùng nằm trên một mặt phẳng, nên $\mathbf{a}, \mathbf{d}, \mathbf{f}$ là ba vector không đồng phẳng.
+
+Từ tính chất của hình bình hành:
+*   ABCD là hình bình hành: $\vec{AC} = \vec{AB} + \vec{AD} = \mathbf{a} + \mathbf{d}$. $\vec{BC} = \vec{AD} = \mathbf{d}$. $\vec{CD} = \vec{BA} = -\mathbf{a}$.
+*   ABEF là hình bình hành: $\vec{AE} = \vec{AB} + \vec{AF} = \mathbf{a} + \mathbf{f}$. $\vec{BE} = \vec{AF} = \mathbf{f}$. $\vec{FE} = \vec{AB} = \mathbf{a}$.
+
+Các điểm được định nghĩa:
+*   O là tâm của ABCD: O là trung điểm của AC và BD. Vậy $\vec{AO} = \frac{1}{2}\vec{AC} = \frac{1}{2}(\mathbf{a} + \mathbf{d})$.
+*   O' là tâm của ABEF: O' là trung điểm của AE và BF. Vậy $\vec{AO'} = \frac{1}{2}\vec{AE} = \frac{1}{2}(\mathbf{a} + \mathbf{f})$.
+*   M trên AE sao cho $AM = \frac{1}{3}AE$: $\vec{AM} = \frac{1}{3}\vec{AE} = \frac{1}{3}(\mathbf{a} + \mathbf{f})$.
+*   N trên BD sao cho $BN = \frac{1}{3}BD$: $\vec{AN} = \vec{AB} + \vec{BN} = \mathbf{a} + \frac{1}{3}\vec{BD}$.
+    Ta có $\vec{BD} = \vec{AD} - \vec{AB} = \mathbf{d} - \mathbf{a}$.
+    Vậy $\vec{AN} = \mathbf{a} + \frac{1}{3}(\mathbf{d} - \mathbf{a}) = \frac{2}{3}\mathbf{a} + \frac{1}{3}\mathbf{d}$.
+
+Bây giờ chúng ta sẽ đánh giá từng phát biểu:
+
+**a) (1) OO' song song với mặt phẳng (ADF)**
+Tính vector $\vec{OO'}$:
+$\vec{OO'} = \vec{AO'} - \vec{AO} = \frac{1}{2}(\mathbf{a} + \mathbf{f}) - \frac{1}{2}(\mathbf{a} + \mathbf{d}) = \frac{1}{2}(\mathbf{f} - \mathbf{d})$.
+Tính vector $\vec{DF}$:
+$\vec{DF} = \vec{AF} - \vec{AD} = \mathbf{f} - \mathbf{d}$.
+Như vậy, $\vec{OO'} = \frac{1}{2}\vec{DF}$. Điều này có nghĩa là đường thẳng OO' song song với đường thẳng DF.
+Vì DF nằm trong mặt phẳng (ADF) và OO' không nằm trong mặt phẳng (ADF) (vì O, O' không phải là các điểm của mặt phẳng này, O là tâm ABCD, O' là tâm ABEF), nên đường thẳng OO' song song với mặt phẳng (ADF).
+**Phát biểu a) là Đúng.**
+
+**b) (2) OO' cắt mặt phẳng (BCE)**
+Từ câu a), ta có $\vec{OO'} = \frac{1}{2}\vec{DF}$.
+Mặt phẳng (BCE) được xác định bởi ba điểm B, C, E.
+Ta có $\vec{BC} = \vec{AD} = \mathbf{d}$ (vì ABCD là hình bình hành).
+Và $\vec{BE} = \vec{AF} = \mathbf{f}$ (vì ABEF là hình bình hành).
+Vì hai đường thẳng cắt nhau BC và BE của mặt phẳng (BCE) lần lượt song song với hai đường thẳng cắt nhau AD và AF của mặt phẳng (ADF), nên mặt phẳng (BCE) song song với mặt phẳng (ADF).
+Vì OO' song song với (ADF) (theo câu a)), và (ADF) song song với (BCE), nên OO' song song với (BCE).
+Khi một đường thẳng song song với một mặt phẳng và không nằm trên mặt phẳng đó, thì nó không thể cắt mặt phẳng đó.
+**Phát biểu b) là Sai.**
+
+**c) (3) BN / BD = 2/3**
+Theo đề bài, N là điểm trên BD sao cho $BN = \frac{1}{3}BD$.
+Do đó, tỉ số $BN / BD = \frac{1}{3}$.
+Phát biểu này nói tỉ số là $2/3$.
+**Phát biểu c) là Sai.**
+
+**d) (4) MN song song với mặt phẳng (CDFE).**
+Tính vector $\vec{MN}$:
+$\vec{MN} = \vec{AN} - \vec{AM} = \left(\frac{2}{3}\mathbf{a} + \frac{1}{3}\mathbf{d}\right) - \left(\frac{1}{3}\mathbf{a} + \frac{1}{3}\mathbf{f}\right) = \frac{1}{3}\mathbf{a} + \frac{1}{3}\mathbf{d} - \frac{1}{3}\mathbf{f} = \frac{1}{3}(\mathbf{a} + \mathbf{d} - \mathbf{f})$.
+
+Xét mặt phẳng (CDFE).
+Ta có $\vec{CD} = \vec{AD} - \vec{AC} = \vec{AD} - (\vec{AB} + \vec{AD}) = -\vec{AB} = -\mathbf{a}$.
+Và $\vec{FE} = \vec{AB} = \mathbf{a}$.
+Vì $\vec{CD} = -\mathbf{a}$ và $\vec{FE} = \mathbf{a}$, nên $\vec{CD} = -\vec{FE}$. Điều này có nghĩa là CD song song với FE và $CD = FE$.
+Vậy CDFE là một hình bình hành. Mặt phẳng (CDFE) được xác định bởi hai vector $\vec{CD}$ và $\vec{DE}$.
+Tính vector $\vec{DE}$:
+$\vec{DE} = \vec{AE} - \vec{AD} = (\mathbf{a} + \mathbf{f}) - \mathbf{d} = \mathbf{a} + \mathbf{f} - \mathbf{d}$.
+
+Để MN song song với mặt phẳng (CDFE), vector $\vec{MN}$ phải là tổ hợp tuyến tính của $\vec{CD}$ và $\vec{DE}$.
+Tức là, $\vec{MN} = k_1 \vec{CD} + k_2 \vec{DE}$ cho các hằng số $k_1, k_2$ nào đó.
+$\frac{1}{3}(\mathbf{a} + \mathbf{d} - \mathbf{f}) = k_1 (-\mathbf{a}) + k_2 (\mathbf{a} + \mathbf{f} - \mathbf{d})$
+$\frac{1}{3}\mathbf{a} + \frac{1}{3}\mathbf{d} - \frac{1}{3}\mathbf{f} = (-k_1 + k_2)\mathbf{a} - k_2\mathbf{d} + k_2\mathbf{f}$
+
+So sánh các hệ số của $\mathbf{a}, \mathbf{d}, \mathbf{f}$ (vì chúng không đồng phẳng):
+1.  Đối với $\mathbf{a}$: $\frac{1}{3} = -k_1 + k_2$
+2.  Đối với $\mathbf{d}$: $\frac{1}{3} = -k_2$
+3.  Đối với $\mathbf{f}$: $-\frac{1}{3} = k_2$
+
+Từ (2) và (3), ta có $k_2 = -\frac{1}{3}$.
+Thay $k_2 = -\frac{1}{3}$ vào (1):
+$\frac{1}{3} = -k_1 - \frac{1}{3}$
+$\frac{2}{3} = -k_1 \implies k_1 = -\frac{2}{3}$.
+Vì ta tìm được các giá trị $k_1 = -\frac{2}{3}$ và $k_2 = -\frac{1}{3}$ thỏa mãn, điều này chứng tỏ vector $\vec{MN}$ song song với mặt phẳng (CDFE).
+Vì điểm M (trên AE) và N (trên BD) không thuộc mặt phẳng (CDFE) (ví dụ: A, B không thuộc CDFE), nên đường thẳng MN song song với mặt phẳng (CDFE).
+**Phát biểu d) là Đúng.**
+
+--------------------------------------------------
+
+Câu 14: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành, điểm
+M
+di động trên cạnh
+A
+D
+. Một mặt phẳng
+(
+α
+)
+qua
+M
+và song song với hai đường thẳng
+C
+D
+,
+S
+A
+, cắt
+B
+C
+,
+S
+C
+và
+S
+D
+lần lượt tại
+N
+,
+
+  Đáp án: a=S, b=Đ, c=Đ, d=S
+  Giải thích: a) (1) Giao tuyến của mặt phẳng (α) với mặt phẳng (ABCD) là đường thẳng đi qua M và song song với AD.
+*   Mặt phẳng (α) đi qua điểm M và song song với đường thẳng CD.
+*   Mặt phẳng (ABCD) chứa đường thẳng CD.
+*   Theo định lý về giao tuyến của hai mặt phẳng: Nếu một mặt phẳng chứa một đường thẳng và mặt phẳng thứ hai song song với đường thẳng đó, thì giao tuyến (nếu có) của chúng sẽ song song với đường thẳng đó.
+*   Trong trường hợp này, giao tuyến của (α) và (ABCD) phải là đường thẳng đi qua điểm chung M và song song với CD.
+*   Vì ABCD là hình bình hành, CD song song với AB. Do đó, giao tuyến này đi qua M và song song với AB (hoặc CD).
+*   Phát biểu cho rằng giao tuyến song song với AD. Trong một hình bình hành thông thường, CD (hoặc AB) không song song với AD.
+*   Vì vậy, phát biểu này là **Sai**.
+
+b) (2) Giao tuyến của mặt phẳng (α) với mặt phẳng (SAD) là đường thẳng đi qua M và song song với SA.
+*   Mặt phẳng (α) đi qua điểm M. Điểm M nằm trên cạnh AD, nên M cũng thuộc mặt phẳng (SAD).
+*   Mặt phẳng (α) song song với đường thẳng SA.
+*   Mặt phẳng (SAD) chứa đường thẳng SA.
+*   Áp dụng định lý tương tự như trên, giao tuyến của (α) và (SAD) phải là đường thẳng đi qua điểm chung M và song song với SA.
+*   Phát biểu này hoàn toàn khớp với định lý.
+*   Vì vậy, phát biểu này là **Đúng**.
+
+c) (3) Tứ giác MNPQ là hình thang có hai đáy là MN và PQ.
+*   MN là giao tuyến của mặt phẳng (α) với mặt phẳng đáy (ABCD). Vì (α) || CD và M là điểm chung, nên MN || CD.
+*   Q là điểm thuộc SD và P là điểm thuộc SC. QP là giao tuyến của mặt phẳng (α) với mặt phẳng (SCD). Vì (α) || CD và Q là điểm chung của (α) và (SCD), nên QP || CD.
+*   Từ MN || CD và QP || CD, suy ra MN || QP.
+*   Một tứ giác có một cặp cạnh đối song song là hình thang. Do đó, MNPQ là hình thang với hai đáy là MN và QP.
+*   Vì vậy, phát biểu này là **Đúng**.
+
+d) (4) Gọi I = MQ ∩ NP. Khi đó I thuộc đường thẳng đi qua S và song song với AB.
+*   Điểm I là giao điểm của đường thẳng MQ và NP.
+*   Đường thẳng MQ nằm trong mặt phẳng (SAD).
+*   Đường thẳng NP nằm trong mặt phẳng (SBC).
+*   Do đó, điểm I phải nằm trên giao tuyến của hai mặt phẳng (SAD) và (SBC).
+*   Giao tuyến của hai mặt phẳng (SAD) và (SBC) là một đường thẳng đi qua đỉnh S và song song với các đường thẳng AD và BC (vì AD || BC trong hình bình hành ABCD).
+*   Như vậy, điểm I phải nằm trên đường thẳng đi qua S và song song với AD (hoặc BC).
+*   Phát biểu cho rằng I thuộc đường thẳng đi qua S và song song với AB.
+*   Trong một hình bình hành thông thường, đường thẳng AD không song song với đường thẳng AB. Do đó, đường thẳng đi qua S song song với AD khác với đường thẳng đi qua S song song với AB.
+*   Vì vậy, phát biểu này là **Sai**.
+
+--------------------------------------------------
+
+Câu 15: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+I
+,
+J
+lần lượt là trọng tâm của tam giác
+S
+A
+B
+và
+S
+C
+D
+;
+E
+,
+F
+lần lượt là trung điểm của
+A
+B
+và
+C
+D
+. Khi đó:
+  Đáp án: a=S, b=Đ, c=Đ, d=S
+  Giải thích: [
+    "a) J là trọng tâm của tam giác SCD, F là trung điểm của CD (nên SF là một trung tuyến). Theo tính chất của trọng tâm, trọng tâm chia trung tuyến theo tỉ lệ 2:1 kể từ đỉnh. Do đó, SJ/SF = 2/3. Phát biểu cho rằng SJ/SF = 1/2 là Sai.",
+    "b) E là trung điểm của AB và F là trung điểm của CD. I là trọng tâm của tam giác SAB, nên I nằm trên trung tuyến SE và SI/SE = 2/3. J là trọng tâm của tam giác SCD, nên J nằm trên trung tuyến SF và SJ/SF = 2/3. Xét tam giác SEF, ta có SI/SE = SJ/SF = 2/3. Theo định lý Talet đảo, suy ra IJ // EF. Mặt khác, vì ABCD là hình bình hành và E, F là trung điểm của AB, CD, nên EF là đường thẳng đi qua trung điểm của hai cạnh đối AB và CD, do đó EF song song với AD và BC. Vì EF nằm trong mặt phẳng đáy (ABCD), và IJ // EF, nên IJ song song với mặt phẳng (ABCD). Phát biểu này là Đúng.",
+    "c) Phát biểu này gồm hai phần:
+    *   **BC song song với mặt phẳng (SAD):** Vì ABCD là hình bình hành, nên BC // AD. Đường thẳng AD nằm trong mặt phẳng (SAD). Vì BC // AD và BC không nằm trong mặt phẳng (SAD), nên BC song song với mặt phẳng (SAD).
+    *   **BC song song với mặt phẳng (SEF):** E là trung điểm của AB, F là trung điểm của CD. Vì ABCD là hình bình hành, nên AB // CD và AB = CD. Do đó, ABEF là hình thang, và EF là đường trung bình của hình thang ADCB (nếu nhìn từ cạnh AD và BC) hoặc đơn giản là EF song song với AD và BC. Đường thẳng EF nằm trong mặt phẳng (SEF). Vì BC // EF và BC không nằm trong mặt phẳng (SEF), nên BC song song với mặt phẳng (SEF).
+    Cả hai phần đều đúng, nên phát biểu này là Đúng.",
+    "d) Từ phân tích ở câu b) và c), ta có IJ // EF và EF // BC. Từ đó suy ra IJ // BC. Mặt phẳng (AIJ) chứa đường thẳng IJ. Vì đường thẳng BC song song với đường thẳng IJ nằm trong mặt phẳng (AIJ), nên BC song song với mặt phẳng (AIJ) (trừ trường hợp BC nằm trong (AIJ), điều này không xảy ra với hình chóp). Một đường thẳng song song với một mặt phẳng thì không thể cắt mặt phẳng đó. Do đó, phát biểu BC cắt mặt phẳng (AIJ) là Sai."
+]
+
+--------------------------------------------------
+
+Câu 16: [Đúng/Sai]
+  Câu hỏi: Cho hình chóp tứ giác đều
+S
+.
+A
+B
+C
+D
+có cạnh đáy bằng
+2
+,
+M
+là một điểm thuộc cạnh
+S
+A
+sao cho
+S
+M
+S
+A
+=
+2
+3
+. Một mặt phẳng
+(
+α
+)
+đi qua
+M
+song song với
+A
+B
+và
+A
+D
+, cắt các cạnh bên
+S
+B
+,
+S
+C
+,
+S
+D
+  Đáp án: a=Đ, b=S, c=S, d=Đ
+  Giải thích: Để giải quyết bài toán này, trước hết chúng ta cần phân tích các thông tin đã cho:
+*   Hình chóp tứ giác đều S.ABCD có cạnh đáy bằng 2. Điều này có nghĩa là đáy ABCD là một hình vuông, và SA = SB = SC = SD (các cạnh bên bằng nhau) nếu đây là hình chóp đều theo nghĩa tất cả các cạnh đều bằng nhau, nhưng ở đây chỉ nói "chóp tứ giác đều" tức là đáy là hình vuông và chân đường cao trùng với tâm đáy. Các cạnh bên có thể không bằng cạnh đáy. Tuy nhiên, điều này không ảnh hưởng đến tính chất song song và tỉ lệ đoạn thẳng mà chúng ta sẽ sử dụng.
+*   M là điểm thuộc SA sao cho SM/SA = 2/3.
+*   Mặt phẳng (α) đi qua M, song song với AB và AD. Vì AB và AD là hai đường thẳng cắt nhau trong mặt phẳng đáy (ABCD), việc (α) song song với cả AB và AD suy ra mặt phẳng (α) song song với mặt phẳng đáy (ABCD).
+*   Mặt phẳng (α) cắt SB, SC, SD lần lượt tại N, P, Q.
+*   Do (α) // (ABCD), theo định lý Thales trong không gian (hoặc định lý về mặt phẳng song song với mặt phẳng), thiết diện MNPQ sẽ là một hình đồng dạng với ABCD và các tỉ số đoạn thẳng từ đỉnh S đến các điểm trên thiết diện và cạnh bên sẽ bằng nhau:
+    SM/SA = SN/SB = SP/SC = SQ/SD = 2/3.
+    Đồng thời, các cạnh của thiết diện MNPQ sẽ song song với các cạnh tương ứng của ABCD (ví dụ: MN // AB, NP // BC, PQ // CD, QM // DA).
+
+Bây giờ, chúng ta sẽ đánh giá từng phát biểu:
+
+**a) (1) Giao tuyến của mặt phẳng (α) với mặt phẳng (SAB) là đường thẳng đi qua M và song song với AB.**
+*   Mặt phẳng (α) chứa điểm M.
+*   Mặt phẳng (α) song song với đường thẳng AB (theo giả thiết).
+*   Mặt phẳng (SAB) chứa đường thẳng AB.
+*   Theo tính chất: Nếu một mặt phẳng (α) song song với một đường thẳng (AB) và cắt một mặt phẳng khác (SAB) chứa đường thẳng đó (AB), thì giao tuyến của chúng (MN) phải song song với đường thẳng đó (AB).
+*   Hơn nữa, giao tuyến này phải đi qua điểm chung M của (α) và (SAB).
+*   Vậy, giao tuyến là đường thẳng MN, đi qua M và song song với AB.
+*   **Kết luận:** Phát biểu này là **Đúng**.
+
+**b) (2) Giao tuyến của mặt phẳng (α) với mặt phẳng (SAD) là đường thẳng đi qua M và song song với SD.**
+*   Tương tự như trên, mặt phẳng (α) song song với AD (theo giả thiết).
+*   Mặt phẳng (SAD) chứa AD.
+*   Giao tuyến của (α) và (SAD) phải là đường thẳng MQ, đi qua M và song song với AD.
+*   Phát biểu nói giao tuyến song song với SD, điều này là sai.
+*   **Kết luận:** Phát biểu này là **Sai**.
+
+**c) (3) SP/SC = 1/3.**
+*   Như đã phân tích ở trên, vì (α) // (ABCD), các tỉ số đoạn thẳng trên các cạnh bên phải bằng nhau: SM/SA = SN/SB = SP/SC = SQ/SD.
+*   Chúng ta được cho SM/SA = 2/3.
+*   Vậy SP/SC = 2/3.
+*   Phát biểu nói SP/SC = 1/3.
+*   **Kết luận:** Phát biểu này là **Sai**.
+
+**d) (4) Tứ giác MNPQ có diện tích bằng 16/9.**
+*   Vì (α) // (ABCD), thiết diện MNPQ là một hình vuông (do ABCD là hình vuông) và đồng dạng với ABCD.
+*   Tỉ số đồng dạng giữa hình chóp S.MNPQ và S.ABCD là k = SM/SA = 2/3.
+*   Tỉ số diện tích của hai hình đồng dạng bằng bình phương tỉ số đồng dạng.
+*   Diện tích(MNPQ) / Diện tích(ABCD) = (SM/SA)^2 = (2/3)^2 = 4/9.
+*   Cạnh đáy của hình chóp là 2, vậy Diện tích(ABCD) = 2^2 = 4.
+*   Diện tích(MNPQ) = (4/9) * Diện tích(ABCD) = (4/9) * 4 = 16/9.
+*   **Kết luận:** Phát biểu này là **Đúng**.
+
+--------------------------------------------------
+
+Câu 17: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+O
+là giao điểm của
+A
+C
+và
+B
+D
+,
+M
+là trung điểm của
+D
+O
+
+  Đáp án: 5
+  Giải thích: 1.  **Identify point M:** O is the intersection of diagonals AC and BD in parallelogram ABCD, so O is the midpoint of AC and BD. M is the midpoint of DO. Therefore, DM = MO = (1/2)DO. Since DO = (1/2)DB, we have DM = (1/4)DB.
+
+2.  **Find the intersection with the base (ABCD):**
+    *   Plane (α) passes through M and is parallel to AC.
+    *   The intersection of (α) with (ABCD) is a line through M parallel to AC.
+    *   Let this line intersect AD at Q1 and CD at Q2.
+    *   In triangle ADC, if a line through M (midpoint of DO) is parallel to AC, then by Thales's theorem (considering a homothety centered at D), DQ1/DA = DM/DO = 1/2. Thus, Q1 is the midpoint of AD.
+    *   Similarly, DQ2/DC = DM/DO = 1/2. Thus, Q2 is the midpoint of CD.
+    *   The segment **Q1Q2** is the first side of the polygon. (Q1=mid AD, Q2=mid CD).
+
+3.  **Find the intersection with the plane (SBD):**
+    *   Plane (α) passes through M and is parallel to SB.
+    *   The intersection of (α) with (SBD) is a line through M parallel to SB. Let this line intersect SD at T.
+    *   In triangle SBD, since M is on DO and DM = (1/4)DB, then by Thales's theorem (considering a homothety centered at D), DT/DS = DM/DB = 1/4.
+    *   Therefore, ST = (3/4)SD. **T** is a vertex of the polygon.
+
+4.  **Find other vertices on pyramid edges:**
+    *   We have Q1 (mid AD), Q2 (mid CD), T (on SD, ST=3/4 SD).
+    *   **On SA:** The line connecting Q1 (mid AD) and T (on SD, DT=1/4 DS) lies in plane (SAD). Let's find where this line intersects SA. Let this point be R. Using Menelaus's theorem on triangle SAD with transversal Q1-T-R: (SR/RA) * (AQ1/Q1D) * (DT/TS) = 1.
+        *   Since Q1 is midpoint of AD, AQ1/Q1D = 1.
+        *   Since DT = 1/4 DS, TS = 3/4 DS, so DT/TS = 1/3.
+        *   (SR/RA) * 1 * (1/3) = 1 => SR/RA = 3. So SR = 3RA. This means SA = SR + RA = 4RA, so AR = 1/4 SA and **SR = 3/4 SA**. **R** is a vertex.
+    *   **On SC:** The line connecting Q2 (mid CD) and T (on SD, DT=1/4 DS) lies in plane (SCD). Let's find where this line intersects SC. Let this point be U. Using Menelaus's theorem on triangle SCD with transversal Q2-T-U: (SU/UC) * (CQ2/Q2D) * (DT/TS) = 1.
+        *   Since Q2 is midpoint of CD, CQ2/Q2D = 1.
+        *   DT/TS = 1/3.
+        *   (SU/UC) * 1 * (1/3) = 1 => SU/UC = 3. So SU = 3UC. This means SC = SU + UC = 4UC, so CU = 1/4 SC and **SU = 3/4 SC**. **U** is a vertex.
+
+5.  **Verify the plane (α) and identify the sides:**
+    *   The polygon's vertices are Q1 (mid AD), Q2 (mid CD), U (SU=3/4 SC), T (ST=3/4 SD), R (SR=3/4 SA). This forms a 5-sided polygon (a pentagon).
+    *   Let's check if the plane containing this pentagon (Q1Q2UTR) satisfies the conditions:
+        *   **Passes through M:** M is on Q1Q2 (as verified in step 2), and Q1Q2 is a side of the pentagon, so the plane contains M.
+        *   **Parallel to AC:** Q1Q2 connects midpoints of AD and CD, so Q1Q2 // AC. Also, R and U are such that SR/SA = SU/SC = 3/4, which implies RU // AC. Since the plane contains two parallel lines (Q1Q2 and RU) parallel to AC, the plane (Q1Q2UTR) is parallel to AC.
+        *   **Parallel to SB:** The line segment MT (from step 3) is contained in the plane (Q1Q2UTR) (M is on Q1Q2, T is a vertex). Since MT // SB, the plane (Q1Q2UTR) is parallel to SB.
+    *   All conditions are met. The closed lines formed by the intersections are the sides of the pentagon Q1Q2UTR.
+
+6.  **Count the sides:**
+    The sides of the polygon are:
+    1.  **Q1Q2** (on face ABCD)
+    2.  **Q2U** (on face SCD)
+    3.  **UT** (on face SCD)
+    4.  **TR** (on face SAD)
+    5.  **RQ1** (on face SAD)
+    This is a closed polygon with **5** sides.
+
+The final answer is $\boxed{5}$
+
+--------------------------------------------------
+
+Câu 18: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+I
+,
+K
+lần lượt là trung điểm của
+B
+C
+và
+C
+D
+. Gọi
+M
+là t
+  Đáp án: 1
+  Giải thích: Let's set up a vector system with point A as the origin (vector `vec(A) = 0`).
+Let `vec(S)`, `vec(B)`, `vec(D)` be the position vectors of points S, B, D respectively.
+
+1.  **Define the position vectors of key points:**
+    *   A is the origin: `vec(A) = 0`
+    *   ABCD is a parallelogram, so `vec(AC) = vec(AB) + vec(AD)`. In our notation, `vec(C) = vec(B) + vec(D)`.
+    *   I is the midpoint of BC: `vec(I) = (vec(B) + vec(C)) / 2 = (vec(B) + (vec(B) + vec(D))) / 2 = (2*vec(B) + vec(D)) / 2`.
+    *   K is the midpoint of CD: `vec(K) = (vec(C) + vec(D)) / 2 = ((vec(B) + vec(D)) + vec(D)) / 2 = (vec(B) + 2*vec(D)) / 2`.
+    *   M is the midpoint of SB: `vec(M) = (vec(S) + vec(B)) / 2 = (1/2)*vec(S) + (1/2)*vec(B)`.
+
+2.  **Express point F in two ways:**
+    *   **F lies on the line DM:**
+        Point F lies on the line passing through D and M. Thus, `vec(F)` can be expressed as a linear combination of `vec(D)` and `vec(M)`:
+        `vec(F) = (1 - t)vec(D) + t*vec(M)` for some scalar `t`.
+        Substitute `vec(M)`:
+        `vec(F) = (1 - t)vec(D) + t*((1/2)*vec(S) + (1/2)*vec(B))`
+        `vec(F) = (t/2)*vec(S) + (t/2)*vec(B) + (1 - t)*vec(D)` (Equation 1)
+
+    *   **F lies in the plane (SIK):**
+        Point F lies in the plane defined by S, I, K. This means `vec(SF)` can be written as a linear combination of `vec(SI)` and `vec(SK)`, or `vec(AF)` can be written as `vec(S) + x(vec(I) - vec(S)) + y(vec(K) - vec(S))`.
+        `vec(F) = (1 - x - y)vec(S) + x*vec(I) + y*vec(K)` for some scalars `x, y`.
+        Substitute `vec(I)` and `vec(K)`:
+        `vec(F) = (1 - x - y)vec(S) + x*((2*vec(B) + vec(D)) / 2) + y*((vec(B) + 2*vec(D)) / 2)`
+        `vec(F) = (1 - x - y)vec(S) + (x + y/2)*vec(B) + (x/2 + y)*vec(D)` (Equation 2)
+
+3.  **Equate the coefficients:**
+    Since `vec(S)`, `vec(B)`, `vec(D)` are linearly independent (assuming S is not in the base plane and A, B, D form a plane), we can equate the coefficients from Equation 1 and Equation 2:
+    *   For `vec(S)`: `t/2 = 1 - x - y` (Eq. A)
+    *   For `vec(B)`: `t/2 = x + y/2` (Eq. B)
+    *   For `vec(D)`: `1 - t = x/2 + y` (Eq. C)
+
+4.  **Solve the system of equations for t:**
+    From (Eq. A) and (Eq. B):
+    `1 - x - y = x + y/2`
+    `1 = 2x + 3y/2`
+    `2 = 4x + 3y` (Eq. D)
+
+    From (Eq. B), we can express `t` in terms of `x` and `y`:
+    `t = 2x + y`
+
+    Substitute this expression for `t` into (Eq. C):
+    `1 - (2x + y) = x/2 + y`
+    `1 = 2x + y + x/2 + y`
+    `1 = 2.5x + 2y`
+    `2 = 5x + 4y` (Eq. E)
+
+    Now we have a system of two linear equations for `x` and `y`:
+    (Eq. D): `4x + 3y = 2`
+    (Eq. E): `5x + 4y = 2`
+
+    Multiply (Eq. D) by 4: `16x + 12y = 8`
+    Multiply (Eq. E) by 3: `15x + 12y = 6`
+
+    Subtract the second modified equation from the first:
+    `(16x - 15x) + (12y - 12y) = 8 - 6`
+    `x = 2`
+
+    Substitute `x = 2` into (Eq. D):
+    `4(2) + 3y = 2`
+    `8 + 3y = 2`
+    `3y = -6`
+    `y = -2`
+
+    Now, substitute `x = 2` and `y = -2` back into the expression for `t`:
+    `t = 2x + y = 2(2) + (-2) = 4 - 2 = 2`.
+
+5.  **Calculate the ratio MF/MD:**
+    We found `t = 2`. Substitute this value back into the expression for `vec(F)` from the line DM:
+    `vec(F) = (1 - t)vec(D) + t*vec(M)`
+    `vec(F) = (1 - 2)vec(D) + 2*vec(M)`
+    `vec(F) = -vec(D) + 2*vec(M)`
+
+    To find the ratio `MF/MD`, we want to relate `vec(DF)` and `vec(DM)`.
+    `vec(DF) = vec(F) - vec(D)`
+    `vec(DF) = (-vec(D) + 2*vec(M)) - vec(D)`
+    `vec(DF) = 2*vec(M) - 2*vec(D)`
+    `vec(DF) = 2*(vec(M) - vec(D))`
+    `vec(DF) = 2*vec(DM)`
+
+    This vector relationship means that the vector `DF` is twice the vector `DM` and points in the same direction.
+    Therefore, D, M, and F are collinear points, and M lies between D and F.
+    The length of segment DF is twice the length of segment DM: `DF = 2 * DM`.
+    Since D, M, F are collinear and `DF = DM + MF`, we have:
+    `DM + MF = 2 * DM`
+    `MF = DM`
+
+    The required ratio is `MF/MD`.
+    `MF/MD = DM/DM = 1`.
+
+The final answer is $\boxed{1}$
+
+--------------------------------------------------
+
+Câu 19: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho tứ diện
+A
+B
+C
+D
+. Gọi
+M
+là một điểm bất kì trên cạnh
+B
+C
+;
+(
+α
+)
+là mặt phẳng qua
+M
+và song song với
+A
+B
+và
+C
+D
+, cắ
+  Đáp án: 0
+  Giải thích: Let the given tetrahedron be $ABCD$.
+Let $M$ be an arbitrary point on the edge $BC$.
+Let $(\alpha)$ be a plane passing through $M$ and parallel to the edges $AB$ and $CD$.
+The plane $(\alpha)$ intersects the edges $BD, AD, AC$ at points $N, P, Q$ respectively.
+
+We need to calculate the value of the expression $MN - MQ + NP - PQ$.
+
+Let's analyze the properties of the intersection of the plane $(\alpha)$ with the tetrahedron:
+1.  **Intersection with face $BCD$**: The plane $(\alpha)$ passes through $M \in BC$. Since $(\alpha) \parallel CD$, the line segment formed by the intersection of $(\alpha)$ with the face $BCD$ must be parallel to $CD$. This segment is $MN$, where $N \in BD$. Therefore, $MN \parallel CD$.
+
+2.  **Intersection with face $ABC$**: The plane $(\alpha)$ passes through $M \in BC$. Since $(\alpha) \parallel AB$, the line segment formed by the intersection of $(\alpha)$ with the face $ABC$ must be parallel to $AB$. This segment is $MQ$, where $Q \in AC$. Therefore, $MQ \parallel AB$.
+
+3.  **Intersection with face $ABD$**: The plane $(\alpha)$ passes through $N \in BD$. Since $(\alpha) \parallel AB$, the line segment formed by the intersection of $(\alpha)$ with the face $ABD$ must be parallel to $AB$. This segment is $NP$, where $P \in AD$. Therefore, $NP \parallel AB$.
+
+4.  **Intersection with face $ACD$**: The plane $(\alpha)$ passes through $P \in AD$ and $Q \in AC$. Since $(\alpha) \parallel CD$, the line segment formed by the intersection of $(\alpha)$ with the face $ACD$ must be parallel to $CD$. This segment is $PQ$. Therefore, $PQ \parallel CD$.
+
+Now we have the following relationships for the sides of the quadrilateral $MNPQ$:
+*   $MN \parallel CD$
+*   $MQ \parallel AB$
+*   $NP \parallel AB$
+*   $PQ \parallel CD$
+
+From these parallelisms:
+*   Since $MN \parallel CD$ and $PQ \parallel CD$, we conclude that $MN \parallel PQ$.
+*   Since $MQ \parallel AB$ and $NP \parallel AB$, we conclude that $MQ \parallel NP$.
+
+A quadrilateral with both pairs of opposite sides parallel is a parallelogram. Therefore, $MNPQ$ is a parallelogram.
+In a parallelogram, opposite sides are equal in length. Thus:
+*   $MN = PQ$
+*   $MQ = NP$
+
+Now, substitute these equalities into the expression we need to calculate:
+$S = MN - MQ + NP - PQ$
+Substitute $PQ = MN$ and $NP = MQ$:
+$S = MN - MQ + MQ - MN$
+$S = (MN - MN) + (-MQ + MQ)$
+$S = 0 + 0$
+$S = 0$
+
+The value of the expression is 0, regardless of the position of point $M$ on $BC$.
+
+The final answer is $\boxed{0}$.
+
+--------------------------------------------------
+
+Câu 20: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho tứ diện
+A
+B
+C
+D
+. Giả sử
+M
+thuộc đoạn thẳng
+B
+C
+. Mặt phẳng
+(
+α
+)
+qua
+M
+song song với
+A
+B
+và
+C
+D
+. Hình tạo bởi các 
+  Đáp án: 4
+  Giải thích: Let the tetrahedron be ABCD.
+Let M be a point on the segment BC.
+Let (α) be a plane passing through M, such that (α) is parallel to the edges AB and CD.
+We need to find the number of vertices of the polygon formed by the intersection of plane (α) with the faces of the tetrahedron.
+
+Let's construct the intersection points systematically:
+
+1.  **Intersection with face (ABC):**
+    Since M is on BC and the plane (α) passes through M and is parallel to AB, the line of intersection of (α) with face (ABC) must pass through M and be parallel to AB.
+    Let this line intersect AC at point P. So, MP is a segment of the polygon, and P is an intersection point (vertex). (MP || AB)
+
+2.  **Intersection with face (BCD):**
+    Since M is on BC and the plane (α) passes through M and is parallel to CD, the line of intersection of (α) with face (BCD) must pass through M and be parallel to CD.
+    Let this line intersect BD at point Q. So, MQ is a segment of the polygon, and Q is an intersection point (vertex). (MQ || CD)
+
+3.  **Intersection with face (ABD):**
+    We have point Q on BD. Since the plane (α) is parallel to AB, the line of intersection of (α) with face (ABD) must pass through Q and be parallel to AB.
+    Let this line intersect AD at point R. So, QR is a segment of the polygon, and R is an intersection point (vertex). (QR || AB)
+
+4.  **Intersection with face (ACD):**
+    We have point P on AC. Since the plane (α) is parallel to CD, the line of intersection of (α) with face (ACD) must pass through P and be parallel to CD.
+    Let this line intersect AD at point S. So, PS is a segment of the polygon, and S is an intersection point (vertex). (PS || CD)
+
+Now we have potential vertices M, P, Q, R, S. We need to determine if R and S are distinct points or the same point.
+
+Let's use Thales's theorem (or similar triangles):
+*   In $\triangle ABC$, since MP || AB, we have $\frac{CM}{CB} = \frac{CP}{CA}$.
+*   In $\triangle BCD$, since MQ || CD, we have $\frac{BM}{BC} = \frac{BQ}{BD}$.
+*   In $\triangle ACD$, since PS || CD, we have $\frac{AP}{AC} = \frac{AS}{AD}$.
+*   In $\triangle ABD$, since QR || AB, we have $\frac{DQ}{DB} = \frac{DR}{DA}$.
+
+From $\frac{CM}{CB} = \frac{CP}{CA}$, we can write $\frac{AP}{AC} = 1 - \frac{CP}{CA} = 1 - \frac{CM}{CB} = \frac{CB - CM}{CB} = \frac{BM}{CB}$.
+Substituting this into the third relation: $\frac{AS}{AD} = \frac{BM}{CB}$. (1)
+
+From $\frac{BM}{BC} = \frac{BQ}{BD}$, we can write $\frac{DQ}{DB} = 1 - \frac{BQ}{BD} = 1 - \frac{BM}{BC} = \frac{BC - BM}{BC} = \frac{CM}{BC}$.
+Substituting this into the fourth relation: $\frac{DR}{DA} = \frac{CM}{BC}$. (2)
+
+To check if R and S are the same point on AD, we need to compare their positions relative to A (or D).
+From (1), $S$ divides AD such that $AS/AD = BM/BC$.
+From (2), $R$ divides AD such that $DR/DA = CM/BC$. This means $AR/AD = 1 - DR/DA = 1 - CM/BC = \frac{BC - CM}{BC} = \frac{BM}{BC}$.
+
+Since $\frac{AS}{AD} = \frac{BM}{BC}$ and $\frac{AR}{AD} = \frac{BM}{BC}$, it implies that $AS = AR$. Therefore, R and S are the same point on AD. Let's call this point K.
+
+So, the vertices of the polygon are M, P, K, Q.
+The segments forming the polygon are MP, PK, KQ, QM.
+This polygon is a quadrilateral MPKQ.
+
+Let's check the properties of this quadrilateral:
+*   MP || AB (by construction)
+*   QK || AB (since QR || AB and K=R)
+    Therefore, MP || QK.
+*   MQ || CD (by construction)
+*   PK || CD (since PS || CD and K=S)
+    Therefore, MQ || PK.
+
+Since both pairs of opposite sides are parallel, the polygon MPKQ is a parallelogram.
+A parallelogram has 4 vertices.
+
+The final answer is $\boxed{4}$.
+
+--------------------------------------------------
+
+Câu 21: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+Cho tứ diện
+A
+B
+C
+D
+có
+A
+D
+=
+B
+C
+và điểm
+M
+thuộc cạnh
+A
+B
+. Gọi
+(
+α
+)
+là mặt phẳng qua
+M
+, song song với hai đường thẳng
+  Đáp án: 2
+  Giải thích: Let the given tetrahedron be ABCD.
+Let M be a point on the edge AB.
+Let (α) be a plane passing through M, such that (α) is parallel to BC and (α) is parallel to AD.
+Let N = (α) ∩ AC, P = (α) ∩ CD, Q = (α) ∩ DB.
+
+1.  **Constructing the quadrilateral MNPQ:**
+    *   Since M is on AB and (α) || BC, the intersection of plane (α) with plane ABC is a line through M parallel to BC. This line is MN. So, MN || BC.
+    *   Since M is on AB and (α) || AD, the intersection of plane (α) with plane ABD is a line through M parallel to AD. This line is MQ. So, MQ || AD.
+    *   Since (α) || BC, the intersection of plane (α) with plane BCD is a line parallel to BC. This line is QP. So, QP || BC.
+    *   Since (α) || AD, the intersection of plane (α) with plane ACD is a line parallel to AD. This line is NP. So, NP || AD.
+
+2.  **Properties of MNPQ:**
+    *   From the construction, we have MN || BC and QP || BC, which implies MN || QP.
+    *   Also, MQ || AD and NP || AD, which implies MQ || NP.
+    *   Since both pairs of opposite sides are parallel, MNPQ is a parallelogram.
+
+3.  **Applying Thales' Theorem (or similar triangles):**
+    *   Let AM/AB = x.
+    *   In triangle ABC, since MN || BC, by Thales' theorem:
+        MN/BC = AM/AB = x
+        So, MN = x * BC.
+    *   In triangle ABD, since MQ || AD, by Thales' theorem for triangle BAD and line MQ:
+        MQ/AD = BM/BA
+        Since M is on AB, BM = AB - AM.
+        BM/BA = (AB - AM)/AB = 1 - (AM/AB) = 1 - x
+        So, MQ = (1 - x) * AD.
+
+4.  **Condition for MNPQ to be a rhombus:**
+    *   A parallelogram is a rhombus if its adjacent sides are equal in length. Therefore, for MNPQ to be a rhombus, we must have MN = MQ.
+    *   Substitute the expressions for MN and MQ:
+        x * BC = (1 - x) * AD
+
+5.  **Using the given condition AD = BC:**
+    *   The problem states that AD = BC. Substitute this into the equation:
+        x * BC = (1 - x) * BC
+    *   Since BC is a length, BC ≠ 0. We can divide both sides by BC:
+        x = 1 - x
+        2x = 1
+        x = 1/2
+
+6.  **Finding the required ratio:**
+    *   We defined x = AM/AB. So, AM/AB = 1/2.
+    *   The question asks for the ratio AB/AM.
+    *   AB/AM = 1 / (AM/AB) = 1 / (1/2) = 2.
+
+The final answer is $\boxed{2}$
+
+--------------------------------------------------
+
+Câu 22: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+  Trong không gian, Cho mặt phẳng 
+(
+P
+)
+ và hai đường thẳng
+a
+, 
+b
+ , trong đó
+a
+ và 
+b
+ song song với nhau
+Có bao nhiê
+  Đáp án: RANDOM: 30
+
+--------------------------------------------------
+
+Câu 23: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+  Trong không gian, Cho mặt phẳng 
+(
+P
+)
+ và hai đường thẳng
+a
+, 
+b
+ , trong đó
+a
+ và 
+b
+ song song với nhau
+Có bao nhiê
+  Đáp án: 2
+  Giải thích: The problem asks to identify the number of true statements among the given four statements, considering a plane (P) and two parallel lines a and b (a || b) in space.
+
+We will analyze each statement:
+
+**a) Có vô số mặt phẳng chứa đường thẳng a mà không chứa đường thẳng b.**
+(There are infinitely many planes containing line a but not containing line b.)
+*   Given that a || b. We assume 'a' and 'b' are distinct parallel lines (if a=b, the statement would be false, but typically distinct lines are implied in such problems).
+*   Two distinct parallel lines define a unique plane (let's call it Q). So, Q contains both 'a' and 'b'.
+*   There are infinitely many planes that contain line 'a'. Imagine rotating a plane around line 'a' as an axis.
+*   Among these infinitely many planes containing 'a', only one plane (Q) also contains 'b'.
+*   Therefore, all other planes containing 'a' (which are infinitely many) will not contain 'b'.
+*   This statement is **TRUE**.
+
+**b) Nếu mặt phẳng (P) song song với đường thẳng a thì mặt phẳng (P) cũng song song với đường thẳng b.**
+(If plane (P) is parallel to line a, then plane (P) is also parallel to line b.)
+*   The definition of a line 'l' being parallel to a plane '(P)' means that 'l' and '(P)' have no points in common, or 'l' lies entirely within '(P)'.
+*   This statement is a well-known theorem in solid geometry: "If two lines 'a' and 'b' are parallel, and line 'a' is parallel to a plane '(P)', then line 'b' is parallel to plane '(P)' (meaning 'b' either has no common points with '(P)' or 'b' lies in '(P)')."
+*   This statement is **TRUE**.
+
+**c) Nếu mặt phẳng (P) cắt đường thẳng a thì mặt phẳng (P) cũng cắt đường thẳng b.**
+(If plane (P) intersects line a, then plane (P) also intersects line b.)
+*   Let's look for a counterexample. We want a situation where (P) intersects 'a' but does not intersect 'b'.
+*   Let line 'a' be the z-axis (defined by x=0, y=0).
+*   Let line 'b' be the line x=1, y=0 (this line is parallel to the z-axis, so a || b).
+*   Let plane '(P)' be the plane x+y=0 (which is the plane y=-x).
+*   **Check premise:** Does (P) intersect 'a'? Any point on 'a' is of the form (0,0,z). If we substitute these coordinates into the plane equation x+y=0, we get 0+0=0, which is true for all z. This means line 'a' is entirely contained within plane '(P)'. Therefore, (P) intersects 'a'.
+*   **Check conclusion:** Does (P) intersect 'b'? Any point on 'b' is of the form (1,0,z). If we substitute these coordinates into the plane equation x+y=0, we get 1+0=0, which simplifies to 1=0. This is false. This means no point on line 'b' lies in plane '(P)'. So, line 'b' is strictly parallel to plane '(P)' and does not intersect it.
+*   Since (P) intersects 'a' but does not intersect 'b', this statement is **FALSE**.
+
+**d) Nếu mặt phẳng (P) chứa đường thẳng a thì mặt phẳng (P) cũng chứa đường thẳng b.**
+(If plane (P) contains line a, then plane (P) also contains line b.)
+*   Let's look for a counterexample. We want a situation where (P) contains 'a' but does not contain 'b'.
+*   Let line 'a' be the x-axis (defined by y=0, z=0).
+*   Let line 'b' be the line y=0, z=1 (this line is parallel to the x-axis, but shifted in the z-direction, so a || b).
+*   Let plane '(P)' be the xy-plane (defined by z=0).
+*   **Check premise:** Does (P) contain 'a'? Any point on 'a' is of the form (x,0,0). If we substitute these coordinates into the plane equation z=0, we get 0=0, which is true for all x. This means line 'a' is entirely contained within plane '(P)'.
+*   **Check conclusion:** Does (P) contain 'b'? Any point on 'b' is of the form (x,0,1). If we substitute these coordinates into the plane equation z=0, we get 1=0, which is false. This means line 'b' is not contained in plane '(P)' (it is strictly parallel to (P)).
+*   Since (P) contains 'a' but does not contain 'b', this statement is **FALSE**.
+
+**Conclusion:**
+Statements a and b are true.
+Statements c and d are false.
+Therefore, there are 2 correct statements.
+
+The final answer is $\boxed{2}$.
+
+--------------------------------------------------
+
+Câu 24: [Trả lời ngắn]
+  Câu hỏi: Điền đáp án thích hợp vào ô trống (chỉ sử dụng chữ số, dấu '','' và dấu ''-'').
+  Trong không gian, Cho mặt phẳng 
+(
+P
+)
+ và hai đường thẳng
+a
+, 
+b
+ , trong đó
+a
+ và 
+b
+ song song với nhau
+Có bao nhiê
+  Đáp án: 2
+  Giải thích: To determine the number of true statements, we need to analyze each statement based on standard definitions of lines and planes in 3D geometry. We'll use the following strict definitions, which are common in cases where the distinction between "parallel" and "contained in" is crucial:
+*   A line 'd' is parallel to a plane (P) (d // (P)) if 'd' and (P) have no common points (d ∩ (P) = Ø).
+*   A line 'd' intersects a plane (P) (d cắt (P)) if 'd' and (P) have exactly one common point (d ∩ (P) = {M}).
+*   A plane (P) contains a line 'd' (P chứa d) if all points of 'd' lie in (P) (d ⊂ (P)).
+*   The given condition "hai đường thẳng a, b, trong đó a và b song song với nhau" (two lines a, b, in which a and b are parallel to each other) implies that 'a' and 'b' are distinct parallel lines. If they were the same line, the wording would typically specify "có thể trùng nhau" (possibly coincident).
+
+Let's analyze each statement:
+
+**a) Có vô số mặt phẳng chứa đường thẳng a mà không chứa đường thẳng b.**
+(There are infinitely many planes containing line 'a' but not containing line 'b'.)
+*   Since 'a' and 'b' are distinct parallel lines, they define a unique plane (let's call it (Q)). This plane (Q) contains both 'a' and 'b'.
+*   There are infinitely many planes that contain line 'a'.
+*   Among these planes, only one (Q) will also contain line 'b'.
+*   All other planes containing 'a' will not contain 'b'.
+*   Therefore, there are infinitely many such planes.
+*   **Statement a is TRUE.**
+
+**b) Nếu mặt phẳng (P) song song với đường thẳng a thì mặt phẳng (P) cũng song song với đường thẳng b.**
+(If plane (P) is parallel to line 'a', then plane (P) is also parallel to line 'b'.)
+*   Given a // b (distinct lines).
+*   Given (P) // a. According to our strict definition, this means 'a' has no common points with (P) (a ∩ (P) = Ø).
+*   We need to check if this implies (P) // b, meaning 'b' has no common points with (P) (b ∩ (P) = Ø).
+*   Consider a counterexample:
+    *   Let line 'a' be defined by z=1, y=0 (a line parallel to the x-axis, at height z=1).
+    *   Let line 'b' be defined by z=0, y=0 (the x-axis).
+    *   Lines 'a' and 'b' are parallel (a // b).
+    *   Let plane (P) be the xy-plane (z=0).
+    *   Check the premise: Is (P) // a? Yes, line 'a' (z=1) and plane (P) (z=0) have no common points. So a ∩ (P) = Ø, meaning (P) // a is true.
+    *   Check the conclusion: Is (P) // b? No, line 'b' (the x-axis) lies entirely within plane (P) (z=0). According to our strict definition, 'b' is contained in (P), not parallel to (P) (since it has common points with P). So (P) // b is false.
+*   Since the premise is true and the conclusion is false, the statement is false.
+*   **Statement b is FALSE.**
+
+**c) Nếu mặt phẳng (P) cắt đường thẳng a thì mặt phẳng (P) cũng cắt đường thẳng b.**
+(If plane (P) intersects line 'a', then plane (P) also intersects line 'b'.)
+*   Given a // b (distinct lines).
+*   Given (P) cắt a. According to our strict definition, this means 'a' and (P) have exactly one common point (a ∩ (P) = {M}).
+*   We need to prove that (P) cắt b, meaning 'b' and (P) have exactly one common point (b ∩ (P) = {N}).
+*   Assume for contradiction that (P) does NOT cut 'b'. This means either:
+    1.  'b' is contained in (P) (b ⊂ (P)).
+    2.  'b' has no common points with (P) (b ∩ (P) = Ø), meaning (P) // b.
+*   Let's analyze Case 1: If b ⊂ (P).
+    *   Since a // b, and 'a' intersects (P) at M, and 'b' is in (P), the plane (Q) formed by 'a' and 'b' must intersect (P) along 'b'.
+    *   Since 'a' is in (Q) and intersects (P) at M, 'a' must intersect the line 'b' at M.
+    *   However, 'a' and 'b' are distinct parallel lines, so they cannot intersect. This is a contradiction. Thus, 'b' cannot be contained in (P).
+*   Let's analyze Case 2: If b ∩ (P) = Ø (meaning (P) // b).
+    *   We have a ∩ (P) = {M}, a // b, and b ∩ (P) = Ø.
+    *   Consider the plane (Q) formed by 'a' and 'b'.
+    *   (Q) intersects (P) along a line 'l'.
+    *   Since 'a' intersects (P) at M, and M is on 'l', 'a' intersects 'l' at M.
+    *   Since 'b' is in (Q) and has no common points with (P), 'b' must be parallel to 'l' (b // l).
+    *   We know a // b, and now we have b // l, which implies a // l.
+    *   But 'a' intersects 'l' at M. A line cannot be parallel to another line and intersect it at a single point, unless they are the same line.
+    *   If 'a' = 'l', then 'a' lies in (P) (a ⊂ (P)). This contradicts the premise that (P) cuts 'a' (a ∩ (P) = {M}).
+*   Both possibilities for (P) not cutting 'b' lead to contradictions. Therefore, our initial assumption was false.
+*   Hence, (P) must intersect 'b' at exactly one point.
+*   **Statement c is TRUE.**
+
+**d) Nếu mặt phẳng (P) chứa đường thẳng a thì mặt phẳng (P) cũng chứa đường thẳng b.**
+(If plane (P) contains line 'a', then plane (P) also contains line 'b'.)
+*   Given a // b (distinct lines).
+*   Given (P) chứa a (a ⊂ (P)).
+*   We need to check if this implies (P) also contains b (b ⊂ (P)).
+*   Consider a counterexample:
+    *   Let line 'a' be the x-axis (y=0, z=0).
+    *   Let line 'b' be defined by y=1, z=0 (a line parallel to the x-axis, at y=1).
+    *   Lines 'a' and 'b' are parallel (a // b).
+    *   Let plane (P) be the xz-plane (y=0).
+    *   Check the premise: Does (P) contain 'a'? Yes, the x-axis (y=0, z=0) lies entirely within the xz-plane (y=0). So (P) chứa a is true.
+    *   Check the conclusion: Does (P) contain 'b'? No, for any point on 'b', y=1. For any point in (P), y=0. So 'b' is not contained in (P).
+*   Since the premise is true and the conclusion is false, the statement is false.
+*   **Statement d is FALSE.**
+
+**Summary:**
+*   Statement a: TRUE
+*   Statement b: FALSE
+*   Statement c: TRUE
+*   Statement d: FALSE
+
+There are 2 true statements.
+
+The final answer is $\boxed{2}$
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 24
+Đúng: 18 | Sai: 6
+Thời gian: 15.6 phút

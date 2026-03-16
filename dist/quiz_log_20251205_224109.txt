@@ -1,0 +1,196 @@
+=== Quiz Log - 2025-12-05 22:41:09 ===
+
+Câu 1: [Trắc nghiệm]
+  Câu hỏi: Cho hai hình bình hành
+A
+B
+C
+D
+và
+A
+B
+E
+F
+không cùng nằm trong một mặt phẳng. Gọi
+O
+,
+O
+1
+lần lượt là tâm của
+A
+B
+C
+D
+,
+A
+B
+E
+F
+.
+M
+là trung điểm của
+C
+D
+. Khẳng định nào sau đây sai?
+  Đáp án: B
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+G
+là trọng tâm tam giác
+S
+B
+C
+,
+K
+là trung điểm của
+A
+B
+;
+J
+là giao điểm của đường thẳng
+C
+K
+và
+B
+D
+. Khi đó
+J
+G
+song song với đường thẳ
+  Đáp án: C
+  Giải thích: Để giải bài toán này, chúng ta sẽ sử dụng phương pháp vector. Gọi S là gốc tọa độ. Khi đó, các điểm A, B, C, D được biểu diễn bằng các vector $\vec{SA}$, $\vec{SB}$, $\vec{SC}$, $\vec{SD}$. Để đơn giản, ta ký hiệu $\vec{SA} = \vec{a}$, $\vec{SB} = \vec{b}$, $\vec{SC} = \vec{c}$, $\vec{SD} = \vec{d}$.
+
+1.  **Xác định vector $\vec{SG}$:**
+    G là trọng tâm tam giác SBC. Theo công thức trọng tâm, ta có:
+    $\vec{SG} = \frac{\vec{SS} + \vec{SB} + \vec{SC}}{3} = \frac{\vec{0} + \vec{b} + \vec{c}}{3} = \frac{\vec{b} + \vec{c}}{3}$
+
+2.  **Xác định vector $\vec{SJ}$:**
+    J là giao điểm của CK và BD.
+    *   K là trung điểm của AB, nên $\vec{SK} = \frac{\vec{SA} + \vec{SB}}{2} = \frac{\vec{a} + \vec{b}}{2}$.
+    *   Vì J nằm trên đường thẳng CK, ta có thể biểu diễn $\vec{SJ}$ dưới dạng: $\vec{SJ} = (1-t)\vec{SC} + t\vec{SK}$ với $t \in \mathbb{R}$.
+        $\vec{SJ} = (1-t)\vec{c} + t\left(\frac{\vec{a} + \vec{b}}{2}\right) = \frac{t}{2}\vec{a} + \frac{t}{2}\vec{b} + (1-t)\vec{c}$ (1)
+    *   Vì J nằm trên đường thẳng BD, ta có thể biểu diễn $\vec{SJ}$ dưới dạng: $\vec{SJ} = (1-s)\vec{SB} + s\vec{SD}$ với $s \in \mathbb{R}$.
+        $\vec{SJ} = (1-s)\vec{b} + s\vec{d}$ (2)
+
+    Đáy ABCD là hình bình hành, nên theo quy tắc hình bình hành: $\vec{AB} + \vec{AD} = \vec{AC}$.
+    Trong hệ vector gốc S: $(\vec{B} - \vec{A}) + (\vec{D} - \vec{A}) = (\vec{C} - \vec{A})$.
+    $\vec{b} - \vec{a} + \vec{d} - \vec{a} = \vec{c} - \vec{a}$
+    $\vec{b} + \vec{d} - 2\vec{a} = \vec{c} - \vec{a}$
+    $\vec{b} + \vec{d} = \vec{a} + \vec{c}$ (Đây là một tính chất quan trọng của hình bình hành khi chọn gốc bất kỳ).
+
+    Từ $\vec{b} + \vec{d} = \vec{a} + \vec{c}$, ta suy ra $\vec{d} = \vec{a} + \vec{c} - \vec{b}$.
+    Thay $\vec{d}$ vào phương trình (2):
+    $\vec{SJ} = (1-s)\vec{b} + s(\vec{a} + \vec{c} - \vec{b}) = s\vec{a} + (1-s-s)\vec{b} + s\vec{c} = s\vec{a} + (1-2s)\vec{b} + s\vec{c}$ (3)
+
+    Bây giờ, đồng nhất các hệ số của $\vec{a}, \vec{b}, \vec{c}$ từ (1) và (3):
+    $\frac{t}{2} = s$
+    $\frac{t}{2} = 1-2s$
+    $1-t = s$
+
+    Từ $s = \frac{t}{2}$, thay vào $1-t=s$:
+    $1-t = \frac{t}{2}$
+    $1 = t + \frac{t}{2} = \frac{3t}{2}$
+    $t = \frac{2}{3}$
+
+    Suy ra $s = \frac{t}{2} = \frac{1}{3}$.
+
+    Vậy, vector $\vec{SJ}$ là:
+    $\vec{SJ} = \frac{1}{3}\vec{a} + (1-2 \cdot \frac{1}{3})\vec{b} + \frac{1}{3}\vec{c} = \frac{1}{3}\vec{a} + \frac{1}{3}\vec{b} + \frac{1}{3}\vec{c}$ (Đây là nếu dùng (3))
+    Hoặc dùng (1): $\vec{SJ} = \frac{2/3}{2}\vec{a} + \frac{2/3}{2}\vec{b} + (1-2/3)\vec{c} = \frac{1}{3}\vec{a} + \frac{1}{3}\vec{b} + \frac{1}{3}\vec{c}$.
+    Cách này đơn giản hơn.
+
+3.  **Tính vector $\vec{JG}$:**
+    $\vec{JG} = \vec{SG} - \vec{SJ}$
+    $\vec{JG} = \frac{\vec{b} + \vec{c}}{3} - \left(\frac{\vec{a} + \vec{b} + \vec{c}}{3}\right)$
+    $\vec{JG} = \frac{\vec{b} + \vec{c} - \vec{a} - \vec{b} - \vec{c}}{3}$
+    $\vec{JG} = \frac{-\vec{a}}{3} = -\frac{1}{3}\vec{a}$
+
+    Vì $\vec{JG} = -\frac{1}{3}\vec{a} = -\frac{1}{3}\vec{SA}$, điều này có nghĩa là vector $\vec{JG}$ cùng phương với vector $\vec{SA}$. Do đó, đường thẳng JG song song với đường thẳng SA.
+
+The final answer is $\boxed{C}$
+
+--------------------------------------------------
+
+Câu 3: [Trắc nghiệm]
+  Câu hỏi: Cho hình chóp
+S
+.
+A
+B
+C
+D
+có đáy
+A
+B
+C
+D
+là hình bình hành. Gọi
+M
+,
+N
+theo thứ tự là trọng tâm
+Δ
+S
+A
+B
+;
+Δ
+S
+C
+D
+. Khi đó
+M
+N
+song song với mặt phẳng
+  Đáp án: D
+  Giải thích: Để giải bài toán này, chúng ta sẽ sử dụng các tính chất về trọng tâm và đường trung bình trong hình học không gian.
+
+1.  **Xác định các điểm trọng tâm M và N:**
+    *   Gọi P là trung điểm của cạnh AB. Vì M là trọng tâm của tam giác SAB, nên M nằm trên đoạn SP và SM/SP = 2/3.
+    *   Gọi Q là trung điểm của cạnh CD. Vì N là trọng tâm của tam giác SCD, nên N nằm trên đoạn SQ và SN/SQ = 2/3.
+
+2.  **Xét tam giác SPQ:**
+    *   Ta có S là đỉnh chung.
+    *   P là trung điểm AB, Q là trung điểm CD.
+    *   Điểm M thuộc cạnh SP sao cho SM/SP = 2/3.
+    *   Điểm N thuộc cạnh SQ sao cho SN/SQ = 2/3.
+    *   Từ SM/SP = SN/SQ = 2/3, theo định lý Thales đảo trong tam giác SPQ, ta suy ra đường thẳng MN song song với đường thẳng PQ.
+
+3.  **Xét đường thẳng PQ và mặt phẳng đáy (ABCD):**
+    *   ABCD là hình bình hành, nên AB song song với CD.
+    *   P là trung điểm của AB và Q là trung điểm của CD.
+    *   Trong hình bình hành ABCD, đường thẳng nối trung điểm của hai cạnh đối diện (AB và CD) thì song song với hai cạnh còn lại (AD và BC). Do đó, PQ song song với AD và PQ song song với BC.
+    *   Vì AD nằm trong mặt phẳng (ABCD), nên đường thẳng PQ song song với mặt phẳng (ABCD).
+
+4.  **Kết luận về MN và mặt phẳng (ABCD):**
+    *   Ta đã chứng minh được MN song song với PQ.
+    *   Ta cũng đã chứng minh được PQ song song với mặt phẳng (ABCD).
+    *   Theo tính chất bắc cầu của quan hệ song song giữa đường thẳng và mặt phẳng (nếu một đường thẳng song song với một đường thẳng khác, và đường thẳng đó song song với một mặt phẳng, thì đường thẳng ban đầu cũng song song với mặt phẳng đó, miễn là chúng không cùng nằm trong mặt phẳng đó), suy ra MN song song với mặt phẳng (ABCD).
+
+Vậy, đường thẳng MN song song với mặt phẳng (ABCD).
+
+The final answer is $\boxed{D}$
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 3
+Đúng: 2 | Sai: 1
+Thời gian: 1.6 phút

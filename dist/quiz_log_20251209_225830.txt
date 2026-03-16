@@ -1,0 +1,21 @@
+=== Quiz Log - 2025-12-09 22:58:30 ===
+
+Câu 2: [Trắc nghiệm]
+  Câu hỏi: Một vật dao động điều hòa với tần số góc ω. Chu kì dao động của vật được tính bằng công thức
+  Đáp án: C
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+Câu 13: [Trắc nghiệm]
+  Câu hỏi: Trong thí nghiệm Young về giao thoa ánh sáng, nếu ta tăng khoảng cách a giữa hai khe lên hai lần và giảm khoảng cách D từ hai khe đến màn quan sát còn một nửa thì khoảng vân sẽ thay đổi như thế nào?
+  Đáp án: A
+  Giải thích: RANDOM
+
+--------------------------------------------------
+
+
+=== Hoàn thành ===
+Tổng số câu: 13
+Đúng: 11 | Sai: 2
+Thời gian: 3.6 phút
