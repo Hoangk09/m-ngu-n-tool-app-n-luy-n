@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tnhat Tools - Bộ sưu tập công cụ hữu ích</title>
+    <meta name="description" content="Bộ sưu tập các công cụ hữu ích từ Tnhat - Extensions, Scripts, và nhiều hơn nữa">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a2e;
+            --accent: #6366f1;
+            --accent-light: #818cf8;
+            --accent-glow: rgba(99, 102, 241, 0.3);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Animated background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 20%, var(--accent-glow) 0%, transparent 40%),
+                radial-gradient(circle at 70% 80%, rgba(168, 85, 247, 0.2) 0%, transparent 40%);
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+
+            50% {
+                transform: translate(30px, 30px) rotate(5deg);
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        header {
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 140px 0 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        /* Tools Section */
+        .tools {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .section-title p {
+            color: var(--text-secondary);
+            font-size: 1.125rem;
+        }
+
+        /* Tool Card */
+        .tool-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .tool-card:hover {
+            border-color: rgba(99, 102, 241, 0.3);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .tool-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+
+        .tool-info {
+            padding: 40px;
+        }
+
+        .tool-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 50px;
+            font-size: 0.75rem;
+            color: var(--accent-light);
+            margin-bottom: 16px;
+        }
+
+        .tool-badge.new {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: rgba(16, 185, 129, 0.3);
+            color: var(--success);
+        }
+
+        .tool-badge.popular {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: rgba(245, 158, 11, 0.3);
+            color: var(--warning);
+        }
+
+        .tool-info h3 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .tool-info>p {
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .tool-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .tool-feature {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            font-size: 0.875rem;
+        }
+
+        .tool-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--gradient);
+            color: white;
+            box-shadow: 0 8px 30px var(--accent-glow);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px var(--accent-glow);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Video Container */
+        .tool-video {
+            background: var(--bg-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 350px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .video-wrapper {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .video-wrapper video,
+        .video-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .video-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            color: var(--text-secondary);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .video-placeholder-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        /* Alternate layout */
+        .tool-card:nth-child(even) .tool-content {
+            direction: rtl;
+        }
+
+        .tool-card:nth-child(even) .tool-info,
+        .tool-card:nth-child(even) .tool-video {
+            direction: ltr;
+        }
+
+        /* Footer */
+        footer {
+            padding: 60px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .social-links a {
+            width: 44px;
+            height: 44px;
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .copyright {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .tool-content {
+                grid-template-columns: 1fr;
+            }
+
+            .tool-card:nth-child(even) .tool-content {
+                direction: ltr;
+            }
+
+            .tool-video {
+                min-height: 250px;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .stats {
+                gap: 20px;
+            }
+
+            .stat-number {
+                font-size: 1.75rem;
+            }
+        }
+
+        /* Modal for video */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            max-width: 900px;
+            width: 100%;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .modal-video {
+            width: 100%;
+            aspect-ratio: 16/9;
+            border-radius: 12px;
+            background: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-animation"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">🛠️</div>
+                Tnhat Tools
+            </div>
+            <nav>
+                <a href="#tools">Công cụ</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#contact">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Bộ sưu tập công cụ<br>từ Tnhat</h1>
+            <p>Các công cụ, extensions và scripts hữu ích giúp tự động hóa công việc và tăng hiệu suất</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number" id="tools-count">3</div>
+                    <div class="stat-label">Công cụ</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">Free</div>
+                    <div class="stat-label">Miễn phí</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Hỗ trợ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools" id="tools">
+        <div class="container">
+            <div class="section-title">
+                <h2>Danh sách công cụ</h2>
+                <p>Click vào video để xem hướng dẫn chi tiết</p>
+            </div>
+
+            <!-- Tool 1: Quiz Solver -->
+            <div class="tool-card">
+                <div class="tool-content">
+                    <div class="tool-info">
+                        <span class="tool-badge popular">🔥 Phổ biến</span>
+                        <h3>Quiz Solver Ultimate</h3>
+                        <p>Extension Chrome tự động giải bài tập trắc nghiệm trên app.onluyen.vn với AI Gemini. Hỗ trợ
+                            trắc nghiệm, đúng/sai, trả lời ngắn với độ chính xác cao.</p>
+                        <div class="tool-features">
+                            <span class="tool-feature">🤖 AI Gemini</span>
+                            <span class="tool-feature">🔒 Không cần API Key</span>
+                            <span class="tool-feature">⚡ Tự động</span>
+                            <span class="tool-feature">💾 Lưu đáp án</span>
+                        </div>
+                        <div class="tool-buttons">
+                            <a href="downloads/quiz_solver.zip" class="btn btn-primary" download>
+                                <span>📥</span> Tải về
+                            </a>
+                            <button class="btn btn-secondary" onclick="openVideo('video1')">
+                                <span>▶️</span> Xem hướng dẫn
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tool-video">
+                        <div class="video-wrapper">
+                            <!-- Thay thế bằng video thực tế -->
+                            <div class="video-placeholder" id="video1-placeholder">
+                                <div class="video-placeholder-icon">▶️</div>
+                                <p>Video hướng dẫn Quiz Solver</p>
+                                <small>Click để xem</small>
+                            </div>
+                            <!-- Uncomment và thay src khi có video:
+                            <video src="videos/quiz_solver_demo.mp4" controls poster="images/quiz_solver_thumb.jpg"></video>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tool 2: Example Tool -->
+            <div class="tool-card">
+                <div class="tool-content">
+                    <div class="tool-info">
+                        <span class="tool-badge new">✨ Mới</span>
+                        <h3>TikTok Shop Downloader</h3>
+                        <p>Công cụ tải hình ảnh sản phẩm từ TikTok Shop nhanh chóng. Hỗ trợ tải hàng loạt, tự động đặt
+                            tên file.</p>
+                        <div class="tool-features">
+                            <span class="tool-feature">🖼️ Tải hàng loạt</span>
+                            <span class="tool-feature">📂 Tự động đặt tên</span>
+                            <span class="tool-feature">🔄 CAPTCHA bypass</span>
+                        </div>
+                        <div class="tool-buttons">
+                            <a href="downloads/tiktok_downloader.zip" class="btn btn-primary" download>
+                                <span>📥</span> Tải về
+                            </a>
+                            <button class="btn btn-secondary" onclick="openVideo('video2')">
+                                <span>▶️</span> Xem hướng dẫn
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tool-video">
+                        <div class="video-wrapper">
+                            <div class="video-placeholder" id="video2-placeholder">
+                                <div class="video-placeholder-icon">▶️</div>
+                                <p>Video hướng dẫn TikTok Downloader</p>
+                                <small>Click để xem</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tool 3: Another Example -->
+            <div class="tool-card">
+                <div class="tool-content">
+                    <div class="tool-info">
+                        <span class="tool-badge">🛠️ Tiện ích</span>
+                        <h3>Auto Form Filler</h3>
+                        <p>Tự động điền form với dữ liệu mẫu. Hữu ích cho việc testing và phát triển web.</p>
+                        <div class="tool-features">
+                            <span class="tool-feature">📝 Tự động điền</span>
+                            <span class="tool-feature">💾 Lưu template</span>
+                            <span class="tool-feature">🔄 Import/Export</span>
+                        </div>
+                        <div class="tool-buttons">
+                            <a href="downloads/auto_form.zip" class="btn btn-primary" download>
+                                <span>📥</span> Tải về
+                            </a>
+                            <button class="btn btn-secondary" onclick="openVideo('video3')">
+                                <span>▶️</span> Xem hướng dẫn
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tool-video">
+                        <div class="video-wrapper">
+                            <div class="video-placeholder" id="video3-placeholder">
+                                <div class="video-placeholder-icon">▶️</div>
+                                <p>Video hướng dẫn Auto Form Filler</p>
+                                <small>Click để xem</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <div class="logo-icon">🛠️</div>
+                    Tnhat Tools
+                </div>
+                <div class="social-links">
+                    <a href="#" title="GitHub">💻</a>
+                    <a href="#" title="Facebook">📘</a>
+                    <a href="#" title="Email">✉️</a>
+                    <a href="#" title="Discord">💬</a>
+                </div>
+                <p class="copyright">© 2024 Tnhat Tools. Tất cả công cụ miễn phí cho mục đích học tập.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeVideo()">&times;</button>
+            <video class="modal-video" id="modalVideo" controls>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <script>
+        // Video modal functions
+        const videoSources = {
+            'video1': 'videos/quiz_solver_demo.mp4',
+            'video2': 'videos/tiktok_downloader_demo.mp4',
+            'video3': 'videos/auto_form_demo.mp4'
+        };
+
+        function openVideo(videoId) {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+            const source = videoSources[videoId];
+
+            if (source) {
+                video.src = source;
+                modal.classList.add('active');
+                video.play();
+            } else {
+                alert('Video đang được cập nhật, vui lòng quay lại sau!');
+            }
+        }
+
+        function closeVideo() {
+            const modal = document.getElementById('videoModal');
+            const video = document.getElementById('modalVideo');
+            video.pause();
+            video.src = '';
+            modal.classList.remove('active');
+        }
+
+        // Close modal on backdrop click
+        document.getElementById('videoModal').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeVideo();
+            }
+        });
+
+        // ESC key to close
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                closeVideo();
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Count tools dynamically
+        document.getElementById('tools-count').textContent =
+            document.querySelectorAll('.tool-card').length;
+    </script>
+</body>
+
+</html>
