@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Live Session</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white overflow-hidden">
+    <div class="flex h-screen">
+        <!-- Sidebar Controls -->
+        <div class="w-64 bg-gray-800 p-4">
+            <h2 class="text-xl font-bold mb-4">🎮 Control Panel</h2>
+            <p class="text-sm text-gray-400 mb-4">Account: <span class="text-blue-400 font-mono">{{ account_id }}</span>
+            </p>
+
+            <button onclick="startSolver()" id="btnStart"
+                class="w-full bg-green-600 hover:bg-green-700 p-2 rounded mb-2 transition">
+                ▶ Start Solver
+            </button>
+            <button onclick="stopSolver()" id="btnStop"
+                class="w-full bg-red-600 hover:bg-red-700 p-2 rounded transition">
+                ⏹ Stop Solver
+            </button>
+
+            <div class="mt-8 space-y-2">
+                <p class="text-sm text-gray-400">Status: <span id="status"
+                        class="text-green-400 font-semibold">Connected</span></p>
+                <p class="text-sm text-gray-400">Input: <span id="inputStatus"
+                        class="text-yellow-400 font-semibold">Unlocked</span></p>
+            </div>
+
+            <div class="mt-8 pt-4 border-t border-gray-700">
+                <a href="/dashboard" class="block text-center text-blue-400 hover:text-blue-300 transition">← Back to
+                    Dashboard</a>
+            </div>
+        </div>
+
+        <!-- Stream View -->
+        <div class="flex-1 flex justify-center items-center bg-black relative">
+            <img id="stream" src="/stream/{{ account_id }}"
+                class="max-h-full max-w-full cursor-crosshair border-2 border-gray-700 rounded"
+                onclick="sendClick(event)">
+            <div id="loadingIndicator" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                <div class="text-white text-xl">Loading stream...</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const accountId = "{{ account_id }}";
+        const img = document.getElementById('stream');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+
+        // Hide loading when image loads
+        img.onload = () => loadingIndicator.style.display = 'none';
+        img.onerror = () => {
+            loadingIndicator.innerHTML = '<div class="text-red-400 text-xl">Stream not available. Create session first.</div>';
+        };
+
+        function sendClick(event) {
+            const rect = img.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+
+            fetch(`/control/${accountId}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    type: 'click',
+                    x: x,
+                    y: y
+                })
+            });
+        }
+
+        function startSolver() {
+            fetch(`/start_solver/${accountId}`, { method: 'POST' })
+                .then(r => r.json())
+                .then(d => {
+                    if (d.status === 'started') {
+                        document.getElementById('inputStatus').innerText = "🔒 LOCKED (Solving)";
+                        document.getElementById('inputStatus').classList.remove('text-yellow-400');
+                        document.getElementById('inputStatus').classList.add('text-red-500');
+                        document.getElementById('btnStart').disabled = true;
+                        document.getElementById('btnStart').classList.add('opacity-50');
+                    } else {
+                        alert('Error starting solver. Session may not exist.');
+                    }
+                });
+        }
+
+        function stopSolver() {
+            fetch(`/stop_solver/${accountId}`, { method: 'POST' })
+                .then(r => r.json())
+                .then(d => {
+                    document.getElementById('inputStatus').innerText = "🔓 Unlocked";
+                    document.getElementById('inputStatus').classList.remove('text-red-500');
+                    document.getElementById('inputStatus').classList.add('text-yellow-400');
+                    document.getElementById('btnStart').disabled = false;
+                    document.getElementById('btnStart').classList.remove('opacity-50');
+                });
+        }
+    </script>
+</body>
+
+</html>
