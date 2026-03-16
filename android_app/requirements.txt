@@ -1,0 +1,4 @@
+kivy>=2.2.0
+pyjnius>=1.4.0
+aiohttp>=3.9.0
+certifi

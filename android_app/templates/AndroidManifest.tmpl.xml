@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Gemini Login Activity with WebView -->
+    <activity
+        android:name="org.nhat.quizsolver.GeminiLoginActivity"
+        android:exported="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:configChanges="orientation|screenSize|keyboardHidden" />
+
+    <!-- Accessibility Service declaration -->
+    <service
+        android:name="org.nhat.quizsolver.QuizAccessibilityService"
+        android:exported="true"
+        android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+        <intent-filter>
+            <action android:name="android.accessibilityservice.AccessibilityService" />
+        </intent-filter>
+        <meta-data
+            android:name="android.accessibilityservice"
+            android:resource="@xml/accessibility_service_config" />
+    </service>
+
+</manifest>
