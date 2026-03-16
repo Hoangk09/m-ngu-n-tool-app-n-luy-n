@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Solver Ultimate</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    {% if current_user.is_authenticated %}
+    <nav class="navbar animate-fade-in">
+        <div class="brand">
+            <i class="fas fa-robot" style="color: var(--accent-color);"></i>
+            <span>QUIZ SOLVER</span>
+        </div>
+        <div class="user-controls">
+            <div class="balance-badge">
+                <i class="fas fa-coins"></i> {{ "{:,.0f}".format(current_user.balance) }} VND
+            </div>
+            <span>{{ current_user.username }}</span>
+            <a href="{{ url_for('logout') }}" class="btn btn-danger" style="padding: 5px 10px; font-size: 0.8rem;">
+                <i class="fas fa-sign-out-alt"></i>
+            </a>
+        </div>
+    </nav>
+    {% endif %}
+
+    <!-- Top Banner Ads (hidden on mobile) -->
+    <div class="hide-mobile" style="display: flex; justify-content: center; gap: 20px; padding: 10px; flex-wrap: wrap;">
+        <script type="text/javascript">
+            atOptions = {
+                'key': '858bcbdbb370ff2b1811617390cb4ea1',
+                'format': 'iframe',
+                'height': 60,
+                'width': 468,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript"
+            src="https://www.highperformanceformat.com/858bcbdbb370ff2b1811617390cb4ea1/invoke.js"></script>
+
+        <script type="text/javascript">
+            atOptions = {
+                'key': '858bcbdbb370ff2b1811617390cb4ea1',
+                'format': 'iframe',
+                'height': 60,
+                'width': 468,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript"
+            src="https://www.highperformanceformat.com/858bcbdbb370ff2b1811617390cb4ea1/invoke.js"></script>
+    </div>
+
+    <div class="container animate-fade-in">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        <div class="card"
+            style="border-left: 4px solid var(--{{ 'success' if category=='success' else 'error' }}-color);">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Smooth reveal for numeric inputs
+        $('input[type="number"]').on('input', function () {
+            // Optional UX enhancement
+        });
+    </script>
+    {% block scripts %}{% endblock %}
+
+    <!-- Left Side Ad (160x600) - hidden on mobile -->
+    <div class="hide-mobile" style="position: fixed; left: 10px; top: 50%; transform: translateY(-50%); z-index: 999;">
+        <script type="text/javascript">
+            atOptions = {
+                'key': '204b2710a561eece692ca15ce31e1f1d',
+                'format': 'iframe',
+                'height': 600,
+                'width': 160,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript"
+            src="https://www.highperformanceformat.com/204b2710a561eece692ca15ce31e1f1d/invoke.js"></script>
+    </div>
+
+    <!-- Right Side Ad (160x600) - hidden on mobile -->
+    <div class="hide-mobile" style="position: fixed; right: 10px; top: 50%; transform: translateY(-50%); z-index: 999;">
+        <script type="text/javascript">
+            atOptions = {
+                'key': '204b2710a561eece692ca15ce31e1f1d',
+                'format': 'iframe',
+                'height': 600,
+                'width': 160,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript"
+            src="https://www.highperformanceformat.com/204b2710a561eece692ca15ce31e1f1d/invoke.js"></script>
+    </div>
+
+    <!-- Bottom Ad -->
+    <div style="text-align: center; padding: 20px;">
+        <script async="async" data-cfasync="false"
+            src="https://pl28274532.effectivegatecpm.com/8a5134606ddff4d2fac4530543209900/invoke.js"></script>
+        <div id="container-8a5134606ddff4d2fac4530543209900"></div>
+    </div>
+</body>
+
+</html>

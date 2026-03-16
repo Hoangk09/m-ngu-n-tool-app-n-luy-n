@@ -1,0 +1,422 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="dashboard-grid">
+    <!-- Left Column: Controls & Accounts -->
+    <div class="left-col">
+        <!-- Add Account Card -->
+        <div class="card">
+            <div class="card-header">
+                <span><i class="fas fa-users-cog"></i> Accounts</span>
+                <button class="btn btn-primary" onclick="document.getElementById('dialog-add-account').showModal()"
+                    style="padding: 5px 10px; font-size: 0.8rem;">
+                    <i class="fas fa-plus"></i> Add
+                </button>
+            </div>
+
+            <div id="account-list">
+                {% for account in accounts %}
+                <div class="card account-item" data-id="{{ account.id }}"
+                    style="background: rgba(255,255,255,0.03); border: none; padding: 10px; margin-bottom: 10px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
+                        <div style="font-weight: 600;">{{ account.username }}</div>
+                        <div style="display: flex; gap: 5px;">
+                            <button class="btn btn-secondary btn-edit-account" data-id="{{ account.id }}"
+                                data-username="{{ account.username }}" style="padding: 5px 10px; font-size: 0.7rem;">
+                                <i class="fas fa-edit"></i>
+                            </button>
+                            <button class="btn btn-danger btn-delete-account" data-id="{{ account.id }}"
+                                style="padding: 5px 10px; font-size: 0.7rem;">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                            <button class="btn btn-success btn-start-solver" data-id="{{ account.id }}"
+                                style="padding: 5px 15px; font-size: 0.8rem; border-radius: 20px;">
+                                <i class="fas fa-play"></i> START
+                            </button>
+                        </div>
+                    </div>
+                    {% if account.proxy_key %}
+                    <div style="font-size: 0.7rem; color: #666; margin-top: 5px;"><i class="fas fa-globe"></i> Proxy
+                        Enabled</div>
+                    {% endif %}
+                </div>
+                {% else %}
+                <div class="text-center" style="color: #666; padding: 20px;">
+                    No accounts added.
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Wallet Topup -->
+        <div class="card">
+            <div class="card-header">
+                <span><i class="fas fa-wallet"></i> Top Up Balance</span>
+            </div>
+            <div class="flex-row">
+                <input type="number" id="amount" value="10000" step="1000" min="2000" style="flex:1;">
+                <button class="btn btn-primary" onclick="topUp()">PAY VIA QR</button>
+            </div>
+            <p style="font-size: 0.8rem; color: #666; margin-top: 10px;">* Minimum 2,000 VND</p>
+        </div>
+    </div>
+
+    <!-- Right Column: Settings & Live View -->
+    <div class="right-col">
+        <!-- Settings -->
+        <div class="card">
+            <div class="card-header">
+                <span><i class="fas fa-sliders-h"></i> Solver Configuration</span>
+            </div>
+            <div class="dashboard-grid" style="grid-template-columns: 1fr 1fr; gap: 15px;">
+                <div>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="cfg-auto-detect" checked>
+                        <span>Auto Detect Quiz</span>
+                    </label>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="cfg-save-answers" checked>
+                        <span>Cloud Save Answers</span>
+                    </label>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="cfg-continue-timeout" checked>
+                        <span>Continue on Timeout</span>
+                    </label>
+                </div>
+                <div>
+                    <div class="mb-2">
+                        <label style="font-size: 0.8rem; color: #aaa;">Target Score</label>
+                        <input type="number" id="cfg-score" value="8.5" step="0.5" class="w-100">
+                    </div>
+                    <div class="mb-2">
+                        <label style="font-size: 0.8rem; color: #aaa;">Max Time (Min)</label>
+                        <input type="number" id="cfg-time" value="45" class="w-100">
+                    </div>
+                    <div>
+                        <label style="font-size: 0.8rem; color: #aaa;">Delay (Sec)</label>
+                        <div class="flex-row">
+                            <input type="number" id="cfg-delay-min" value="3" style="width: 50%;">
+                            <span>-</span>
+                            <input type="number" id="cfg-delay-max" value="8" style="width: 50%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Live VNC Viewer -->
+        <div class="card" style="flex: 1;">
+            <div class="card-header">
+                <span><i class="fas fa-desktop"></i> Remote Control</span>
+                <span class="badge" id="status-badge"
+                    style="background:#333; padding:2px 8px; border-radius:4px; font-size:0.7rem;">IDLE</span>
+            </div>
+            <div class="stream-box" id="stream-box" style="position: relative; min-height: 400px;">
+                <div class="offline-text" id="offline-text">
+                    <i class="fas fa-satellite-dish"
+                        style="margin-bottom: 10px; display:block; text-align:center; font-size: 2rem;"></i>
+                    OFFLINE
+                    <p style="font-size: 0.8rem; margin-top: 10px;">Click START to open Chrome</p>
+                </div>
+                <iframe id="vnc-iframe"
+                    style="display:none; width:100%; height:100%; border:none; min-height: 400px;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Account Modal -->
+<dialog id="dialog-add-account">
+    <div class="card-header" style="border:none;">Add Account</div>
+    <form method="dialog">
+        <div class="mb-4">
+            <label class="mb-2" style="display:block; font-size: 0.9rem;">Onluyen Username</label>
+            <input type="text" id="new-acc-username">
+        </div>
+        <div class="mb-4">
+            <label class="mb-2" style="display:block; font-size: 0.9rem;">Password</label>
+            <input type="password" id="new-acc-password">
+        </div>
+        <div class="mb-4">
+            <label class="mb-2" style="display:block; font-size: 0.9rem;">Proxy Key (Optional)</label>
+            <input type="text" id="new-acc-proxy" placeholder="User:Pass@Ip:Port">
+        </div>
+        <div class="mb-4">
+            <label class="mb-2" style="display:block; font-size: 0.9rem;">Gemini API Key</label>
+            <input type="text" id="new-acc-api">
+        </div>
+        <div class="flex-row" style="justify-content: flex-end;">
+            <button class="btn" style="background: transparent; color: #aaa;">Cancel</button>
+            <button class="btn btn-primary" id="btn-save-account">Save Account</button>
+        </div>
+    </form>
+</dialog>
+
+<!-- Assignment Selection Modal -->
+<dialog id="dialog-select-assignment">
+    <div class="card-header" style="border:none;">
+        <i class="fas fa-tasks"></i> Select Assignment to Solve
+    </div>
+    <div id="assignment-list" style="max-height: 400px; overflow-y: auto; padding: 10px 0;">
+        <div class="text-center" style="color: #666; padding: 30px;">
+            <i class="fas fa-spinner fa-spin"></i> Loading assignments...
+        </div>
+    </div>
+    <div class="flex-row" style="justify-content: flex-end; margin-top: 15px;">
+        <button class="btn" style="background: transparent; color: #aaa;"
+            onclick="document.getElementById('dialog-select-assignment').close()">Cancel</button>
+    </div>
+</dialog>
+
+<!-- Edit Account Dialog -->
+<dialog id="dialog-edit-account">
+    <form method="dialog">
+        <div class="card-header" style="border:none;">
+            <i class="fas fa-user-edit"></i> Edit Account
+        </div>
+        <input type="hidden" id="edit-acc-id">
+        <input type="text" id="edit-acc-username" placeholder="Username">
+        <input type="password" id="edit-acc-password" placeholder="New Password (leave empty to keep)">
+        <input type="text" id="edit-acc-proxy" placeholder="Proxy Key (optional)">
+        <input type="text" id="edit-acc-api" placeholder="Gemini API Key (optional)">
+        <div class="flex-row" style="justify-content: flex-end; margin-top: 15px;">
+            <button class="btn" type="button" style="background: transparent; color: #aaa;"
+                onclick="document.getElementById('dialog-edit-account').close()">Cancel</button>
+            <button class="btn btn-primary" type="button" id="btn-update-account">Update Account</button>
+        </div>
+    </form>
+</dialog>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    let currentSessionId = null;
+
+    // Add Account
+    $('#btn-save-account').click(function (e) {
+        e.preventDefault();
+        const data = {
+            username: $('#new-acc-username').val(),
+            password: $('#new-acc-password').val(),
+            proxy_key: $('#new-acc-proxy').val(),
+            api_key: $('#new-acc-api').val()
+        };
+        $.ajax({
+            url: "{{ url_for('add_account') }}",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function () { location.reload(); }
+        });
+    });
+
+    // Edit Account - Open dialog
+    $('.btn-edit-account').click(function () {
+        const id = $(this).data('id');
+        const username = $(this).data('username');
+        $('#edit-acc-id').val(id);
+        $('#edit-acc-username').val(username);
+        $('#edit-acc-password').val('');
+        $('#edit-acc-proxy').val('');
+        $('#edit-acc-api').val('');
+        document.getElementById('dialog-edit-account').showModal();
+    });
+
+    // Update Account
+    $('#btn-update-account').click(function (e) {
+        e.preventDefault();
+        const id = $('#edit-acc-id').val();
+        const data = {};
+
+        if ($('#edit-acc-username').val()) data.username = $('#edit-acc-username').val();
+        if ($('#edit-acc-password').val()) data.password = $('#edit-acc-password').val();
+        if ($('#edit-acc-proxy').val()) data.proxy_key = $('#edit-acc-proxy').val();
+        if ($('#edit-acc-api').val()) data.api_key = $('#edit-acc-api').val();
+
+        $.ajax({
+            url: "/api/edit_account/" + id,
+            type: "PUT",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function () { location.reload(); },
+            error: function (xhr) {
+                alert('Error: ' + (xhr.responseJSON?.message || 'Failed to update'));
+            }
+        });
+    });
+
+    // Delete Account
+    $('.btn-delete-account').click(function () {
+        const id = $(this).data('id');
+        if (!confirm('Are you sure you want to delete this account?')) return;
+
+        $.ajax({
+            url: "/api/delete_account/" + id,
+            type: "DELETE",
+            success: function () { location.reload(); },
+            error: function (xhr) {
+                alert('Error: ' + (xhr.responseJSON?.message || 'Failed to delete'));
+            }
+        });
+    });
+
+    // Start Solver - Opens assignment selection FIRST
+    let pendingConfig = null;
+
+    $('.btn-start-solver').click(function () {
+        const btn = $(this);
+        const accId = btn.data('id');
+
+        // Visual feedback
+        btn.html('<i class="fas fa-spinner fa-spin"></i> Connecting...');
+
+        pendingConfig = {
+            account_id: accId,
+            auto_detect: $('#cfg-auto-detect').is(':checked'),
+            save_answers: $('#cfg-save-answers').is(':checked'),
+            continue_on_timeout: $('#cfg-continue-timeout').is(':checked'),
+            quiz_time: parseInt($('#cfg-time').val()) || 45,
+            target_score: parseFloat($('#cfg-score').val()) || 8.5,
+            delay_min: parseInt($('#cfg-delay-min').val()) || 3,
+            delay_max: parseInt($('#cfg-delay-max').val()) || 8,
+            wait_for_assignment: true  // Don't auto-start solving
+        };
+
+        $.ajax({
+            url: "{{ url_for('start_solver') }}",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(pendingConfig),
+            success: function (resp) {
+                if (resp.success) {
+                    currentSessionId = resp.session_id;
+                    btn.removeClass('btn-success').addClass('btn-warning').html('<i class="fas fa-clock"></i> Waiting...');
+
+                    // Wait for login then show assignment selection
+                    setTimeout(function () {
+                        fetchAssignments(resp.session_id);
+                    }, 12000); // Wait 12 sec for login
+                } else {
+                    alert(resp.message);
+                    btn.html('<i class="fas fa-play"></i> START');
+                }
+            },
+            error: function (xhr) {
+                alert("Error: " + (xhr.responseJSON ? xhr.responseJSON.message : "Unknown error"));
+                btn.html('<i class="fas fa-play"></i> START');
+            }
+        });
+    });
+
+    // Fetch Assignments (with retry for session not ready)
+    function fetchAssignments(sessionId, retryCount = 0) {
+        $('#assignment-list').html('<div class="text-center" style="color: #666; padding: 30px;"><i class="fas fa-spinner fa-spin"></i> Loading assignments...</div>');
+        document.getElementById('dialog-select-assignment').showModal();
+
+        $.ajax({
+            url: "/api/get_assignments/" + sessionId,
+            type: "GET",
+            success: function (resp) {
+                if (resp.assignments && resp.assignments.length > 0) {
+                    let html = '';
+                    resp.assignments.forEach(function (a) {
+                        html += `
+                            <div class="card" style="background: rgba(255,255,255,0.03); border: none; padding: 10px; margin-bottom: 10px; cursor: pointer;" 
+                                 onclick="selectAssignment(${a.index}, '${a.name.replace(/'/g, "\\'")}')">
+                                <div style="font-weight: 600;">${a.name}</div>
+                                <div style="font-size: 0.75rem; color: var(--success-color); margin-top: 5px;">
+                                    <i class="fas fa-clock"></i> ${a.status}
+                                </div>
+                            </div>
+                        `;
+                    });
+                    $('#assignment-list').html(html);
+                } else {
+                    $('#assignment-list').html('<div class="text-center" style="color: #666; padding: 30px;">No incomplete assignments found.</div>');
+                }
+            },
+            error: function (xhr) {
+                // Retry if session not ready yet (up to 15 times, every 3 sec)
+                if (xhr.status === 400 && retryCount < 15) {
+                    $('#assignment-list').html('<div class="text-center" style="color: #666; padding: 30px;"><i class="fas fa-spinner fa-spin"></i> Waiting for login... (' + (retryCount + 1) + '/15)</div>');
+                    setTimeout(function () {
+                        fetchAssignments(sessionId, retryCount + 1);
+                    }, 3000);
+                } else {
+                    $('#assignment-list').html('<div class="text-center" style="color: #f66; padding: 30px;">Error: ' + (xhr.responseJSON ? xhr.responseJSON.error : 'Unknown') + '</div>');
+                }
+            }
+        });
+    }
+
+    // Select Assignment - NOW triggers solving
+    function selectAssignment(index, name) {
+        if (!currentSessionId) return;
+
+        $('#assignment-list').html('<div class="text-center" style="color: #666; padding: 30px;"><i class="fas fa-spinner fa-spin"></i> Starting: ' + name + '...</div>');
+
+        $.ajax({
+            url: "/api/select_assignment",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({ session_id: currentSessionId, assignment_index: index }),
+            success: function (resp) {
+                if (resp.success) {
+                    document.getElementById('dialog-select-assignment').close();
+                    // Update button to show running
+                    $('.btn-start-solver').removeClass('btn-warning').addClass('btn-danger').html('<i class="fas fa-circle" style="color: lime;"></i> Running');
+                    // Start polling for VNC port
+                    pollLogs(currentSessionId);
+                } else {
+                    alert("Error: " + resp.error);
+                }
+            }
+        });
+    }
+
+    // Poll for logs and VNC
+    let vncLoaded = false;
+    function pollLogs(sessionId) {
+        setInterval(function () {
+            $.ajax({
+                url: "/api/session_status/" + sessionId,
+                type: "GET",
+                success: function (resp) {
+                    // Update status badge
+                    $('#status-badge').text(resp.state);
+
+                    // Load noVNC if available and not loaded
+                    if (resp.vnc_port && !vncLoaded) {
+                        // Use VNC subdomain with HTTPS
+                        const vncUrl = `https://vnc.1amsleep.xyz/${resp.vnc_port}/vnc.html?autoconnect=true&resize=scale`;
+                        $('#offline-text').hide();
+                        $('#vnc-iframe').attr('src', vncUrl).show();
+                        vncLoaded = true;
+                        $('#status-badge').text('CONNECTED');
+                    }
+
+                    // Check if session ended
+                    if (resp.state === 'DONE' || resp.state === 'ERROR') {
+                        $('#status-badge').text(resp.state).css('background', resp.state === 'DONE' ? '#28a745' : '#dc3545');
+                    }
+                }
+            });
+        }, 3000);
+    }
+
+    // Top Up
+    function topUp() {
+        const amount = $('#amount').val();
+        $.ajax({
+            url: "{{ url_for('create_payment') }}",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({ amount: amount }),
+            success: function (resp) {
+                if (resp.checkoutUrl) window.location.href = resp.checkoutUrl;
+            }
+        });
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="card animate-fade-in">
+    <div class="card-header">
+        <span><i class="fas fa-user-shield"></i> Admin Dashboard</span>
+    </div>
+
+    <div style="background: rgba(0,0,0,0.2); padding: 20px; border-radius: 8px;">
+        <h3 style="margin-top:0;">User Management</h3>
+        <table style="width: 100%; border-collapse: collapse; color: #ddd;">
+            <thead>
+                <tr style="border-bottom: 2px solid #555;">
+                    <th style="padding: 10px; text-align: left;">ID</th>
+                    <th style="padding: 10px; text-align: left;">Username</th>
+                    <th style="padding: 10px; text-align: left;">Current Balance</th>
+                    <th style="padding: 10px; text-align: left;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for u in users %}
+                <tr style="border-bottom: 1px solid #333;">
+                    <td style="padding: 10px;">{{ u.id }}</td>
+                    <td style="padding: 10px;">
+                        {{ u.username }}
+                        {% if u.is_admin %}
+                        <span class="badge"
+                            style="background: var(--accent-color); padding: 2px 5px; border-radius: 4px; font-size: 0.7rem;">ADMIN</span>
+                        {% endif %}
+                    </td>
+                    <td style="padding: 10px;">{{ "{:,.0f}".format(u.balance) }} VND</td>
+                    <td style="padding: 10px;">
+                        <button class="btn btn-primary btn-sm"
+                            onclick="editBalance({{ u.id }}, '{{ u.username }}', {{ u.balance }})">
+                            <i class="fas fa-edit"></i> Edit Balance
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Edit Balance Modal -->
+<dialog id="dialog-edit-balance">
+    <div class="card-header" style="border:none;">Edit Balance: <span id="edit-username"></span></div>
+    <form method="dialog">
+        <input type="hidden" id="edit-user-id">
+        <div class="mb-4">
+            <label class="mb-2" style="display:block; font-size: 0.9rem;">New Balance</label>
+            <input type="number" id="edit-new-balance">
+        </div>
+        <div class="flex-row" style="justify-content: flex-end;">
+            <button class="btn" style="background: transparent; color: #aaa;">Cancel</button>
+            <button class="btn btn-primary" id="btn-save-balance">Save</button>
+        </div>
+    </form>
+</dialog>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function editBalance(id, username, current) {
+        $('#edit-user-id').val(id);
+        $('#edit-username').text(username);
+        $('#edit-new-balance').val(current);
+        document.getElementById('dialog-edit-balance').showModal();
+    }
+
+    $('#btn-save-balance').click(function (e) {
+        e.preventDefault();
+        const data = {
+            user_id: $('#edit-user-id').val(),
+            amount: $('#edit-new-balance').val()
+        };
+        $.ajax({
+            url: "{{ url_for('admin_update_balance') }}",
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: function () { location.reload(); },
+            error: function (xhr) { alert("Error: " + xhr.responseText); }
+        });
+    });
+</script>
+{% endblock %}
