@@ -1,0 +1,28 @@
+# Additional Requirements for Quiz Auto-Solver Enhanced Features
+# Add these to your existing requirements.txt
+
+# Already likely installed from quiz_saas, but ensure versions are compatible:
+fastapi>=0.104.0
+sqlalchemy>=2.0.0
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Core dependencies (already in quiz_solver_app.py requirements):
+google-generativeai>=0.3.0
+selenium>=4.0.0
+undetected-chromedriver>=3.5.0
+pillow>=10.0.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Web Framework (for backend API)
+uvicorn>=0.24.0
+
+# Additional utilities
+python-dateutil>=2.8.0
+
+# Optional but recommended:
+# pytest>=7.0.0  # For testing
+# black>=23.0.0  # For code formatting
+# flake8>=6.0.0  # For linting

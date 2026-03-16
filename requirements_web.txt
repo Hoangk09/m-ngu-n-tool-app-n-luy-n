@@ -1,0 +1,10 @@
+flask
+flask-sqlalchemy
+flask-login
+flask-cors
+werkzeug
+selenium
+undetected-chromedriver
+requests
+google-generativeai
+python-dotenv

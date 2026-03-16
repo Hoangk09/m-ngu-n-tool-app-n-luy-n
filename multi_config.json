@@ -1,0 +1,20 @@
+{
+  "backend_url": "http://localhost:8000",
+  "delay_min": "7",
+  "delay_max": "10",
+  "quiz_time": "20",
+  "total_questions": "28",
+  "target_score": "9.0",
+  "check_answer_files": true,
+  "save_answer_files": false,
+  "auto_detect": true,
+  "accounts": [
+    {
+      "name": "",
+      "username": "nhattnm34@haiphong.edu.vn",
+      "password": "625987",
+      "api_key": "AIzaSyAKTpOV8N127D8bEWhCoE0DrhTH-DDPRbM",
+      "proxy_key": ""
+    }
+  ]
+}
