@@ -1,2 +1,2 @@
-# m-ngu-n-tool-app-n-luy-n
+# ma nguon tool app on luyen
 mã nguồn tool app ôn luyện.
